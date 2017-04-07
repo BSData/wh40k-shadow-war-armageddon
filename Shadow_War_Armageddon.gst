@@ -83,6 +83,7 @@
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="37ee-5733-59cc-4889" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42cb-b69e-e14b-af19" type="max"/>
+        <constraint field="selections" scope="37ee-5733-59cc-4889" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5a3-d3ca-b80f-4ba0" type="min"/>
       </constraints>
       <categoryEntries>
         <categoryEntry id="d857-ffdb-a6af-c1d3" name="Leader" hidden="false">
