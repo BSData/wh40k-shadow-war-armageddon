@@ -1297,7 +1297,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="Points" value="38.0"/>
+            <cost name="pts" costTypeId="Points" value="48.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1325,7 +1325,7 @@
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="Points" value="75.0"/>
+        <cost name="pts" costTypeId="Points" value="95.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7a7e-b7bb-8578-c519" name="Heavy flamer" book="Shadow Wars: Armageddon" page="75" hidden="false" collective="false" type="upgrade">
@@ -2233,11 +2233,25 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="7ab2-66f4-d1b6-aacc" name="Weapon Reload" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="Points" value="90.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="Points" value="0.0"/>
+        <cost name="pts" costTypeId="Points" value="180.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
