@@ -199,6 +199,59 @@ subtract 2 from the random number of models that take part in the mission for a 
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="43a9-dc27-e775-b65e" name="Skills" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="40bb-9f6f-21aa-5cce" name="New EntryLink" hidden="false" targetId="d792-3498-c8a8-2d16" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="5f53-fe5e-03a4-34c5" name="New EntryLink" hidden="false" targetId="5d6d-25ca-e7ab-542b" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="a400-765e-3b91-2466" name="New EntryLink" hidden="false" targetId="b7af-97de-f33e-738d" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="5908-1fbe-b471-6f20" name="New EntryLink" hidden="false" targetId="ed95-48d3-3d8d-17ae" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="9385-2443-72d1-4fda" name="New EntryLink" hidden="false" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="133f-d9a3-0e76-4dfc" name="New EntryLink" hidden="false" targetId="39f6-a84f-1a4b-3cfc" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="5cc3-fe9f-848f-365f" name="New EntryLink" hidden="false" targetId="f124-3e29-15fe-b134" type="selectionEntry">
@@ -370,6 +423,38 @@ subtract 2 from the random number of models that take part in the mission for a 
               <constraints/>
             </entryLink>
             <entryLink id="6577-2d26-7008-2e43" name="New EntryLink" hidden="false" targetId="b302-c324-b9e5-ce74" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="9666-5bd7-4f14-348b" name="Skills" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="cd47-680c-02f0-042c" name="New EntryLink" hidden="false" targetId="d792-3498-c8a8-2d16" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="6508-9b75-7631-0855" name="New EntryLink" hidden="false" targetId="b7af-97de-f33e-738d" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="1229-0e87-d3cd-e59e" name="New EntryLink" hidden="false" targetId="ed95-48d3-3d8d-17ae" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -761,6 +846,45 @@ subtract 2 from the random number of models that take part in the mission for a 
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="fb02-0978-85e0-c790" name="Skills" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="62fc-a973-2772-76a7" name="New EntryLink" hidden="false" targetId="d792-3498-c8a8-2d16" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="342d-98bb-5f20-a4a0" name="New EntryLink" hidden="false" targetId="b7af-97de-f33e-738d" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="8c61-e655-6e85-5618" name="New EntryLink" hidden="false" targetId="ed95-48d3-3d8d-17ae" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="1901-0919-891e-a524" name="New EntryLink" hidden="false" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="5682-b700-54c1-02af" name="New EntryLink" hidden="false" targetId="f124-3e29-15fe-b134" type="selectionEntry">
@@ -840,7 +964,6 @@ subtract 2 from the random number of models that take part in the mission for a 
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="5"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="3"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="6"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Special Operatives"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1075,7 +1198,6 @@ subtract 2 from the random number of models that take part in the mission for a 
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="3"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="10"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Special Operatives"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1150,7 +1272,6 @@ subtract 2 from the random number of models that take part in the mission for a 
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="5"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="4"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="10"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Special Operatives"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1401,7 +1522,9 @@ subtract 2 from the random number of models that take part in the mission for a 
           </constraints>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks/>
@@ -1809,7 +1932,9 @@ subtract 2 from the random number of models that take part in the mission for a 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c4b5-9fe9-a2aa-a19f" name="Warp Field" book="Tyranid Warriors kill team" page="4" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1835,7 +1960,9 @@ subtract 2 from the random number of models that take part in the mission for a 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
@@ -1878,7 +2005,6 @@ subtract 2 from the random number of models that take part in the mission for a 
         <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
         <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="3"/>
         <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="10"/>
-        <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Kill Team Leader"/>
       </characteristics>
     </profile>
     <profile id="1f8e-7eaf-b4c2-48a9" name="Tyranid Warrior" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
@@ -1896,7 +2022,6 @@ subtract 2 from the random number of models that take part in the mission for a 
         <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
         <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="3"/>
         <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="10"/>
-        <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Trooper"/>
       </characteristics>
     </profile>
     <profile id="8e5b-d45b-4290-cc47" name="Tyranid New-spawn" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
@@ -1914,7 +2039,6 @@ subtract 2 from the random number of models that take part in the mission for a 
         <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
         <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="3"/>
         <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="10"/>
-        <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="New Recruit"/>
       </characteristics>
     </profile>
     <profile id="42ab-cde3-8637-8120" name="Tyranid Gun-beast" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
@@ -1932,7 +2056,6 @@ subtract 2 from the random number of models that take part in the mission for a 
         <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
         <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="3"/>
         <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="10"/>
-        <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Specialist"/>
       </characteristics>
     </profile>
     <profile id="3ba5-3cac-9af6-a5a2" name="Bonesword" hidden="false" profileTypeId="af37-1358-a047-8f1b" profileTypeName="Melee weapons">
@@ -1941,7 +2064,6 @@ subtract 2 from the random number of models that take part in the mission for a 
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="As user +2"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="D3"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-3"/>
@@ -1954,7 +2076,6 @@ subtract 2 from the random number of models that take part in the mission for a 
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="As user"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-1"/>
@@ -1967,7 +2088,6 @@ subtract 2 from the random number of models that take part in the mission for a 
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="As user"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-2"/>
@@ -1980,7 +2100,6 @@ subtract 2 from the random number of models that take part in the mission for a 
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="As user"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-1"/>
