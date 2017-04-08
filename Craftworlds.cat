@@ -1,0 +1,1831 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="1f99-0995-e6ea-97be" name="Craftworlds Kill Team" revision="1" battleScribeVersion="2.00" authorName="GenWilhelm" authorUrl="https://github.com/VisionHeavy/BSData_Shadow_War" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules>
+    <rule id="2ed4-ab9a-4d19-0c2d" name="Craftworld Eldar Kill Team" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Each time a Guardian Defender earns their third Mission Completed mark and is promoted to a Trooper, they must miss the next mission, but their mesh armour is replaced with Aspect armour and their ranged weapons are replaced with a single Avenger catapult at no cost.</description>
+    </rule>
+  </rules>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <forceEntries/>
+  <selectionEntries/>
+  <entryLinks>
+    <entryLink id="8981-1013-b4fb-6e8a" name="New EntryLink" hidden="false" targetId="2943-50a0-7365-5df2" type="selectionEntry" categoryEntryId="d857-ffdb-a6af-c1d3">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="a2b6-0cba-549d-bec4" name="New EntryLink" hidden="false" targetId="5e96-4759-6f20-7328" type="selectionEntry" categoryEntryId="b6d4-0969-5e1a-27b6">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="6508-fa17-40db-8035" name="New EntryLink" hidden="false" targetId="d1b9-b0c3-a987-5d85" type="selectionEntry" categoryEntryId="6900-8e96-c5cf-b1c8">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="06c0-ef3b-7c64-d072" name="New EntryLink" hidden="false" targetId="0a46-b04e-abc1-e62f" type="selectionEntry" categoryEntryId="0dde-ebb1-9d60-153e">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="80c4-3dd7-d89c-907b" name="New EntryLink" hidden="false" targetId="6f84-c5ff-49ad-de44" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="c1b7-d1cd-3e3d-38db" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="06c0-ef3b-7c64-d072" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c1b7-d1cd-3e3d-38db" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="a804-eca1-dba0-55dc" name="New EntryLink" hidden="false" targetId="909c-0fc4-e694-955f" type="selectionEntry" categoryEntryId="5901-345e-04ba-e937">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="fd48-5752-17df-fc0a" name="New EntryLink" hidden="false" targetId="02c6-4a24-1dbd-c755" type="selectionEntry" categoryEntryId="5901-345e-04ba-e937">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="fa39-9e41-4ed8-da90" name="New EntryLink" hidden="false" targetId="12de-7198-7a90-1c48" type="selectionEntry" categoryEntryId="5901-345e-04ba-e937">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="3763-8fba-1ff3-de72" name="Aspect Armour" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="5b97-f97f-639b-c9b9" name="Aspect Armour" hidden="false" profileTypeId="174f-ae7c-b7a2-45dd" profileTypeName="Armour">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Armour Save" characteristicTypeId="d68f-f43c-e2bf-4235" value="4+"/>
+            <characteristic name="Special" characteristicTypeId="671c-1e08-f4f3-2c72"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="909c-0fc4-e694-955f" name="Autarch" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="5a55-acfa-0f6d-b42b" name="Autarch" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="5&quot;"/>
+            <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="6"/>
+            <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="6"/>
+            <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="3"/>
+            <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="3"/>
+            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="3"/>
+            <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="6"/>
+            <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="3"/>
+            <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="10"/>
+            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Special Operative"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="cebe-0667-d11e-baa1" name="New EntryLink" hidden="false" targetId="ed27-a087-9d8d-7c6d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="Points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="name" value="Power Sword">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73a7-cb10-cdca-e509" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc56-81b0-60e9-f9f7" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="62ea-0a64-0c95-6f15" name="New EntryLink" hidden="false" targetId="932d-6a73-99ba-1d97" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="912d-98e6-cb7a-517b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8590-e3f3-29c1-2f20" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1ed9-2b6a-040b-b2b9" name="New EntryLink" hidden="false" targetId="c014-197d-5ed4-7807" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3119-e786-3803-c510" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a81-94f1-eae1-6d4b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="235b-4bb8-6afc-70df" name="New EntryLink" hidden="false" targetId="e11e-35d1-0b36-386c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b309-b146-5a52-43b6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50fe-2bdc-76ce-476c" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a6b8-4ef1-8692-6af9" name="Avenger Shuriken Catapult" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="109f-9e9e-6aea-f282" name="Avenger Shuriken Catapult" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-9&quot;"/>
+            <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="9-18&quot;"/>
+            <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="-"/>
+            <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+            <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="4"/>
+            <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
+            <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-1"/>
+            <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="4+"/>
+            <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Sustained Fire: 1 Dice"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="2c78-9185-31fe-1609" name="New EntryLink" hidden="false" targetId="b507-92a7-9998-7ed4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="Points" value="23">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fd4-7142-d914-bd9a" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="79cf-273f-5bcb-5855" name="Bright Lance" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="335f-bbda-2bf1-2e2b" name="Bright Lance" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-18&quot;"/>
+            <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="18-36&quot;"/>
+            <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="-"/>
+            <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+            <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="8"/>
+            <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="D3"/>
+            <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-5"/>
+            <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="5+"/>
+            <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value=""/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="250.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8dc9-9e56-4056-8eb8" name="Combat blade" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="70d2-22b6-49aa-dcc7" name="New InfoLink" hidden="false" targetId="c137-6734-d907-5e54" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63e3-b1f7-cb9b-c4f3" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a2a-59db-aca5-02ea" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bfaf-802c-38c7-c5ca" name="D-Scythe" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="f322-b2eb-0af8-d22a" name="D-Scythe" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="Template"/>
+            <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="Template"/>
+            <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="-"/>
+            <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+            <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="8"/>
+            <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="D6"/>
+            <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-7"/>
+            <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="5+"/>
+            <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value=""/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b6fd-dd91-ba4b-a611" name="Anti-Reality Wave" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The D-Scythe&apos;s shot is represented by the teardrop-shaped flamer template.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5e96-4759-6f20-7328" name="Dire Avenger" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="c28c-fcf0-c546-cf27" name="Dire Avenger" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="5&quot;"/>
+            <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="4"/>
+            <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="4"/>
+            <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="3"/>
+            <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="3"/>
+            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="1"/>
+            <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="5"/>
+            <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
+            <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="9"/>
+            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Trooper"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="13ed-8d60-fee6-c5fb" name="New InfoLink" hidden="false" targetId="c7ab-b861-3d87-47b7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="aa5b-dfc2-f707-b863" name="New EntryLink" hidden="false" targetId="3763-8fba-1ff3-de72" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b540-1d5a-29a0-1a66" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de19-5771-8d73-6707" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="36b6-9608-4300-e62e" name="New EntryLink" hidden="false" targetId="3e1b-57cb-8050-481f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="46c4-0d61-7833-c70c" name="New EntryLink" hidden="false" targetId="9f08-a6d0-acb4-e284" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="ecd9-6983-18bf-677d" name="New EntryLink" hidden="false" targetId="3a98-7af3-1d66-3839" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="327e-b867-a58e-7bdd" name="New EntryLink" hidden="false" targetId="8dc9-9e56-4056-8eb8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2943-50a0-7365-5df2" name="Dire Avenger Exarch" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="b615-32d3-4d82-046c" name="Dire Avenger Exarch" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="5&quot;"/>
+            <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="5"/>
+            <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="5"/>
+            <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="3"/>
+            <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="3"/>
+            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="2"/>
+            <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="6"/>
+            <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="2"/>
+            <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="9"/>
+            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Kill Team Leader"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4d25-8d7a-b3e1-f3dc" name="New InfoLink" hidden="false" targetId="c7ab-b861-3d87-47b7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="48dd-1ca5-9537-757e" name="New EntryLink" hidden="false" targetId="3763-8fba-1ff3-de72" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1af0-dbc1-4faf-d29d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cabb-56d7-5740-1f8f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="bc30-5315-a142-2210" name="New EntryLink" hidden="false" targetId="48e5-a925-8732-2c37" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="afd2-058b-b480-8002" name="New EntryLink" hidden="false" targetId="8985-d469-24df-1ed4" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="22b3-240e-1a4c-cc26" name="New EntryLink" hidden="false" targetId="3e1b-57cb-8050-481f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="9e65-1d2e-bf4b-c04e" name="New EntryLink" hidden="false" targetId="9f08-a6d0-acb4-e284" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="5049-9d34-cae2-a2f6" name="New EntryLink" hidden="false" targetId="3a98-7af3-1d66-3839" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="abb6-94b1-5ff3-7399" name="New EntryLink" hidden="false" targetId="8dc9-9e56-4056-8eb8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="240.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b606-3bbc-7b58-25ad" name="Dire Sword" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="137b-afa1-4679-e7a3" name="Dire Sword" hidden="false" profileTypeId="af37-1358-a047-8f1b" profileTypeName="Melee weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Range"/>
+            <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User"/>
+            <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
+            <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-3"/>
+            <characteristic name="Special" characteristicTypeId="7e27-ec1b-0e2c-32a9" value="Parry, Soulrazor"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="08e8-4d42-e0b4-5c5a" name="Soulrazor" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>A fighter wounded by this weapon must pass a Leadership test or be immediately taken out of action.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="185d-3ebc-65c0-69f9" name="New InfoLink" hidden="false" targetId="d6a7-8f68-11d6-bf0a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="30fe-292d-990f-24e9" name="Eldar Missile Launcher" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="033b-34da-2445-27af" name="Eldar Missile Launcher (Plasma)" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-24&quot;"/>
+            <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="24-48&quot;"/>
+            <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="-"/>
+            <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+            <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="4"/>
+            <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
+            <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-2"/>
+            <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="5+"/>
+            <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Blast"/>
+          </characteristics>
+        </profile>
+        <profile id="fb19-3cf7-4b64-6826" name="Eldar Missile Launcher (Starshot)" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-24&quot;"/>
+            <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="24-48&quot;"/>
+            <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="-"/>
+            <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+            <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="8"/>
+            <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
+            <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-4"/>
+            <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="5+"/>
+            <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value=""/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="dcee-543e-59ff-fc44" name="Missile Ammunition" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>An Eldar missile launcher is supplied with multiple ammunition types. If an Ammo roll is failed then the missile launcher and any ammunition it has cannot be used for the rest of the mission.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="932d-6a73-99ba-1d97" name="Fusion Pistol" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="4471-bc64-0f26-064e" name="Fusion Pistol" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-4&quot;"/>
+            <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="4-8&quot;"/>
+            <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="+1"/>
+            <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+            <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="8"/>
+            <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="D6"/>
+            <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-5"/>
+            <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="5+"/>
+            <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value=""/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c070-32ba-28d2-c130" name="Ghostaxe &amp; Forceshield" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="9407-3562-34ba-7fb6" name="Forceshield" hidden="false" profileTypeId="a0e5-b3f6-ed97-d6a7" profileTypeName="Wargear">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="b290-69be-8878-8eff" value="A fighter with a forceshield has an invulnerable save of 4+."/>
+          </characteristics>
+        </profile>
+        <profile id="997f-325b-547f-384a" name="Ghostaxe" hidden="false" profileTypeId="af37-1358-a047-8f1b" profileTypeName="Melee weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Range"/>
+            <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User+2"/>
+            <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
+            <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-3"/>
+            <characteristic name="Special" characteristicTypeId="7e27-ec1b-0e2c-32a9" value=""/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d1b9-b0c3-a987-5d85" name="Guardian Defender" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="ce70-842e-b796-c0a6" name="Guardian Defender" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="5&quot;"/>
+            <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="4"/>
+            <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="4"/>
+            <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="3"/>
+            <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="3"/>
+            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="1"/>
+            <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="5"/>
+            <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
+            <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="8"/>
+            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="New Recruit"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="79f8-27bb-7273-2c56" name="New InfoLink" hidden="false" targetId="c7ab-b861-3d87-47b7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="a453-ef4d-a843-ff7c" name="New EntryLink" hidden="false" targetId="c284-9d5e-2270-bea1" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b84-a1e0-9014-565e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd3d-9891-0160-91a2" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="cc72-558d-beea-06af" name="New EntryLink" hidden="false" targetId="8dc9-9e56-4056-8eb8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="68b0-4b2e-5fc4-7d6e" name="New EntryLink" hidden="false" targetId="3e1b-57cb-8050-481f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="ca7b-e20c-41a8-98ce" name="New EntryLink" hidden="false" targetId="9f08-a6d0-acb4-e284" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="c522-8776-7c7a-5bd2" name="New EntryLink" hidden="false" targetId="3a98-7af3-1d66-3839" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0a46-b04e-abc1-e62f" name="Guardian Defender Gunner" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="1234-749a-10b8-6506" name="Guardian Defender Gunner" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="5&quot;"/>
+            <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="4"/>
+            <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="4"/>
+            <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="3"/>
+            <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="3"/>
+            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="1"/>
+            <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="5"/>
+            <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
+            <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="8"/>
+            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Specialist"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6f99-d60b-850c-d55e" name="New InfoLink" hidden="false" targetId="c7ab-b861-3d87-47b7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="d5a7-1865-7216-615a" name="New EntryLink" hidden="false" targetId="8dc9-9e56-4056-8eb8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="b9f7-a2d9-45fc-9ddf" name="New EntryLink" hidden="false" targetId="c284-9d5e-2270-bea1" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea3c-9d6a-3387-063c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="990b-0b2b-760b-c49c" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="33c2-bd9c-a5c0-f974" name="New EntryLink" hidden="false" targetId="3e1b-57cb-8050-481f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="453a-015a-3e9f-d15c" name="New EntryLink" hidden="false" targetId="9f08-a6d0-acb4-e284" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="0ba1-0d1f-5d10-00a1" name="New EntryLink" hidden="false" targetId="3a98-7af3-1d66-3839" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aa4e-fcc4-b1e3-22d2" name="Heavy Aspect Armour" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="7c33-ea96-e575-e963" name="Heavy Aspect Armour" hidden="false" profileTypeId="174f-ae7c-b7a2-45dd" profileTypeName="Armour">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Armour Save" characteristicTypeId="d68f-f43c-e2bf-4235" value="3+"/>
+            <characteristic name="Special" characteristicTypeId="671c-1e08-f4f3-2c72"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6f84-c5ff-49ad-de44" name="Heavy Weapon Platform" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules>
+        <rule id="1003-da3e-08a4-46a1" name="Heavy Weapon Platform" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If your Craftworld Eldar kill team contains a Heavy Weapon Platform, it must be allocated to a Guardian Defender Gunner at the start of each mission. If the Gunner moves in any way, place the platform anywhere within 2&quot; of the Gunner at the end of the move. The Gunner may fire the weapon instead of any other weapons they carry, drawing line of sight from the platform itself. The platform does not count as a fighter for any rules purposes, and may not otherwise be interacted with in any way, though it does block line of sight. If the platform would get in the way of any other models (e.g. charging fighters), simply move it out of the way. If the Gunner is taken out of action, or otherwise removed from play, the Heavy Weapon Platform is also removed, but is not permanently removed from your kill team if that Gunner subsequently dies.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d71e-1a75-40a9-719b" name="Platfrom Weapon" hidden="false" collective="false" defaultSelectionEntryId="b76b-751b-924c-e23f">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a9e-6c0a-debf-b448" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51fc-df54-7445-4d39" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="b76b-751b-924c-e23f" name="New EntryLink" hidden="false" targetId="b36f-c554-02cc-d991" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="543f-d045-46fa-817b" name="New EntryLink" hidden="false" targetId="79cf-273f-5bcb-5855" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="6444-77cd-5de2-e88f" name="New EntryLink" hidden="false" targetId="30fe-292d-990f-24e9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="e129-141d-94e1-af82" name="New EntryLink" hidden="false" targetId="5453-507a-3256-0195" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="3d1d-4f61-a598-2ce3" name="New EntryLink" hidden="false" targetId="247d-c8b4-848f-60db" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c014-197d-5ed4-7807" name="Mandiblasters" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="0fe6-1f50-d500-07a2" name="Mandiblasters" hidden="false" profileTypeId="a0e5-b3f6-ed97-d6a7" profileTypeName="Wargear">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="b290-69be-8878-8eff" value="At the start of the hand-to-hand phase, you may inflict a single Strength 3 hit on a fighter in base-to-base contact. This attack inflicts 1 damage and armour saves may be taken as normal."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c284-9d5e-2270-bea1" name="Mesh Armour" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="a4bc-b0f0-6cf3-61e0" name="Mesh Armour" hidden="false" profileTypeId="174f-ae7c-b7a2-45dd" profileTypeName="Armour">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Armour Save" characteristicTypeId="d68f-f43c-e2bf-4235" value="5+"/>
+            <characteristic name="Special" characteristicTypeId="671c-1e08-f4f3-2c72"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3250-b3c7-e4b5-db51" name="Pair of Ghostswords" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="a116-b1c7-5768-bdbe" name="Ghostsword" hidden="false" profileTypeId="af37-1358-a047-8f1b" profileTypeName="Melee weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Range"/>
+            <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User+1"/>
+            <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
+            <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-3"/>
+            <characteristic name="Special" characteristicTypeId="7e27-ec1b-0e2c-32a9" value="Parry, Paired"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="3daa-11de-18d3-c769" name="Paired" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>A fighter using a pair of Ghostswords may re-roll failed To Wound rolls in hand-to-hand combat.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="4255-a7b0-143d-47b1" name="New InfoLink" hidden="false" targetId="d6a7-8f68-11d6-bf0a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="34b2-6029-878c-a5b1" name="Plasma Grenades" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="99d1-8af9-c5d3-9a8c" name="Plasma Grenades" hidden="false" profileTypeId="3c08-0391-e41a-4b0d" profileTypeName="Grenades">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Str." characteristicTypeId="158d-d9cf-78bc-7cbf" value="4"/>
+            <characteristic name="Dam." characteristicTypeId="fb64-013e-61bd-6be5" value="1"/>
+            <characteristic name="Save Mod." characteristicTypeId="44c0-19a8-c624-6824" value="-2"/>
+            <characteristic name="Special" characteristicTypeId="c6e2-51b9-d6f7-b530" value="Blast"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="220b-c166-1e56-78ff" name="Power Glaive" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="7302-a0b4-d0f0-10ff" name="Power Glaive" hidden="false" profileTypeId="af37-1358-a047-8f1b" profileTypeName="Melee weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Range"/>
+            <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User+2"/>
+            <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
+            <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-3"/>
+            <characteristic name="Special" characteristicTypeId="7e27-ec1b-0e2c-32a9" value=""/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="35c9-10d1-3c86-e697" name="Soulrazor" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>A fighter wounded by this weapon must pass a Leadership test or be immediately taken out of action.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="37ad-c8de-666b-f0b4" name="New InfoLink" hidden="false" targetId="d6a7-8f68-11d6-bf0a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b36f-c554-02cc-d991" name="Scatter Laser" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="c5e7-7578-4c7d-18ba" name="Scatter Laser" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-18&quot;"/>
+            <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="18-36&quot;"/>
+            <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="+1"/>
+            <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+            <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="6"/>
+            <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
+            <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-"/>
+            <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="5+"/>
+            <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Sustained Fire: 2 Dice"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="160.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b637-ec14-3cd5-02f5" name="Shimmershield" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="7674-e1b8-db77-072e" name="Shimmershield" hidden="false" profileTypeId="a0e5-b3f6-ed97-d6a7" profileTypeName="Wargear">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="b290-69be-8878-8eff" value="A fighter with a shimmershield has an invulnerable save of 5+."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5453-507a-3256-0195" name="Shuriken Cannon" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="9a74-844f-3482-0acd" name="Shuriken Cannon" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-12&quot;"/>
+            <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="12-24&quot;"/>
+            <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="+1"/>
+            <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+            <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="6"/>
+            <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
+            <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-2"/>
+            <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="4+"/>
+            <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Sustained Fire: 2 Dice"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="180.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2c35-df62-2e06-735e" name="Shuriken Catapult" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="93b1-ba54-1401-0e0b" name="Shuriken Catapult" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-8&quot;"/>
+            <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="8-16&quot;"/>
+            <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="+1"/>
+            <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+            <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="4"/>
+            <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
+            <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-1"/>
+            <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="4+"/>
+            <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Sustained Fire: 1 Dice"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="af65-7480-1301-c7ec" name="New EntryLink" hidden="false" targetId="b507-92a7-9998-7ed4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="Points" value="20">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a6d-917d-c07f-20c2" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7e4c-fc82-b375-c8f0" name="Shuriken Pistol" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="21a3-38e1-bdee-d0e2" name="Shuriken Pistol" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-6&quot;"/>
+            <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="6-12&quot;"/>
+            <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="+2"/>
+            <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+            <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="4"/>
+            <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
+            <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-1"/>
+            <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="4+"/>
+            <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Sustained Fire: 1 Dice"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="ecbe-617a-a735-bc61" name="New EntryLink" hidden="false" targetId="b507-92a7-9998-7ed4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="Points" value="18">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fe7-6e74-eec9-62db" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="247d-c8b4-848f-60db" name="Starcannon" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="7aee-f7cc-db75-d790" name="Starcannon" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-18&quot;"/>
+            <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="18-36&quot;"/>
+            <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="-"/>
+            <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+            <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="6"/>
+            <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
+            <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-3"/>
+            <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="6+"/>
+            <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Sustained Fire: 1 Dice"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e11e-35d1-0b36-386c" name="Swooping Hawk Wings" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="f3c7-183e-0d2a-ee14" name="Swooping Hawk Wings" hidden="false" profileTypeId="a0e5-b3f6-ed97-d6a7" profileTypeName="Wargear">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="b290-69be-8878-8eff" value="A fighter may use its Swooping Hawk wings in the movement phase instead of moving normally. The fighter may move up to 12&quot; in any direction, ignoring the normal restrictions for terrain, however you may not end this move in impassable ground. The fighter may use this move to charge an enemy fighter, but does not double its movement distance when doing so."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a4ae-8951-7051-800d" name="Twin Avenger Shuriken Catapult" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="082d-19c5-de13-e764" name="Twin Avenger Shuriken Catapult" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-9&quot;"/>
+            <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="9-18&quot;"/>
+            <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="-"/>
+            <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+            <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="4"/>
+            <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
+            <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-1"/>
+            <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="4+"/>
+            <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Sustained Fire: 1 Dice, Independent Fire"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="34a5-249d-ed7e-30cc" name="Independent Fire" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>A fighter armed with this weapon may fire twice. These shots may be made against different targets.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="c308-40b1-7861-5e68" name="New EntryLink" hidden="false" targetId="b507-92a7-9998-7ed4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="Points" value="35">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9bb-6c24-6a6d-5f1b" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b507-92a7-9998-7ed4" name="Weapon Reload" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="02c6-4a24-1dbd-c755" name="Wraithblade" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="3e2b-82f9-228c-7c52" name="Wraithblade" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="4&quot;"/>
+            <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="4"/>
+            <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="4"/>
+            <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="5"/>
+            <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="6"/>
+            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="1"/>
+            <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
+            <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
+            <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="10"/>
+            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Special Operative"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="90f5-ad11-1240-8e54" name="New InfoLink" hidden="false" targetId="d3b4-7682-69cf-7838" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="dc0f-6e8c-f02b-66bf" name="Weapon" hidden="false" collective="false" defaultSelectionEntryId="2e2d-1968-93b4-9a66">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fc8-b4e8-18cc-55e0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b440-9e1b-12c7-198c" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="bd9a-ee68-a1d5-be49" name="New EntryLink" hidden="false" targetId="c070-32ba-28d2-c130" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="2e2d-1968-93b4-9a66" name="New EntryLink" hidden="false" targetId="3250-b3c7-e4b5-db51" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d2b3-0138-23ba-2345" name="New EntryLink" hidden="false" targetId="4f38-1608-56b3-a6ec" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e5a-10df-f529-b711" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5aec-1f96-df80-cfed" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4f38-1608-56b3-a6ec" name="Wraithbone Construct" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="bb23-a580-130b-f5be" name="Wraithbone Construct" hidden="false" profileTypeId="174f-ae7c-b7a2-45dd" profileTypeName="Armour">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Armour Save" characteristicTypeId="d68f-f43c-e2bf-4235" value="3+"/>
+            <characteristic name="Special" characteristicTypeId="671c-1e08-f4f3-2c72"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e4b9-9cff-b75b-c3f7" name="Unshakeable" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>A fighter housed within a wraithbone construct cannot be pinned by shooting attacks, unless they are from high-impact weapons.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b715-1521-b142-1acf" name="Wraithcannon" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="fa34-de2d-941c-600c" name="Wraithcannon" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-9&quot;"/>
+            <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="9-18&quot;"/>
+            <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="+1"/>
+            <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+            <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="8"/>
+            <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="D6"/>
+            <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-7"/>
+            <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="5+"/>
+            <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value=""/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="12de-7198-7a90-1c48" name="Wraithguard" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="d136-7f08-70bb-fb3e" name="Wraithguard" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="4&quot;"/>
+            <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="4"/>
+            <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="4"/>
+            <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="5"/>
+            <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="6"/>
+            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="1"/>
+            <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
+            <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
+            <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="10"/>
+            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Special Operative"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="b2f7-61c0-c51e-081c" name="New InfoLink" hidden="false" targetId="d3b4-7682-69cf-7838" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4f21-aa8b-b80d-e51e" name="Weapon" hidden="false" collective="false" defaultSelectionEntryId="6a1c-b1eb-a24b-b971">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e54-860c-fe7a-e2ef" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a17d-bbd6-b3fd-9751" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="12bd-492a-5611-b0bd" name="New EntryLink" hidden="false" targetId="bfaf-802c-38c7-c5ca" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="6a1c-b1eb-a24b-b971" name="New EntryLink" hidden="false" targetId="b715-1521-b142-1acf" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="9f33-995a-aed4-3f05" name="New EntryLink" hidden="false" targetId="4f38-1608-56b3-a6ec" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ab6-8b21-d943-ed8d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e0c-72b6-d577-c5e5" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="48e5-a925-8732-2c37" name="Hand-to-Hand Weapons" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="b485-6113-400a-a1f3" name="New EntryLink" hidden="false" targetId="9299-dd9c-cf01-32f0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="Points" value="5">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d723-150c-9949-c529" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="bfad-a0c2-bee2-e0e9" name="New EntryLink" hidden="false" targetId="b606-3bbc-7b58-25ad" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2943-50a0-7365-5df2" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="790b-0471-fdfd-fc35" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7faa-01cb-f594-75c8" name="New EntryLink" hidden="false" targetId="220b-c166-1e56-78ff" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2943-50a0-7365-5df2" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8910-9fcd-e058-448c" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8985-d469-24df-1ed4" name="Pistols" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="47fd-0456-1dc6-1dce" name="New EntryLink" hidden="false" targetId="7e4c-fc82-b375-c8f0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e476-4f13-4d59-b176" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9f08-a6d0-acb4-e284" name="Grenades" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="cf1e-8367-3186-7012" name="New EntryLink" hidden="false" targetId="34b2-6029-878c-a5b1" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4623-c8cd-5a7c-d989" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3a98-7af3-1d66-3839" name="Miscellaneous" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="d19c-536d-11af-39a8" name="New EntryLink" hidden="false" targetId="0bc2-eaa8-9162-587e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91e2-26b9-b4e6-d7a5" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="770a-53b6-a417-f644" name="New EntryLink" hidden="false" targetId="b637-ec14-3cd5-02f5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2943-50a0-7365-5df2" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0531-6df3-32ce-0f64" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3e1b-57cb-8050-481f" name="Basic Weapons" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="a846-d906-8cac-b9f3" name="New EntryLink" hidden="false" targetId="a6b8-4ef1-8692-6af9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2943-50a0-7365-5df2" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e96-4759-6f20-7328" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd9a-57c8-3533-e38e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="bbf3-e860-52a1-3acf" name="New EntryLink" hidden="false" targetId="a4ae-8951-7051-800d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2943-50a0-7365-5df2" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f358-8707-6ca8-d587" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f7bd-860b-6a5a-0d42" name="New EntryLink" hidden="false" targetId="2c35-df62-2e06-735e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0a46-b04e-abc1-e62f" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d1b9-b0c3-a987-5d85" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83e4-097c-9bc9-ba81" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="c7ab-b861-3d87-47b7" name="Battle Focus" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If a fighter with this rule does not move in the movement phase, they may choose to make a normal move immediately after firing in the shooting phase. This may not be a run or charge move.</description>
+    </rule>
+    <rule id="d3b4-7682-69cf-7838" name="Iron Will" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The fighter can re-roll any failed Leadership tests – break tests, fear tests and so on. If the fighter&apos;s Leadership is being used for a bottle test then you can re-roll it if it is failed.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles/>
+</catalogue>
