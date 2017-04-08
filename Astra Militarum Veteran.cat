@@ -495,7 +495,6 @@
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="3"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="8"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Special operatives"/>
           </characteristics>
         </profile>
       </profiles>
@@ -531,7 +530,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="Points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -610,7 +611,6 @@
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="3"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="2"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="9"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Special Operatives"/>
           </characteristics>
         </profile>
       </profiles>
@@ -665,7 +665,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="Points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -869,7 +871,6 @@
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="2"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="3"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="6"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Special Operative"/>
           </characteristics>
         </profile>
       </profiles>
@@ -969,7 +970,9 @@
                   </constraints>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="110f-68ff-9d62-cf38" name="Power maul and Brute shield" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -1013,7 +1016,9 @@
                   </constraints>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -1096,7 +1101,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1664-4f11-f85c-3a17" name="Militarum Tempestus Scion" book="Shadow War: Armageddon" page="113" hidden="false" collective="false" categoryEntryId="5901-345e-04ba-e937" type="model">
       <profiles>
@@ -1115,7 +1122,6 @@
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="3"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="7"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Special Operatives"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1183,7 +1189,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="9348-bb9f-8678-2be1" name="Red-dot laser sight" book="Shadow War: Armageddon" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -1204,12 +1212,16 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="Points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1275,7 +1287,9 @@
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="pts" costTypeId="Points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="f17e-879c-3d65-3a3b" name="Krak grenades" hidden="false" collective="false" type="upgrade">
                   <profiles/>
@@ -1308,12 +1322,16 @@
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="pts" costTypeId="Points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="641e-8403-5f2e-eadc" name="Flamer" book="Shadow War: Armageddon" page="75" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -1345,7 +1363,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="2c4b-bf46-2dba-24da" name="Meltagun" book="Shadow War: Armageddon" page="75" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -1365,7 +1385,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="ed63-7d5b-ebb4-cd2f" name="Plasma gun" book="Shadow War: Armageddon" page="75" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -1397,7 +1419,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -1453,8 +1477,26 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d36-4dba-128e-7809" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="54b4-dead-000a-bb67" name="New EntryLink" hidden="false" targetId="0510-46d5-d5d5-0912" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="Points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7260-82f0-c4e1-db2e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31f7-774f-4b44-a972" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks/>
@@ -1553,7 +1595,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7375-7437-3cc9-0adf" name="Slabshield" book="" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1571,7 +1615,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="522c-5edd-8ce4-1b85" name="Grenadier gauntlet" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1595,7 +1641,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3967-8235-af35-36c0" name="Power maul" book="Shadow War: Armageddon" page="56" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1613,7 +1661,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5e23-166e-fd3f-4ec5" name="Brute shield" book="Shadow War: Armageddon" page="69" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1631,7 +1681,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -1864,7 +1916,6 @@
         <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
         <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
         <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="8"/>
-        <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Kill Team Leader"/>
       </characteristics>
     </profile>
     <profile id="ea92-9362-d7cc-6d18" name="Veteran Guardsman" book="Shadow War: Armageddon" page="74" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
@@ -1882,7 +1933,6 @@
         <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="33"/>
         <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
         <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="7"/>
-        <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Trooper"/>
       </characteristics>
     </profile>
     <profile id="5315-e96f-273c-35f7" name="Guardsman" book="Shadow War: Armageddon" page="74" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
@@ -1900,7 +1950,6 @@
         <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="3"/>
         <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
         <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="7"/>
-        <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="New Recruit"/>
       </characteristics>
     </profile>
     <profile id="0b36-49c0-bc23-de22" name="Special Weapons Operative" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
@@ -1918,7 +1967,6 @@
         <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="3"/>
         <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
         <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="7"/>
-        <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Specialist"/>
       </characteristics>
     </profile>
   </sharedProfiles>
