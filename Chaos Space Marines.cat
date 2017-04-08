@@ -226,7 +226,6 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
             <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="U"/>
             <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
             <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -260,7 +259,6 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
             <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="U"/>
             <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
             <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -320,7 +318,6 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
             <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="U"/>
             <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
             <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -660,7 +657,6 @@
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="2"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="9"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value=""/>
           </characteristics>
         </profile>
       </profiles>
@@ -963,7 +959,6 @@
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="8"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value=""/>
           </characteristics>
         </profile>
       </profiles>
@@ -1120,7 +1115,6 @@
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="8"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value=""/>
           </characteristics>
         </profile>
       </profiles>
@@ -1327,7 +1321,6 @@
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="3"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="7"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value=""/>
           </characteristics>
         </profile>
       </profiles>
@@ -1355,7 +1348,7 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7fa-2ff2-adae-2828" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7fa-2ff2-adae-2828" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef77-cfcc-fdc9-05f8" type="max"/>
           </constraints>
           <selectionEntries/>
@@ -1364,6 +1357,41 @@
           <costs>
             <cost name="pts" costTypeId="Points" value="0.0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry id="d0e1-8247-e15a-1cce" name="Upgrade to Troop after 3 missions" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e96-422e-9b0c-0029" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="37d6-ac27-c89b-d9be" name="New EntryLink" hidden="false" targetId="d792-3498-c8a8-2d16" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="65ec-7466-a69b-61e5" name="New EntryLink" hidden="false" targetId="ed95-48d3-3d8d-17ae" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="c771-e098-c06b-eac4" name="New EntryLink" hidden="false" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1527,7 +1555,6 @@
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="8"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value=""/>
           </characteristics>
         </profile>
       </profiles>
@@ -1803,7 +1830,6 @@
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="2"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="9"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value=""/>
           </characteristics>
         </profile>
       </profiles>
@@ -2181,7 +2207,6 @@
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="3"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="D6"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="10"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value=""/>
           </characteristics>
         </profile>
       </profiles>
@@ -2213,7 +2238,6 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
                 <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="U"/>
                 <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
                 <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-1"/>
@@ -2627,7 +2651,6 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="8"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="D3"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-7"/>
