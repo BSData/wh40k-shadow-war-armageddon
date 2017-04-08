@@ -152,7 +152,6 @@ psychic ability.</description>
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="2"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="9"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Kill Team Leader"/>
           </characteristics>
         </profile>
       </profiles>
@@ -161,7 +160,61 @@ psychic ability.</description>
       <modifiers/>
       <constraints/>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d7b5-7546-8990-2c90" name="Skills" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="16a1-8ee7-147c-6632" name="New EntryLink" hidden="false" targetId="d792-3498-c8a8-2d16" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="86ce-7b32-8a18-1d1d" name="New EntryLink" hidden="false" targetId="5d6d-25ca-e7ab-542b" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="f43d-5b9a-770f-9e13" name="New EntryLink" hidden="false" targetId="b7af-97de-f33e-738d" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="2e4e-d268-8c83-81d8" name="New EntryLink" hidden="false" targetId="ed95-48d3-3d8d-17ae" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="43cf-3562-6023-9bbc" name="New EntryLink" hidden="false" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="264d-24e8-2792-b078" name="New EntryLink" hidden="false" targetId="5a79-1e9b-2ae5-9dfe" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="9c53-7c45-d293-e8c9" name="New EntryLink" hidden="false" targetId="68f4-fc70-d991-d2d1" type="selectionEntry">
           <profiles/>
@@ -237,7 +290,6 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
             <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="As user"/>
             <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
             <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -277,7 +329,6 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
             <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="As user +2"/>
             <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
             <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-3"/>
@@ -311,7 +362,6 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
             <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="As user +4"/>
             <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
             <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -338,7 +388,6 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
             <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="As user +4"/>
             <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="D3"/>
             <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -372,7 +421,6 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
             <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="As user +1"/>
             <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
             <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -616,7 +664,6 @@ psychic ability.</description>
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="8"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Trooper"/>
           </characteristics>
         </profile>
       </profiles>
@@ -625,7 +672,40 @@ psychic ability.</description>
       <modifiers/>
       <constraints/>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8bc3-b9df-5219-10da" name="Skills" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="922c-9756-350f-d4d9" name="New EntryLink" hidden="false" targetId="d792-3498-c8a8-2d16" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="8f34-82b8-5a72-ce84" name="New EntryLink" hidden="false" targetId="ed95-48d3-3d8d-17ae" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="1f7d-8e50-876b-165c" name="New EntryLink" hidden="false" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="7feb-6183-bb03-aeff" name="New EntryLink" hidden="false" targetId="68f4-fc70-d991-d2d1" type="selectionEntry">
           <profiles/>
@@ -700,7 +780,6 @@ psychic ability.</description>
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="8"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Specialist"/>
           </characteristics>
         </profile>
       </profiles>
@@ -709,7 +788,47 @@ psychic ability.</description>
       <modifiers/>
       <constraints/>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="148f-d5a3-9937-658c" name="Skills" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="c62c-7ac5-0a46-1bfe" name="New EntryLink" hidden="false" targetId="d792-3498-c8a8-2d16" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="a3ff-55d5-61dc-ba6e" name="New EntryLink" hidden="false" targetId="5d6d-25ca-e7ab-542b" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="9e62-718c-227e-db48" name="New EntryLink" hidden="false" targetId="ed95-48d3-3d8d-17ae" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="dfbf-87fe-e100-a7d4" name="New EntryLink" hidden="false" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="ba80-39c4-da8a-639d" name="New EntryLink" hidden="false" targetId="3927-df5b-7cd5-cd4b" type="selectionEntryGroup">
           <profiles/>
@@ -820,7 +939,6 @@ psychic ability.</description>
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="2"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="9"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Special Operatives"/>
           </characteristics>
         </profile>
       </profiles>
@@ -848,7 +966,9 @@ psychic ability.</description>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="Points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -923,7 +1043,9 @@ psychic ability.</description>
           </constraints>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8c8f-d90c-0251-bcb8" name="Interceptor" hidden="false" collective="false" type="model">
       <profiles>
@@ -942,7 +1064,6 @@ psychic ability.</description>
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="8"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Special Operatives"/>
           </characteristics>
         </profile>
       </profiles>
@@ -970,7 +1091,9 @@ psychic ability.</description>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="Points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1045,7 +1168,9 @@ psychic ability.</description>
           <constraints/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="18fe-311e-aa2d-1b4b" name="Grey Knight Terminator" hidden="false" collective="false" type="model">
       <profiles>
@@ -1064,7 +1189,6 @@ psychic ability.</description>
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="2"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="9"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Special Operatives"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1115,7 +1239,9 @@ additional promethium cache.</description>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="Points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1180,7 +1306,9 @@ additional promethium cache.</description>
           <constraints/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c6c3-f867-027e-ef73" name="Paladin" hidden="false" collective="false" type="model">
       <profiles>
@@ -1199,7 +1327,6 @@ additional promethium cache.</description>
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="2"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="9"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Special Operatives"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1268,7 +1395,9 @@ additional promethium cache.</description>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="Points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1396,7 +1525,9 @@ additional promethium cache.</description>
           <constraints/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d586-0709-bcf0-8e9b" name="Personal Teleporter" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1417,7 +1548,9 @@ additional promethium cache.</description>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7a14-e87c-9eae-b7a0" name="Storm bolter" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1514,7 +1647,9 @@ additional promethium cache.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9b7f-daf0-3d23-43bc" name="Astral Aim" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1535,7 +1670,9 @@ additional promethium cache.</description>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7616-2383-15dd-d59e" name="Cleansing Flame" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1577,7 +1714,9 @@ additional promethium cache.</description>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="bbcf-a297-9361-dfa3" name="Hammerhand" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1598,7 +1737,9 @@ additional promethium cache.</description>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="234f-4fee-36e4-9187" name="Purge Soul" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1617,7 +1758,9 @@ additional promethium cache.</description>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
