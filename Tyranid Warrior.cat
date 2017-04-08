@@ -82,7 +82,25 @@ subtract 2 from the random number of models that take part in the mission for a 
   </forceEntries>
   <selectionEntries>
     <selectionEntry id="ab49-a55e-bf12-4a19" name="Tyranid Alpha" hidden="false" collective="false" categoryEntryId="3785-fabd-db58-163c" type="model">
-      <profiles/>
+      <profiles>
+        <profile id="5eab-63ca-1e58-b581" name="Tyranid Alpha" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="5&quot;"/>
+            <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="5"/>
+            <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="4"/>
+            <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="4"/>
+            <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="4"/>
+            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="3"/>
+            <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
+            <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="3"/>
+            <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="10"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -314,7 +332,25 @@ subtract 2 from the random number of models that take part in the mission for a 
       </costs>
     </selectionEntry>
     <selectionEntry id="522f-1d29-7a44-e368" name="Tyranid Warrior" hidden="false" collective="false" categoryEntryId="7c91-c217-76ad-2e33" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="23fb-9855-b2ac-abbf" name="Tyranid Warrior" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="5&quot;"/>
+            <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="5"/>
+            <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="3"/>
+            <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="4"/>
+            <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="4"/>
+            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="3"/>
+            <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
+            <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="3"/>
+            <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="10"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -525,7 +561,25 @@ subtract 2 from the random number of models that take part in the mission for a 
       </costs>
     </selectionEntry>
     <selectionEntry id="13ce-9e75-e7cf-3837" name="Tyranid New-spawn" hidden="false" collective="false" categoryEntryId="f7f8-1dac-c698-8905" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="fd1a-4717-2de3-becd" name="Tyranid New-spawn" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="5&quot;"/>
+            <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="4"/>
+            <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="3"/>
+            <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="4"/>
+            <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="4"/>
+            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="3"/>
+            <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
+            <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="3"/>
+            <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="10"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -704,7 +758,25 @@ subtract 2 from the random number of models that take part in the mission for a 
       </costs>
     </selectionEntry>
     <selectionEntry id="3a0b-dfeb-784b-bfe6" name="Tyranid Gun-beast" hidden="false" collective="false" categoryEntryId="bfab-d9be-8e0a-7204" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="7cca-e7ce-8e10-0d2b" name="Tyranid Gun-beast" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="5&quot;"/>
+            <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="4"/>
+            <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="4"/>
+            <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="4"/>
+            <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="4"/>
+            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="3"/>
+            <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
+            <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="3"/>
+            <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="10"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -1990,74 +2062,6 @@ subtract 2 from the random number of models that take part in the mission for a 
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="9108-0c6b-e3e6-8710" name="Tyranid Alpha" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="5&quot;"/>
-        <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="5"/>
-        <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="4"/>
-        <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="4"/>
-        <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="4"/>
-        <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="3"/>
-        <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
-        <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="3"/>
-        <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="10"/>
-      </characteristics>
-    </profile>
-    <profile id="1f8e-7eaf-b4c2-48a9" name="Tyranid Warrior" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="5&quot;"/>
-        <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="5"/>
-        <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="3"/>
-        <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="4"/>
-        <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="4"/>
-        <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="3"/>
-        <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
-        <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="3"/>
-        <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="10"/>
-      </characteristics>
-    </profile>
-    <profile id="8e5b-d45b-4290-cc47" name="Tyranid New-spawn" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="5&quot;"/>
-        <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="4"/>
-        <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="3"/>
-        <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="4"/>
-        <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="4"/>
-        <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="3"/>
-        <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
-        <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="3"/>
-        <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="10"/>
-      </characteristics>
-    </profile>
-    <profile id="42ab-cde3-8637-8120" name="Tyranid Gun-beast" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="5&quot;"/>
-        <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="4"/>
-        <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="4"/>
-        <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="4"/>
-        <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="4"/>
-        <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="3"/>
-        <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
-        <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="3"/>
-        <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="10"/>
-      </characteristics>
-    </profile>
     <profile id="3ba5-3cac-9af6-a5a2" name="Bonesword" hidden="false" profileTypeId="af37-1358-a047-8f1b" profileTypeName="Melee weapons">
       <profiles/>
       <rules/>
