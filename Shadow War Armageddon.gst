@@ -282,7 +282,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="Points" value="0.0"/>
+        <cost name="pts" costTypeId="Points" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c685-6427-15c3-7496" name="Flak armour" hidden="false" collective="false" type="upgrade">
