@@ -77,7 +77,6 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Range"/>
             <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User"/>
             <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
             <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-1"/>
@@ -112,7 +111,6 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Range"/>
             <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User"/>
             <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
             <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -147,7 +145,6 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Range"/>
             <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User"/>
             <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
             <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -160,7 +157,6 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Range"/>
             <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User"/>
             <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="D3"/>
             <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-6"/>
@@ -195,7 +191,6 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Range"/>
             <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User"/>
             <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
             <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="*"/>
@@ -218,7 +213,9 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a4f9-17a1-cc65-f407" name="Monomolecular Blade" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -228,7 +225,6 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Range"/>
             <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User"/>
             <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
             <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-2"/>
@@ -456,7 +452,9 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="12c5-0272-3de2-68e8" name="Prismatic Grenades" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -511,7 +509,9 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="802f-dbc0-c44a-cc42" name="Hallucinogen Grenade Launcher" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -548,7 +548,9 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a6f9-087b-442f-8194" name="Harlequin Mask" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -569,7 +571,9 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6c3b-b190-5489-80a7" name="Holo-Suit" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -590,7 +594,9 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0d79-3ceb-aa2e-624e" name="Troupe Master" hidden="false" collective="false" type="model">
       <profiles>
@@ -609,7 +615,6 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="7"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="3"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="10"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Kill Team Leader"/>
           </characteristics>
         </profile>
       </profiles>
@@ -625,7 +630,61 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       <modifiers/>
       <constraints/>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ef79-f9f7-7256-9513" name="Skills" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="b5bf-600c-a001-9238" name="New EntryLink" hidden="false" targetId="d792-3498-c8a8-2d16" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="6bad-a059-cffb-4554" name="New EntryLink" hidden="false" targetId="5d6d-25ca-e7ab-542b" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="824f-e30a-82eb-1ae7" name="New EntryLink" hidden="false" targetId="b7af-97de-f33e-738d" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="7842-9194-c3d8-7e27" name="New EntryLink" hidden="false" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="9bcd-a867-1a3a-21aa" name="New EntryLink" hidden="false" targetId="39f6-a84f-1a4b-3cfc" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="b2e2-4a72-ef6f-fafa" name="New EntryLink" hidden="false" targetId="5a79-1e9b-2ae5-9dfe" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="c16a-1138-74ba-7105" name="New EntryLink" hidden="false" targetId="1284-7ffd-28ad-1d9a" type="selectionEntry">
           <profiles/>
@@ -714,7 +773,6 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="6"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="2"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="9"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Trooper"/>
           </characteristics>
         </profile>
       </profiles>
@@ -730,7 +788,40 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       <modifiers/>
       <constraints/>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ed4c-6d03-f802-6d9a" name="Skills" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="7c60-f031-5876-1b95" name="New EntryLink" hidden="false" targetId="d792-3498-c8a8-2d16" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="9d14-432a-41f9-192a" name="New EntryLink" hidden="false" targetId="39f6-a84f-1a4b-3cfc" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="70cd-dff2-d866-b243" name="New EntryLink" hidden="false" targetId="5a79-1e9b-2ae5-9dfe" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="128d-f954-e0b8-c66c" name="New EntryLink" hidden="false" targetId="1284-7ffd-28ad-1d9a" type="selectionEntry">
           <profiles/>
@@ -819,7 +910,6 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="6"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="2"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="9"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="New Recruit"/>
           </characteristics>
         </profile>
       </profiles>
@@ -924,7 +1014,6 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="6"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="2"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="9"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Specialist"/>
           </characteristics>
         </profile>
       </profiles>
@@ -940,7 +1029,47 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       <modifiers/>
       <constraints/>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1d7b-2d7f-d28e-8a0d" name="Skills" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="c124-a885-64a4-3d79" name="New EntryLink" hidden="false" targetId="d792-3498-c8a8-2d16" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="3505-84d6-60b9-4ea1" name="New EntryLink" hidden="false" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="1dfd-d9f2-7fd8-edaf" name="New EntryLink" hidden="false" targetId="39f6-a84f-1a4b-3cfc" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="e81d-2958-d2dc-0a1c" name="New EntryLink" hidden="false" targetId="5a79-1e9b-2ae5-9dfe" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="7b2d-0848-07c0-cacc" name="New EntryLink" hidden="false" targetId="1284-7ffd-28ad-1d9a" type="selectionEntry">
           <profiles/>
@@ -1020,7 +1149,6 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Range"/>
             <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User"/>
             <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
             <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -1065,7 +1193,9 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1284-7ffd-28ad-1d9a" name="Concealed Blade" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1075,7 +1205,6 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Range"/>
             <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User"/>
             <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
             <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -1093,7 +1222,9 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d90f-985f-d511-7efd" name="Concealed Blade" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1103,7 +1234,6 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Range"/>
             <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User"/>
             <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
             <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -1139,7 +1269,6 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="7"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="3"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="10"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Special Operative"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1220,7 +1349,9 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           </constraints>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="37c0-6410-4efd-d22c" name="Shadowseer" hidden="false" collective="false" type="model">
       <profiles>
@@ -1239,7 +1370,6 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="7"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="3"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="10"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Special Operative"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1364,7 +1494,9 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           </constraints>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5296-36b6-98e8-d0d3" name="Solitaire" hidden="false" collective="false" type="model">
       <profiles>
@@ -1383,7 +1515,6 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="10"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="6"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="10"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Special Operative"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1487,7 +1618,9 @@ D3 promethium caches.</description>
           </constraints>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
