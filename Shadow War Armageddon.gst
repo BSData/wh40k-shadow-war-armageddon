@@ -17,14 +17,13 @@
     </profileType>
     <profileType id="af37-1358-a047-8f1b" name="Melee weapons">
       <characteristicTypes>
-        <characteristicType id="b01d-a0ab-786c-bdf2" name="Range"/>
         <characteristicType id="9a9a-9bdf-2b5a-279d" name="Str."/>
         <characteristicType id="a39b-9e21-d153-3bde" name="Dam."/>
         <characteristicType id="1b78-23d3-0ae9-ef89" name="Save Mod."/>
         <characteristicType id="7e27-ec1b-0e2c-32a9" name="Special"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="b255-eba6-1c9f-26fc" name="Weapons">
+    <profileType id="b255-eba6-1c9f-26fc" name="Ranged Weapons">
       <characteristicTypes>
         <characteristicType id="89ac-853a-14fc-b1dd" name="Short Range"/>
         <characteristicType id="1d1e-799a-797a-8380" name="Long Range"/>
@@ -59,7 +58,6 @@
         <characteristicType id="0098-42da-9043-eaf9" name="I"/>
         <characteristicType id="c64c-c2a1-b9aa-3645" name="A"/>
         <characteristicType id="ef68-fc9b-49a6-b5b0" name="Ld"/>
-        <characteristicType id="a2f3-b176-60da-fcde" name="Type"/>
       </characteristicTypes>
     </profileType>
     <profileType id="ba77-2111-75d5-69e4" name="Skill">
@@ -1526,7 +1524,6 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Range"/>
             <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User+1"/>
             <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
             <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -1553,7 +1550,6 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Range"/>
             <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="4"/>
             <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
             <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-2"/>
@@ -2012,7 +2008,6 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
             <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="As user +3"/>
             <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="D3"/>
             <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-3"/>
@@ -4099,7 +4094,6 @@ A target suffering their final wound from this weapon does not roll on the stand
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -4112,7 +4106,6 @@ A target suffering their final wound from this weapon does not roll on the stand
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User+2"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -4125,7 +4118,6 @@ A target suffering their final wound from this weapon does not roll on the stand
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="4"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-2"/>
@@ -4138,7 +4130,6 @@ A target suffering their final wound from this weapon does not roll on the stand
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -4151,7 +4142,6 @@ A target suffering their final wound from this weapon does not roll on the stand
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -4164,7 +4154,6 @@ A target suffering their final wound from this weapon does not roll on the stand
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="4"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-2"/>
@@ -4177,7 +4166,6 @@ A target suffering their final wound from this weapon does not roll on the stand
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -4190,7 +4178,6 @@ A target suffering their final wound from this weapon does not roll on the stand
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-2"/>
@@ -4203,7 +4190,6 @@ A target suffering their final wound from this weapon does not roll on the stand
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User+2"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-2"/>
@@ -4216,7 +4202,6 @@ A target suffering their final wound from this weapon does not roll on the stand
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -4229,7 +4214,6 @@ A target suffering their final wound from this weapon does not roll on the stand
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User+1"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-3"/>
@@ -4242,7 +4226,6 @@ A target suffering their final wound from this weapon does not roll on the stand
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User+3"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -4255,7 +4238,6 @@ A target suffering their final wound from this weapon does not roll on the stand
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User+3"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="D3"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-3"/>
@@ -4268,7 +4250,6 @@ A target suffering their final wound from this weapon does not roll on the stand
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User+3"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="D3"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-3"/>
@@ -4281,7 +4262,6 @@ A target suffering their final wound from this weapon does not roll on the stand
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User+2"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="D3"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -4294,7 +4274,6 @@ A target suffering their final wound from this weapon does not roll on the stand
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User+1"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-3"/>
@@ -4307,7 +4286,6 @@ A target suffering their final wound from this weapon does not roll on the stand
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="6"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -4320,7 +4298,6 @@ A target suffering their final wound from this weapon does not roll on the stand
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -4333,7 +4310,6 @@ A target suffering their final wound from this weapon does not roll on the stand
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -4346,7 +4322,6 @@ A target suffering their final wound from this weapon does not roll on the stand
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="4"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-2"/>
@@ -4359,7 +4334,6 @@ A target suffering their final wound from this weapon does not roll on the stand
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -4372,7 +4346,6 @@ A target suffering their final wound from this weapon does not roll on the stand
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User+4"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="D3"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -4385,7 +4358,6 @@ A target suffering their final wound from this weapon does not roll on the stand
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -4398,7 +4370,6 @@ A target suffering their final wound from this weapon does not roll on the stand
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="b01d-a0ab-786c-bdf2" value="Close Combat"/>
         <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User+1"/>
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
@@ -4520,168 +4491,6 @@ A target suffering their final wound from this weapon does not roll on the stand
       <modifiers/>
       <characteristics>
         <characteristic name="Description" characteristicTypeId="b290-69be-8878-8eff" value="A fighter with a brute shield rolls an extra Attack dice in the hand-to-hand phase.  Invulnerable save: A fighter with a brute shield recieves a 5+ invulnerable save."/>
-      </characteristics>
-    </profile>
-    <profile id="d656-77d4-9346-62c4" name="(Skill) Combat Master" hidden="false" profileTypeId="ba77-2111-75d5-69e4" profileTypeName="Skill">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="42c9-3a0c-16fa-327b" value="If the fighter is attacked by multiple opponents in hand-to-hand combat then the fighter uses their numbers against them. The enemy fighters don&apos;t gain the multiple combat bonuses to their Attacks and Combat Score."/>
-      </characteristics>
-    </profile>
-    <profile id="86a0-bac4-e5cf-e88f" name="(Skill) Disarm" hidden="false" profileTypeId="ba77-2111-75d5-69e4" profileTypeName="Skill">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="42c9-3a0c-16fa-327b" value="The fighter may use this skill against one close combat opponent at the start of the hand-to-hand phase. The fighter must take an Initiative test. If they pass the test then they knock their opponent&apos;s weapons aside - their opponent must fight using only a knife in this phase. It&apos;s assumed the fighter recovers their weapons in time for the next turn."/>
-      </characteristics>
-    </profile>
-    <profile id="c778-208e-961d-8bf6" name="(Skill) Feint" hidden="false" profileTypeId="ba77-2111-75d5-69e4" profileTypeName="Skill">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="42c9-3a0c-16fa-327b" value="The fighter can give up one of their Attack dice (before rolling) to make a feint. If they do so, they can add 2 to their Combat Score. They cannot do this in a turn in which they used the Berserk Charge skill."/>
-      </characteristics>
-    </profile>
-    <profile id="129e-0ed7-1d6a-46d7" name="(Skill) Block" hidden="false" profileTypeId="ba77-2111-75d5-69e4" profileTypeName="Skill">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="42c9-3a0c-16fa-327b" value="During each hand-to-hand combat the fighter can choose one of their opponent&apos;s Attack dice and force them to re-roll it. "/>
-      </characteristics>
-    </profile>
-    <profile id="4166-98fc-5703-933b" name="(Skill) Counter-attack" hidden="false" profileTypeId="ba77-2111-75d5-69e4" profileTypeName="Skill">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="42c9-3a0c-16fa-327b" value="In a round in which this fighter is charged, roll an extra Attack dice for this fighter."/>
-      </characteristics>
-    </profile>
-    <profile id="0461-4d50-6f6a-6048" name="(Skill) Step Aside" hidden="false" profileTypeId="ba77-2111-75d5-69e4" profileTypeName="Skill">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="42c9-3a0c-16fa-327b" value="The fighter has an uncanny ability to dodge blows in close combat. The fighter receives a 4+ invulnerable save against any hits struck during hand-to-hand combat. "/>
-      </characteristics>
-    </profile>
-    <profile id="d01c-79be-8cc3-cc96" name="(Skill) Berserk Charge" hidden="false" profileTypeId="ba77-2111-75d5-69e4" profileTypeName="Skill">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="42c9-3a0c-16fa-327b" value="This fitghter&apos;s combat modifier for charging is +2, rather than +1."/>
-      </characteristics>
-    </profile>
-    <profile id="8762-b03a-c8f8-b49f" name="(Skill) Impetuous" hidden="false" profileTypeId="ba77-2111-75d5-69e4" profileTypeName="Skill">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="42c9-3a0c-16fa-327b" value="When this fighter makes a follow-up move, they can move up to 4&quot; instead of 2&quot;."/>
-      </characteristics>
-    </profile>
-    <profile id="589c-c023-b3e9-9ff7" name="(Skill) Iron Will" hidden="false" profileTypeId="ba77-2111-75d5-69e4" profileTypeName="Skill">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="42c9-3a0c-16fa-327b" value="The fighter can re-roll any failed Leadership tests - break tests, fear tests, and so on. If the fighter&apos;s Leadership is being used for a bottle test then you can re-roll it if it is failed. "/>
-      </characteristics>
-    </profile>
-    <profile id="8962-5dfc-6b82-9222" name="(Skill) Killer Reputation" hidden="false" profileTypeId="ba77-2111-75d5-69e4" profileTypeName="Skill">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="42c9-3a0c-16fa-327b" value="This fighter&apos;s reputation has spread far and wide. They cause fear."/>
-      </characteristics>
-    </profile>
-    <profile id="1914-b49d-1aab-8670" name="(Skill) Nerves of Steel" hidden="false" profileTypeId="ba77-2111-75d5-69e4" profileTypeName="Skill">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="42c9-3a0c-16fa-327b" value="The fighter can always test to recover early from pinning, even if there is no friendly fighter within 2&quot;. If the fighter could already do this you can re-roll the Initiative test if it is failed. "/>
-      </characteristics>
-    </profile>
-    <profile id="f9bc-747a-b9a1-d5e0" name="(Skill) True Grit" hidden="false" profileTypeId="ba77-2111-75d5-69e4" profileTypeName="Skill">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="42c9-3a0c-16fa-327b" value="When you make an Injury roll for this fighter in the recovery phase, subtract 1 from the roll, to a minimum of 1. "/>
-      </characteristics>
-    </profile>
-    <profile id="a16f-76cd-f7ee-f47b" name="(Skill) Armourer" hidden="false" profileTypeId="ba77-2111-75d5-69e4" profileTypeName="Skill">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="42c9-3a0c-16fa-327b" value="If this fighter was deployed, you can re-roll the first failed Ammo roll in each mission (regardless of which fighter&apos;s weapon is being rolled for). "/>
-      </characteristics>
-    </profile>
-    <profile id="6e98-3646-acba-2dae" name="(Skill) Scavenger" hidden="false" profileTypeId="ba77-2111-75d5-69e4" profileTypeName="Skill">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="42c9-3a0c-16fa-327b" value="As long as the fighter didn&apos;t go out of action, after a mission you have 50 extra points to spend on your Recruit or Rearm action (pg 100). "/>
-      </characteristics>
-    </profile>
-    <profile id="92e0-acab-4b8f-b65a" name="(Skill) Hunter" hidden="false" profileTypeId="ba77-2111-75d5-69e4" profileTypeName="Skill">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="42c9-3a0c-16fa-327b" value="As long as the fighter is not currently injured, you can re-roll the Hunt in the Promethium Sprawl roll (pg 99) before a mission. "/>
-      </characteristics>
-    </profile>
-    <profile id="4351-3fc0-1400-4cf7" name="(Skill) Medic" hidden="false" profileTypeId="ba77-2111-75d5-69e4" profileTypeName="Skill">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="42c9-3a0c-16fa-327b" value="As long as this fighter didn&apos;t go out of action, you can re-roll a Serious Injury roll for one fighter after a mission."/>
-      </characteristics>
-    </profile>
-    <profile id="dcec-6f55-d0ba-0535" name="(Skill) Destined for Greatness" hidden="false" profileTypeId="ba77-2111-75d5-69e4" profileTypeName="Skill">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="42c9-3a0c-16fa-327b" value="You can re-roll any Advance rolls for this fighter."/>
-      </characteristics>
-    </profile>
-    <profile id="9ba7-bd63-6fc2-ea7e" name="(Skill) Survivor" hidden="false" profileTypeId="ba77-2111-75d5-69e4" profileTypeName="Skill">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="42c9-3a0c-16fa-327b" value="You can re-roll any result on the Serious Injury table (pg 101) for this fighter."/>
       </characteristics>
     </profile>
   </sharedProfiles>
