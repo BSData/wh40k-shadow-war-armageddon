@@ -154,7 +154,9 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9348-0726-6f28-8432" name="Metamorph Talon" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -186,7 +188,9 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c4de-e0cc-eb31-f270" name="Metamorph Whip" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -218,7 +222,9 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="aa8c-6a56-e0b5-48b7" name="Power Pick" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -242,7 +248,9 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ad8d-3117-33e4-2d91" name="Rending Claw" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -274,7 +282,9 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="233a-f555-962d-c738" name="Autopistol" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -340,7 +350,9 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0c31-afa6-607f-724f" name="Hand Flamer" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -541,7 +553,61 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <modifiers/>
       <constraints/>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0f85-fb7e-420e-c9a2" name="Skills" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="d982-b933-3eeb-a2ca" name="New EntryLink" hidden="false" targetId="39f6-a84f-1a4b-3cfc" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="9aba-2969-2f75-e172" name="New EntryLink" hidden="false" targetId="b7af-97de-f33e-738d" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="010b-2f60-a6e5-d069" name="New EntryLink" hidden="false" targetId="5d6d-25ca-e7ab-542b" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="69b3-ac6c-ec75-e3e8" name="New EntryLink" hidden="false" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="34c5-db85-617c-ba98" name="New EntryLink" hidden="false" targetId="ed95-48d3-3d8d-17ae" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="a574-abd6-e46e-e3ee" name="New EntryLink" hidden="false" targetId="d792-3498-c8a8-2d16" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="d064-491d-e363-8a9b" name="New EntryLink" hidden="false" targetId="e85a-500f-40b8-b1dd" type="selectionEntry">
           <profiles/>
@@ -622,7 +688,9 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4308-e408-5fe3-b995" name="Mining Suit" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -655,7 +723,9 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7cd6-2662-bee5-c647" name="Neophyte Hybrid" hidden="false" collective="false" type="model">
       <profiles>
@@ -682,7 +752,40 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <modifiers/>
       <constraints/>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0df4-7a88-79de-575e" name="Skills" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="1e88-e354-7af5-10a3" name="New EntryLink" hidden="false" targetId="39f6-a84f-1a4b-3cfc" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="1d84-2a19-b94f-5043" name="New EntryLink" hidden="false" targetId="b7af-97de-f33e-738d" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="b86d-df10-50a8-3391" name="New EntryLink" hidden="false" targetId="5d6d-25ca-e7ab-542b" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="fdb6-f285-7020-bcba" name="New EntryLink" hidden="false" targetId="e85a-500f-40b8-b1dd" type="selectionEntry">
           <profiles/>
@@ -844,7 +947,47 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <modifiers/>
       <constraints/>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="57ed-c16a-fe60-4f77" name="Skills" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="c626-49e3-7630-cf8e" name="New EntryLink" hidden="false" targetId="39f6-a84f-1a4b-3cfc" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="c74d-2722-15da-2f51" name="New EntryLink" hidden="false" targetId="5d6d-25ca-e7ab-542b" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="91de-e003-4c54-3eef" name="New EntryLink" hidden="false" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="84be-0e20-da1d-3931" name="New EntryLink" hidden="false" targetId="ed95-48d3-3d8d-17ae" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="acda-ef3b-8d01-62c9" name="New EntryLink" hidden="false" targetId="e85a-500f-40b8-b1dd" type="selectionEntry">
           <profiles/>
@@ -1445,7 +1588,9 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           </constraints>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d3a8-cc31-2af4-da19" name="Hybrid Metamorph" hidden="false" collective="false" type="model">
       <profiles>
@@ -1611,7 +1756,9 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <constraints/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a599-b1e3-2058-1461" name="Purestrain Genestealer" hidden="false" collective="false" type="model">
       <profiles>
@@ -1687,7 +1834,9 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           </constraints>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
