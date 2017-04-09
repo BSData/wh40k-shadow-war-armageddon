@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5867-48cf-f4d8-496f" name="Tyranid Warrior Kill Team" revision="2" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5867-48cf-f4d8-496f" name="Tyranid Warrior Kill Team" revision="3" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -121,35 +121,45 @@ subtract 2 from the random number of models that take part in the mission for a 
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6eec-fc99-0efb-3c3a" type="max"/>
+              </constraints>
             </entryLink>
             <entryLink id="5537-7536-e94e-daca" name="New EntryLink" hidden="false" targetId="7931-db4c-653c-8437" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10cf-f976-d9aa-20bd" type="max"/>
+              </constraints>
             </entryLink>
             <entryLink id="f9c0-de4c-dfe8-e804" name="New EntryLink" hidden="false" targetId="fde8-face-af06-1be6" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b91d-bf66-6771-cf3e" type="max"/>
+              </constraints>
             </entryLink>
             <entryLink id="939f-bf26-b728-154b" name="New EntryLink" hidden="false" targetId="67cc-81b4-aafd-3987" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b394-8c33-7432-0144" type="max"/>
+              </constraints>
             </entryLink>
             <entryLink id="1b44-b33b-9a07-8f17" name="New EntryLink" hidden="false" targetId="5041-0045-dd9c-6eee" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b28-e236-c7b2-3fa9" type="max"/>
+              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -331,7 +341,7 @@ subtract 2 from the random number of models that take part in the mission for a 
         <cost name="pts" costTypeId="Points" value="250.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="522f-1d29-7a44-e368" name="Tyranid Warrior" hidden="false" collective="false" categoryEntryId="7c91-c217-76ad-2e33" type="upgrade">
+    <selectionEntry id="522f-1d29-7a44-e368" name="Tyranid Warrior" hidden="false" collective="false" categoryEntryId="7c91-c217-76ad-2e33" type="model">
       <profiles>
         <profile id="23fb-9855-b2ac-abbf" name="Tyranid Warrior" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
           <profiles/>
@@ -371,35 +381,45 @@ subtract 2 from the random number of models that take part in the mission for a 
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="498d-6edc-8393-65e8" type="max"/>
+              </constraints>
             </entryLink>
             <entryLink id="ece0-1d02-2966-2e8a" name="New EntryLink" hidden="false" targetId="7931-db4c-653c-8437" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46fc-e022-7029-8422" type="max"/>
+              </constraints>
             </entryLink>
             <entryLink id="b354-4fb4-bf38-8c00" name="New EntryLink" hidden="false" targetId="fde8-face-af06-1be6" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4ad-9b3a-d409-3627" type="max"/>
+              </constraints>
             </entryLink>
             <entryLink id="95a9-426c-f401-6666" name="New EntryLink" hidden="false" targetId="67cc-81b4-aafd-3987" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce46-0561-980a-e1cc" type="max"/>
+              </constraints>
             </entryLink>
             <entryLink id="d25f-b6df-dd5e-d4ee" name="New EntryLink" hidden="false" targetId="5041-0045-dd9c-6eee" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f04-b8de-6f33-3d2a" type="max"/>
+              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -557,10 +577,10 @@ subtract 2 from the random number of models that take part in the mission for a 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="Points" value="0.0"/>
+        <cost name="pts" costTypeId="Points" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="13ce-9e75-e7cf-3837" name="Tyranid New-spawn" hidden="false" collective="false" categoryEntryId="f7f8-1dac-c698-8905" type="upgrade">
+    <selectionEntry id="13ce-9e75-e7cf-3837" name="Tyranid New-spawn" hidden="false" collective="false" categoryEntryId="f7f8-1dac-c698-8905" type="model">
       <profiles>
         <profile id="fd1a-4717-2de3-becd" name="Tyranid New-spawn" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
           <profiles/>
@@ -600,35 +620,45 @@ subtract 2 from the random number of models that take part in the mission for a 
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6492-7340-c546-3051" type="max"/>
+              </constraints>
             </entryLink>
             <entryLink id="beae-15d5-551e-047c" name="New EntryLink" hidden="false" targetId="7931-db4c-653c-8437" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcbc-57d7-cddd-972f" type="max"/>
+              </constraints>
             </entryLink>
             <entryLink id="9d52-b5a0-5eaa-a5b5" name="New EntryLink" hidden="false" targetId="fde8-face-af06-1be6" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f37-39be-1b07-5296" type="max"/>
+              </constraints>
             </entryLink>
             <entryLink id="f8b3-40b6-a7f8-c6a8" name="New EntryLink" hidden="false" targetId="67cc-81b4-aafd-3987" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f5a-6a04-7317-6ef2" type="max"/>
+              </constraints>
             </entryLink>
             <entryLink id="46c0-15f2-30f3-e5f3" name="New EntryLink" hidden="false" targetId="5041-0045-dd9c-6eee" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6738-a79b-4ec9-63d7" type="max"/>
+              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -754,10 +784,10 @@ subtract 2 from the random number of models that take part in the mission for a 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="Points" value="0.0"/>
+        <cost name="pts" costTypeId="Points" value="175.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3a0b-dfeb-784b-bfe6" name="Tyranid Gun-beast" hidden="false" collective="false" categoryEntryId="bfab-d9be-8e0a-7204" type="upgrade">
+    <selectionEntry id="3a0b-dfeb-784b-bfe6" name="Tyranid Gun-beast" hidden="false" collective="false" categoryEntryId="bfab-d9be-8e0a-7204" type="model">
       <profiles>
         <profile id="7cca-e7ce-8e10-0d2b" name="Tyranid Gun-beast" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
           <profiles/>
@@ -797,35 +827,45 @@ subtract 2 from the random number of models that take part in the mission for a 
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afba-c025-365e-d506" type="max"/>
+              </constraints>
             </entryLink>
             <entryLink id="8156-fc7a-3d9e-392b" name="New EntryLink" hidden="false" targetId="7931-db4c-653c-8437" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa30-1eaf-948f-4954" type="max"/>
+              </constraints>
             </entryLink>
             <entryLink id="1f2a-50f6-7bf1-90db" name="New EntryLink" hidden="false" targetId="fde8-face-af06-1be6" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96fa-9615-46ff-9cbe" type="max"/>
+              </constraints>
             </entryLink>
             <entryLink id="056d-473f-bc1f-b141" name="New EntryLink" hidden="false" targetId="67cc-81b4-aafd-3987" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7539-c230-e57c-5d7b" type="max"/>
+              </constraints>
             </entryLink>
             <entryLink id="e78a-7036-3c35-f974" name="New EntryLink" hidden="false" targetId="5041-0045-dd9c-6eee" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d4d-a0fa-bc47-7405" type="max"/>
+              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1016,7 +1056,7 @@ subtract 2 from the random number of models that take part in the mission for a 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="Points" value="0.0"/>
+        <cost name="pts" costTypeId="Points" value="225.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dfdf-9588-a782-7b79" name="Ravener" hidden="false" collective="false" categoryEntryId="0134-9140-fa41-adb1" type="model">
