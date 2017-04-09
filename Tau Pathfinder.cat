@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8db7-e6ad-7af1-2877" name="Tau Pathfinder Kill Team" revision="2" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8db7-e6ad-7af1-2877" name="Tau Pathfinder Kill Team" revision="3" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="c635-9a2d-0ece-ace5" name="Supporting Fire" hidden="false">
@@ -1276,7 +1276,9 @@ combat.</description>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8204-73fc-9ba5-2cdc" name="Hover drone" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1297,7 +1299,9 @@ combat.</description>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ab15-4953-a338-e251" name="Pulse Accelerator" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1318,7 +1322,9 @@ combat.</description>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b4a0-fcce-8b24-3170" name="Scanning Array" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1339,7 +1345,9 @@ combat.</description>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="017b-da0f-2b85-6239" name="Recon armour" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1360,7 +1368,9 @@ combat.</description>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a8ef-d6fa-31f9-5815" name="Drone carapace" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1381,7 +1391,9 @@ combat.</description>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3325-0033-76df-bc5e" name="Combat armour" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1402,7 +1414,9 @@ combat.</description>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="78b3-38b7-8c17-f453" name="XV25 Stealth Battlesuit" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1423,7 +1437,9 @@ combat.</description>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="50f4-f5f4-8993-c9ff" name="Stealth Team Shas&apos;ui" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1538,7 +1554,9 @@ combat.</description>
           </constraints>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d394-38d3-fac6-9786" name="Cadre Fireblade" hidden="false" collective="false" type="model">
       <profiles>
@@ -1618,7 +1636,9 @@ combat.</description>
           </constraints>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e3fb-9ce5-06af-5cef" name="Ethereal" hidden="false" collective="false" type="model">
       <profiles>
@@ -1706,7 +1726,9 @@ combat.</description>
           </constraints>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
