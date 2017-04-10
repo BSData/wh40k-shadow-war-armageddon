@@ -1846,7 +1846,13 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="Points" value="5">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
         </entryLink>
         <entryLink id="1676-24ba-711e-cf5e" name="New EntryLink" hidden="false" targetId="1b5f-a554-df62-0b7d" type="selectionEntry">
