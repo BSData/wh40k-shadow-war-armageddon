@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="62be-6baa-3320-988b" name="Space Marine Scouts" book="Shadow War: Armageddon" page="72" revision="1" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="62be-6baa-3320-988b" name="Space Marine Scouts" book="Shadow War: Armageddon" page="72" revision="2" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="4523-d000-abef-21ba" name="And They Shall Know No Fear" hidden="false">
@@ -901,7 +901,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="3a7c-90ae-3aa9-0c28" name="Sons of Guilliman" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -912,7 +914,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="aca5-1e2c-22d0-0149" name="Blood Angels" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -923,7 +927,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="0c48-d882-9d08-f69d" name="Salamanders" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -934,7 +940,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="9e57-97af-6bb4-26ed" name="White Scars" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -945,7 +953,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="3596-ef1b-4a6d-97df" name="Angels of Redemption" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -956,7 +966,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -964,13 +976,15 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1b1c-bda3-6655-d61f" name="Bolt pistol" book="Shadow War: Armageddon" page="75" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="c3f8-e802-c499-fc80" name="New InfoLink" book="" hidden="false" targetId="16cb-5f6f-6fe4-fa49" type="profile">
+        <infoLink id="c3f8-e802-c499-fc80" name="New InfoLink" book="" hidden="false" targetId="aff7-bf2b-babb-2baa" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1043,7 +1057,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="acd0-ef30-8dc8-4373" name="New InfoLink" hidden="false" targetId="3429-9fb9-5856-2f8e" type="profile">
+        <infoLink id="acd0-ef30-8dc8-4373" name="New InfoLink" hidden="false" targetId="a08d-3801-0ca4-fda8" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1365,7 +1379,9 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="Points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
