@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="d071-2e1e-3aec-44a1" name="Shadow War: Armageddon" book="Shadow War: Armageddon" revision="3" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="d071-2e1e-3aec-44a1" name="Shadow War: Armageddon" book="Shadow War: Armageddon" revision="4" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -132,15 +132,22 @@
   <entryLinks/>
   <sharedSelectionEntries>
     <selectionEntry id="b8ea-51ad-363d-9018" name="Frag grenades" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="77a7-601d-8d8b-a14e" name="New InfoLink" hidden="false" targetId="42d1-d0b2-5ed3-7217" type="profile">
+      <profiles>
+        <profile id="9d84-3351-69ad-c041" name="Frag grenade" hidden="false" profileTypeId="3c08-0391-e41a-4b0d" profileTypeName="Grenades">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Str." characteristicTypeId="158d-d9cf-78bc-7cbf" value="3"/>
+            <characteristic name="Dam." characteristicTypeId="fb64-013e-61bd-6be5" value="1"/>
+            <characteristic name="Save Mod." characteristicTypeId="44c0-19a8-c624-6824" value="-"/>
+            <characteristic name="Special" characteristicTypeId="c6e2-51b9-d6f7-b530" value="Large Blast"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="660c-43cc-e4aa-87e6" name="New InfoLink" hidden="false" targetId="0da4-d8d9-35f0-e557" type="rule">
           <profiles/>
           <rules/>
@@ -160,15 +167,22 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="c4f3-d1b1-b04b-2994" name="Melta bombs" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="0544-5e1c-aee2-c442" name="New InfoLink" hidden="false" targetId="f4be-3feb-c4b8-5200" type="profile">
+      <profiles>
+        <profile id="6647-04cd-f333-9009" name="Melta bomb" hidden="false" profileTypeId="3c08-0391-e41a-4b0d" profileTypeName="Grenades">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Str." characteristicTypeId="158d-d9cf-78bc-7cbf" value="8"/>
+            <characteristic name="Dam." characteristicTypeId="fb64-013e-61bd-6be5" value="2D6"/>
+            <characteristic name="Save Mod." characteristicTypeId="44c0-19a8-c624-6824" value="-5"/>
+            <characteristic name="Special" characteristicTypeId="c6e2-51b9-d6f7-b530" value="Demolition Only"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="765a-bd3f-1068-b2cb" name="New InfoLink" hidden="false" targetId="8d90-1a07-2a40-aa55" type="rule">
           <profiles/>
           <rules/>
@@ -188,15 +202,22 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="43ce-dc52-b26b-97a8" name="Krak grenades" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="d5b9-5608-e81b-0496" name="New InfoLink" hidden="false" targetId="e782-4d81-150d-1f5b" type="profile">
+      <profiles>
+        <profile id="c775-6122-3e5d-5351" name="Krak grenade" hidden="false" profileTypeId="3c08-0391-e41a-4b0d" profileTypeName="Grenades">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Str." characteristicTypeId="158d-d9cf-78bc-7cbf" value="6"/>
+            <characteristic name="Dam." characteristicTypeId="fb64-013e-61bd-6be5" value="D6"/>
+            <characteristic name="Save Mod." characteristicTypeId="44c0-19a8-c624-6824" value="-3"/>
+            <characteristic name="Special" characteristicTypeId="c6e2-51b9-d6f7-b530" value="Demolition, Unwieldy"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="52f7-f975-9d08-d4db" name="New InfoLink" hidden="false" targetId="1438-796f-4f40-26b9" type="rule">
           <profiles/>
           <rules/>
@@ -222,16 +243,22 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9299-dd9c-cf01-32f0" name="Combat blade" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="7477-ddaa-267b-3290" name="New InfoLink" hidden="false" targetId="c137-6734-d907-5e54" type="profile">
+      <profiles>
+        <profile id="c376-0954-52b8-b6a7" name="Combat blade" hidden="false" profileTypeId="af37-1358-a047-8f1b" profileTypeName="Melee weapons">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-      </infoLinks>
+          <characteristics>
+            <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User"/>
+            <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
+            <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
+            <characteristic name="Special" characteristicTypeId="7e27-ec1b-0e2c-32a9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries/>
@@ -242,16 +269,20 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="696d-e926-d7b2-7bec" name="&apos;Eavy armour" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="27a4-de35-c57a-b692" name="New InfoLink" hidden="false" targetId="bf96-eaaa-f413-0af7" type="profile">
+      <profiles>
+        <profile id="9000-b033-aaa6-1d96" name="&apos;Eavy armour" hidden="false" profileTypeId="174f-ae7c-b7a2-45dd" profileTypeName="Armour">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-      </infoLinks>
+          <characteristics>
+            <characteristic name="Armour Save" characteristicTypeId="d68f-f43c-e2bf-4235" value="4+"/>
+            <characteristic name="Special" characteristicTypeId="671c-1e08-f4f3-2c72" value="-1 to Initiative"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e15-dd07-4fea-1d0b" type="max"/>
@@ -264,16 +295,20 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0510-46d5-d5d5-0912" name="Carapace armour" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="6ea3-34df-2ade-4697" name="New InfoLink" hidden="false" targetId="0d7e-708f-dd34-4c07" type="profile">
+      <profiles>
+        <profile id="c101-7c43-c320-e4a8" name="Carapace armour" hidden="false" profileTypeId="174f-ae7c-b7a2-45dd" profileTypeName="Armour">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-      </infoLinks>
+          <characteristics>
+            <characteristic name="Armour Save" characteristicTypeId="d68f-f43c-e2bf-4235" value="4+"/>
+            <characteristic name="Special" characteristicTypeId="671c-1e08-f4f3-2c72" value="-1 to Initiative"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c55-00d7-4bfd-45e0" type="max"/>
@@ -286,16 +321,20 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="c685-6427-15c3-7496" name="Flak armour" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="4c7b-1b59-0ebf-eac5" name="New InfoLink" hidden="false" targetId="0f9c-6e8b-ee04-0722" type="profile">
+      <profiles>
+        <profile id="b00f-adf9-38cf-7024" name="Flak armour" hidden="false" profileTypeId="174f-ae7c-b7a2-45dd" profileTypeName="Armour">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-      </infoLinks>
+          <characteristics>
+            <characteristic name="Armour Save" characteristicTypeId="d68f-f43c-e2bf-4235" value="6+"/>
+            <characteristic name="Special" characteristicTypeId="671c-1e08-f4f3-2c72" value="5+ against weapons that use templates"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f771-e162-a131-f74a" type="max"/>
@@ -308,16 +347,20 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="c48a-ecef-4373-c014" name="Scout armour" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="2fcf-6ca5-b101-6c53" name="New InfoLink" hidden="false" targetId="54d4-5196-abb4-e9e3" type="profile">
+      <profiles>
+        <profile id="5da9-5ee3-298d-7d06" name="Scout armour" hidden="false" profileTypeId="174f-ae7c-b7a2-45dd" profileTypeName="Armour">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-      </infoLinks>
+          <characteristics>
+            <characteristic name="Armour Save" characteristicTypeId="d68f-f43c-e2bf-4235" value="4+"/>
+            <characteristic name="Special" characteristicTypeId="671c-1e08-f4f3-2c72"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0479-f7e1-dfdd-3810" type="max"/>
@@ -330,16 +373,20 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="68f4-fc70-d991-d2d1" name="Power armour" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="c298-a386-d158-95e0" name="New InfoLink" hidden="false" targetId="32ad-d436-7cb5-f843" type="profile">
+      <profiles>
+        <profile id="8d95-b6f9-5d66-fe9a" name="Power armour" hidden="false" profileTypeId="174f-ae7c-b7a2-45dd" profileTypeName="Armour">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-      </infoLinks>
+          <characteristics>
+            <characteristic name="Armour Save" characteristicTypeId="d68f-f43c-e2bf-4235" value="3+"/>
+            <characteristic name="Special" characteristicTypeId="671c-1e08-f4f3-2c72" value=""/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7e7-af0e-bbd3-6a08" type="max"/>
@@ -352,16 +399,20 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b8fa-2b63-fdfe-18dc" name="Squid-hide armour" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="5b32-8fcd-993b-e5b4" name="New InfoLink" hidden="false" targetId="8602-c6e0-ba72-d69b" type="profile">
+      <profiles>
+        <profile id="6ae7-3a94-4791-c89d" name="Squid-hide armour" hidden="false" profileTypeId="174f-ae7c-b7a2-45dd" profileTypeName="Armour">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-      </infoLinks>
+          <characteristics>
+            <characteristic name="Armour Save" characteristicTypeId="d68f-f43c-e2bf-4235" value="6+"/>
+            <characteristic name="Special" characteristicTypeId="671c-1e08-f4f3-2c72"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d175-eaf2-e133-972e" type="max"/>
@@ -374,16 +425,20 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a1b7-c813-fbe7-e6cd" name="Terminator armour" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="7a0f-8735-570a-a612" name="New InfoLink" hidden="false" targetId="1dc0-a9ee-2a01-279a" type="profile">
+      <profiles>
+        <profile id="b140-4cdb-4480-086f" name="Terminator armour" hidden="false" profileTypeId="174f-ae7c-b7a2-45dd" profileTypeName="Armour">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-      </infoLinks>
+          <characteristics>
+            <characteristic name="Armour Save" characteristicTypeId="d68f-f43c-e2bf-4235" value="3+"/>
+            <characteristic name="Special" characteristicTypeId="671c-1e08-f4f3-2c72" value="Unshakeable, Armour saves taken with 2D6, 5+ invulnerable save"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f87-7481-b744-68a3" type="max"/>
@@ -396,16 +451,19 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="c859-4edb-bbb2-5102" name="Clip harness" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="09b3-f3ca-ddcd-df47" name="New InfoLink" hidden="false" targetId="b604-f2f2-4f93-b38f" type="profile">
+      <profiles>
+        <profile id="d9c4-0a1e-a99d-4531" name="Clip harness" hidden="false" profileTypeId="a0e5-b3f6-ed97-d6a7" profileTypeName="Wargear">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-      </infoLinks>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="b290-69be-8878-8eff" value="The end of the safety line must be fastened for it it work. A model can fasten a harness if it does not move in  its movement phase. The fighter can still perform other actions in addition to fastening the harness, such as shooting or going into overwatch. The harness is automatically unfastened when the model moves or eners hand-to-hand combat.  If a model with a fastened safty line becomes pinned or goes down within 1&quot; of an edge ten it does not have to test to fall. The fastened harness prevents the wearer from falling, just as if they passed an Initiative test."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5ee-859f-8d06-5c25" type="max"/>
@@ -418,16 +476,19 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0bc2-eaa8-9162-587e" name="Photo-visor" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="68e5-a71b-9945-be22" name="New InfoLink" hidden="false" targetId="f235-7330-ee9b-5c99" type="profile">
+      <profiles>
+        <profile id="6a4d-bab4-9fe1-7095" name="Photo-visor" hidden="false" profileTypeId="a0e5-b3f6-ed97-d6a7" profileTypeName="Wargear">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-      </infoLinks>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="b290-69be-8878-8eff" value=" A stationary fighter equipped with a photo-visor reduces the penalty when shooting at a model in cover by 1. So, partial cover is ignored and cover counts as a -1 to hit modifier rather than -2. "/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f658-ca9c-b879-060b" type="max"/>
@@ -462,16 +523,19 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4770-38f6-6a85-b653" name="Telescopic sight" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="8dda-7b4c-2b68-346e" name="New InfoLink" hidden="false" targetId="c951-55b5-23e6-32f2" type="profile">
+      <profiles>
+        <profile id="b815-3ee6-9d20-74b8" name="Telescopic sight" hidden="false" profileTypeId="a0e5-b3f6-ed97-d6a7" profileTypeName="Wargear">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-      </infoLinks>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="b290-69be-8878-8eff" value="A telescopic sight can be fitted to a basic weapon or a special weapon. The sight can be used in conjunction with a red-dot sight. A stationary fighter using a weapon with a telescopic sight increases the weapon&apos;s Long Range by a number of inches equal to its Short Range - for example, a lasgun&apos;s maximum range becomes 36&quot;."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1baa-ad91-39f5-27f4" type="max"/>
@@ -552,16 +616,19 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3e0a-16db-95f6-8382" name="Camo gear" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="54c3-6e18-c3ab-6e5e" name="New InfoLink" hidden="false" targetId="0eeb-794c-1f50-b234" type="profile">
+      <profiles>
+        <profile id="0155-2643-aad4-3191" name="Camo gear" hidden="false" profileTypeId="a0e5-b3f6-ed97-d6a7" profileTypeName="Wargear">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-      </infoLinks>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="b290-69be-8878-8eff" value="Enemy models must subtract 4&quot; from the maximum range of any shooting attacks they make that are directed at a fighter who is equipped with camo gear. This means that a weapon with a maximum range of 12&quot; can only target a fighter with camo gear when they are within 8&quot;. Weapons that use templates are not affected by camo gear."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1821-2778-9e85-c9ee" type="max"/>
@@ -574,16 +641,22 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="1b5f-a554-df62-0b7d" name="Assault blade" book="Shadow War: Armageddon" page="75" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="6955-5195-a9a6-64ca" name="New InfoLink" hidden="false" targetId="a4d6-71c1-d7b0-4d7f" type="profile">
+      <profiles>
+        <profile id="f7ac-b212-1f60-aa9b" name="Assault blade" hidden="false" profileTypeId="af37-1358-a047-8f1b" profileTypeName="Melee weapons">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-      </infoLinks>
+          <characteristics>
+            <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User"/>
+            <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
+            <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
+            <characteristic name="Special" characteristicTypeId="7e27-ec1b-0e2c-32a9" value="Parry"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries/>
@@ -594,15 +667,22 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b347-0d96-e0fa-f36f" name="Chainsword" book="Shadow War: Armageddon" page="75" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="bb74-2e21-9387-3b56" name="New InfoLink" hidden="false" targetId="6896-5655-882c-f9e1" type="profile">
+      <profiles>
+        <profile id="28c5-f84c-7259-f162" name="Chainsword" hidden="false" profileTypeId="af37-1358-a047-8f1b" profileTypeName="Melee weapons">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="4"/>
+            <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
+            <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-2"/>
+            <characteristic name="Special" characteristicTypeId="7e27-ec1b-0e2c-32a9" value="Noisy, Parry"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="3104-66b3-1bd8-94fe" name="New InfoLink" hidden="false" targetId="9000-7d13-072e-0d70" type="rule">
           <profiles/>
           <rules/>
@@ -626,16 +706,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="21e1-b9f5-5532-c231" name="Laspistol" book="Shadow War: Armageddon " page="75" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="4843-f00b-597c-078f" name="New InfoLink" hidden="false" targetId="7712-8c9d-f3fe-f0cf" type="profile">
+      <profiles>
+        <profile id="3fc6-6f6f-2ac2-6128" name="Laspistol" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-      </infoLinks>
+          <characteristics>
+            <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-8&quot;"/>
+            <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="8-16&quot;"/>
+            <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="+1"/>
+            <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+            <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="3"/>
+            <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
+            <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-"/>
+            <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="3+"/>
+            <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value=""/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
@@ -699,16 +790,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="1b15-820c-5866-2373" name="Bolt pistol" book="Shadow War: Armageddon" page="75" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="9457-c44c-3c34-f5f1" name="New InfoLink" book="" hidden="false" targetId="16cb-5f6f-6fe4-fa49" type="profile">
+      <profiles>
+        <profile id="2bc2-8c0b-823c-a911" name="Bolt pistol" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-      </infoLinks>
+          <characteristics>
+            <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-8&quot;"/>
+            <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="8-16&quot;"/>
+            <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="+2"/>
+            <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+            <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="4"/>
+            <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
+            <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-1"/>
+            <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="5+"/>
+            <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value=""/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
@@ -882,16 +984,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="1d3a-05d0-432a-60e5" name="Lasgun" book="Shadow War: Armageddon" page="75" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="9cf3-7b79-0aa3-464a" name="New InfoLink" hidden="false" targetId="c2bb-5199-5fa9-1c88" type="profile">
+      <profiles>
+        <profile id="38c6-bcc4-3508-106c" name="Lasgun" book="" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-      </infoLinks>
+          <characteristics>
+            <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-12&quot;"/>
+            <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="12-24&quot;"/>
+            <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="+1"/>
+            <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+            <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="3"/>
+            <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
+            <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-"/>
+            <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="3+"/>
+            <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value=""/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
@@ -964,16 +1077,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="cb7c-64bc-0686-b91e" name="Boltgun" book="Shadow War: Armageddon" page="75" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="865c-e582-3c75-ce9c" name="New InfoLink" hidden="false" targetId="3429-9fb9-5856-2f8e" type="profile">
+      <profiles>
+        <profile id="1337-b831-72e7-495b" name="Boltgun" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-      </infoLinks>
+          <characteristics>
+            <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-12&quot;"/>
+            <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="12-24&quot;"/>
+            <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="+1"/>
+            <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+            <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="4"/>
+            <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
+            <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-1"/>
+            <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="5+"/>
+            <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value=""/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
@@ -1028,15 +1152,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="fb1e-eb33-1d21-c14f" name="Sniper rifle" book="Shadow War: Armageddon" page="75" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="b5bb-9005-fb82-5021" name="New InfoLink" hidden="false" targetId="d5ff-ae1e-e35a-3ed2" type="profile">
+      <profiles>
+        <profile id="76ca-450a-7526-2766" name="Sniper rifle" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-18&quot;"/>
+            <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="18-36&quot;"/>
+            <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="-1"/>
+            <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+            <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="4"/>
+            <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
+            <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-1"/>
+            <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="7+"/>
+            <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Silent, Sniper Weapon"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="15a9-71b0-9025-e11b" name="New InfoLink" hidden="false" targetId="32e0-23ba-673a-0f4d" type="rule">
           <profiles/>
           <rules/>
@@ -1112,15 +1248,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="444d-cf95-f107-4ff2" name="Flamer" book="Shadow War: Armageddon" page="75" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="f69f-f0b1-1c3a-6bb9" name="New InfoLink" hidden="false" targetId="3b0f-67a2-ab69-48c4" type="profile">
+      <profiles>
+        <profile id="28d7-6c82-0a1a-c2a1" name="Flamer" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="Template"/>
+            <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="Template"/>
+            <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="-"/>
+            <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+            <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="4"/>
+            <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
+            <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-2"/>
+            <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="5+"/>
+            <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Ammo Roll, Flamer"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="df36-8be9-d75e-c7c2" name="New InfoLink" hidden="false" targetId="248b-6976-f227-1a11" type="rule">
           <profiles/>
           <rules/>
@@ -1158,7 +1306,20 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="c9a4-4432-8be1-098f" name="Demolition charge" book="Shadow War: Armageddon" page="75" hidden="false" collective="false" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="5f19-fe37-922e-d2c0" name="Demolition charge" hidden="false" profileTypeId="3c08-0391-e41a-4b0d" profileTypeName="Grenades">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Str." characteristicTypeId="158d-d9cf-78bc-7cbf" value="8"/>
+            <characteristic name="Dam." characteristicTypeId="fb64-013e-61bd-6be5" value="2D6"/>
+            <characteristic name="Save Mod." characteristicTypeId="44c0-19a8-c624-6824" value="-5"/>
+            <characteristic name="Special" characteristicTypeId="c6e2-51b9-d6f7-b530" value="Demolition Only, Large Blast, One Use Only"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules>
         <rule id="67ce-672f-12fd-1ac2" name="One Use Only" book="Shadow War: Armageddon" page="66" hidden="false">
           <profiles/>
@@ -1169,12 +1330,6 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="cfcd-8f94-974d-0149" name="New InfoLink" hidden="false" targetId="7256-0c00-f58d-b09c" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
         <infoLink id="a08e-822a-0a8e-e2dc" name="New InfoLink" hidden="false" targetId="0da4-d8d9-35f0-e557" type="rule">
           <profiles/>
           <rules/>
@@ -1274,16 +1429,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="45c7-f1b5-7643-4482" name="Meltagun" book="Shadow War: Armageddon" page="75" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="37b5-2946-786b-1d1f" name="New InfoLink" hidden="false" targetId="5c37-4270-83a1-a56b" type="profile">
+      <profiles>
+        <profile id="4052-a561-6c31-fbc1" name="Meltagun" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-      </infoLinks>
+          <characteristics>
+            <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-6&quot;"/>
+            <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="6-12&quot;"/>
+            <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="+1"/>
+            <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+            <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="8"/>
+            <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="D6"/>
+            <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-5"/>
+            <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="5+"/>
+            <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value=""/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
@@ -1329,15 +1495,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="7a7e-b7bb-8578-c519" name="Heavy flamer" book="Shadow Wars: Armageddon" page="75" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="c77f-2828-67ee-dedf" name="New InfoLink" hidden="false" targetId="0c32-4e62-6cb3-46ab" type="profile">
+      <profiles>
+        <profile id="2532-88af-a46b-b63e" name="Heavy flamer" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="Template"/>
+            <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="Template"/>
+            <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="-"/>
+            <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+            <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="5"/>
+            <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="D3"/>
+            <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-3"/>
+            <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="5+"/>
+            <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Ammo Roll, Flamer"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="69ea-f20c-da17-3784" name="New InfoLink" hidden="false" targetId="248b-6976-f227-1a11" type="rule">
           <profiles/>
           <rules/>
@@ -2259,16 +2437,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="149c-6639-b14b-f2c3" name="Heavy bolter" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="92ab-a07d-d182-5714" name="New InfoLink" hidden="false" targetId="a48a-1666-a940-ebf4" type="profile">
+      <profiles>
+        <profile id="b2a4-cb55-f627-97a5" name="Heavy bolter" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-      </infoLinks>
+          <characteristics>
+            <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-20&quot;"/>
+            <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="20-40&quot;"/>
+            <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="-"/>
+            <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+            <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="5"/>
+            <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="D3"/>
+            <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-2"/>
+            <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="5+"/>
+            <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Sustained Fire 2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
@@ -3622,23 +3811,6 @@ A target suffering their final wound from this weapon does not roll on the stand
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="16cb-5f6f-6fe4-fa49" name="Bolt pistol" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-8&quot;"/>
-        <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="8-16&quot;"/>
-        <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="+2"/>
-        <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
-        <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="4"/>
-        <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
-        <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-1"/>
-        <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="5+"/>
-        <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value=""/>
-      </characteristics>
-    </profile>
     <profile id="f717-77d1-2648-6664" name="Grot blasta" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
       <profiles/>
       <rules/>
@@ -3671,23 +3843,6 @@ A target suffering their final wound from this weapon does not roll on the stand
         <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-3"/>
         <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="7+"/>
         <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Unreliable"/>
-      </characteristics>
-    </profile>
-    <profile id="7712-8c9d-f3fe-f0cf" name="Laspistol" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-8&quot;"/>
-        <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="8-16&quot;"/>
-        <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="+1"/>
-        <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
-        <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="3"/>
-        <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
-        <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-"/>
-        <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="3+"/>
-        <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value=""/>
       </characteristics>
     </profile>
     <profile id="5bfc-dd5a-b5d2-719d" name="Plasma pistol (Low energy)" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
@@ -3724,40 +3879,6 @@ A target suffering their final wound from this weapon does not roll on the stand
         <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Unreliable"/>
       </characteristics>
     </profile>
-    <profile id="3429-9fb9-5856-2f8e" name="Boltgun" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-12&quot;"/>
-        <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="12-24&quot;"/>
-        <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="+1"/>
-        <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
-        <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="4"/>
-        <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
-        <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-1"/>
-        <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="5+"/>
-        <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value=""/>
-      </characteristics>
-    </profile>
-    <profile id="c2bb-5199-5fa9-1c88" name="Lasgun" book="" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-12&quot;"/>
-        <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="12-24&quot;"/>
-        <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="+1"/>
-        <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
-        <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="3"/>
-        <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
-        <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-"/>
-        <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="3+"/>
-        <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value=""/>
-      </characteristics>
-    </profile>
     <profile id="8c43-e40e-f0f2-b7e3" name="Shotgun (Solid slug)" book="Shadow War: Armageddon" page="61" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
       <profiles/>
       <rules/>
@@ -3792,23 +3913,6 @@ A target suffering their final wound from this weapon does not roll on the stand
         <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73"/>
       </characteristics>
     </profile>
-    <profile id="d5ff-ae1e-e35a-3ed2" name="Sniper rifle" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-18&quot;"/>
-        <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="18-36&quot;"/>
-        <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="-1"/>
-        <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
-        <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="4"/>
-        <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
-        <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-1"/>
-        <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="7+"/>
-        <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Silent, Sniper Weapon"/>
-      </characteristics>
-    </profile>
     <profile id="cf9e-78e5-8214-3c75" name="Big shoota" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
       <profiles/>
       <rules/>
@@ -3826,23 +3930,6 @@ A target suffering their final wound from this weapon does not roll on the stand
         <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Sustained Fire: 2 dice"/>
       </characteristics>
     </profile>
-    <profile id="3b0f-67a2-ab69-48c4" name="Flamer" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="Template"/>
-        <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="Template"/>
-        <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="-"/>
-        <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
-        <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="4"/>
-        <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
-        <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-2"/>
-        <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="5+"/>
-        <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Ammo Roll, Flamer"/>
-      </characteristics>
-    </profile>
     <profile id="c39d-194d-d84e-af72" name="Grenade launcher" book="" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
       <profiles/>
       <rules/>
@@ -3858,57 +3945,6 @@ A target suffering their final wound from this weapon does not roll on the stand
         <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-"/>
         <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="7+"/>
         <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Ammo"/>
-      </characteristics>
-    </profile>
-    <profile id="3ba2-7611-1e20-c775" name="Grenadier gauntlet" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-8&quot;"/>
-        <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="8-16&quot;"/>
-        <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="-"/>
-        <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-1"/>
-        <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="4"/>
-        <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
-        <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-1"/>
-        <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="7+"/>
-        <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Large Blast"/>
-      </characteristics>
-    </profile>
-    <profile id="0c32-4e62-6cb3-46ab" name="Heavy flamer" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="Template"/>
-        <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="Template"/>
-        <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="-"/>
-        <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
-        <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="5"/>
-        <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="D3"/>
-        <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-3"/>
-        <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="5+"/>
-        <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Ammo Roll, Flamer"/>
-      </characteristics>
-    </profile>
-    <profile id="5c37-4270-83a1-a56b" name="Meltagun" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-6&quot;"/>
-        <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="6-12&quot;"/>
-        <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="+1"/>
-        <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
-        <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="8"/>
-        <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="D6"/>
-        <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-5"/>
-        <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="5+"/>
-        <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value=""/>
       </characteristics>
     </profile>
     <profile id="75df-3fbe-52a7-98b6" name="Plasma gun (Low energy)" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
@@ -3979,40 +4015,6 @@ A target suffering their final wound from this weapon does not roll on the stand
         <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value=""/>
       </characteristics>
     </profile>
-    <profile id="109d-6b22-f2ac-64f9" name="Storm bolter" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-12&quot;"/>
-        <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="12-24&quot;"/>
-        <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="+1"/>
-        <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
-        <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="4"/>
-        <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
-        <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-1"/>
-        <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="5+"/>
-        <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Sustained Fire 1"/>
-      </characteristics>
-    </profile>
-    <profile id="a48a-1666-a940-ebf4" name="Heavy bolter" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-20&quot;"/>
-        <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="20-40&quot;"/>
-        <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="-"/>
-        <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
-        <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="5"/>
-        <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="D3"/>
-        <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-2"/>
-        <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="5+"/>
-        <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Sustained Fire 2"/>
-      </characteristics>
-    </profile>
     <profile id="019c-3e23-01d3-c35f" name="Missle launcher (Super krak missile)" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
       <profiles/>
       <rules/>
@@ -4064,136 +4066,6 @@ A target suffering their final wound from this weapon does not roll on the stand
         <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Unreliable, Bullets, Blasts and Grenades"/>
       </characteristics>
     </profile>
-    <profile id="7256-0c00-f58d-b09c" name="Demolition charge" hidden="false" profileTypeId="3c08-0391-e41a-4b0d" profileTypeName="Grenades">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Str." characteristicTypeId="158d-d9cf-78bc-7cbf" value="8"/>
-        <characteristic name="Dam." characteristicTypeId="fb64-013e-61bd-6be5" value="2D6"/>
-        <characteristic name="Save Mod." characteristicTypeId="44c0-19a8-c624-6824" value="-5"/>
-        <characteristic name="Special" characteristicTypeId="c6e2-51b9-d6f7-b530" value="Demolition Only, Large Blast, One Use Only"/>
-      </characteristics>
-    </profile>
-    <profile id="42d1-d0b2-5ed3-7217" name="Frag grenade" hidden="false" profileTypeId="3c08-0391-e41a-4b0d" profileTypeName="Grenades">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Str." characteristicTypeId="158d-d9cf-78bc-7cbf" value="3"/>
-        <characteristic name="Dam." characteristicTypeId="fb64-013e-61bd-6be5" value="1"/>
-        <characteristic name="Save Mod." characteristicTypeId="44c0-19a8-c624-6824" value="-"/>
-        <characteristic name="Special" characteristicTypeId="c6e2-51b9-d6f7-b530" value="Large Blast"/>
-      </characteristics>
-    </profile>
-    <profile id="e782-4d81-150d-1f5b" name="Krak grenade" hidden="false" profileTypeId="3c08-0391-e41a-4b0d" profileTypeName="Grenades">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Str." characteristicTypeId="158d-d9cf-78bc-7cbf" value="6"/>
-        <characteristic name="Dam." characteristicTypeId="fb64-013e-61bd-6be5" value="D6"/>
-        <characteristic name="Save Mod." characteristicTypeId="44c0-19a8-c624-6824" value="-3"/>
-        <characteristic name="Special" characteristicTypeId="c6e2-51b9-d6f7-b530" value="Demolition, Unwieldy"/>
-      </characteristics>
-    </profile>
-    <profile id="f4be-3feb-c4b8-5200" name="Melta bomb" hidden="false" profileTypeId="3c08-0391-e41a-4b0d" profileTypeName="Grenades">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Str." characteristicTypeId="158d-d9cf-78bc-7cbf" value="8"/>
-        <characteristic name="Dam." characteristicTypeId="fb64-013e-61bd-6be5" value="2D6"/>
-        <characteristic name="Save Mod." characteristicTypeId="44c0-19a8-c624-6824" value="-5"/>
-        <characteristic name="Special" characteristicTypeId="c6e2-51b9-d6f7-b530" value="Demolition Only"/>
-      </characteristics>
-    </profile>
-    <profile id="0d7e-708f-dd34-4c07" name="Carapace armour" hidden="false" profileTypeId="174f-ae7c-b7a2-45dd" profileTypeName="Armour">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Armour Save" characteristicTypeId="d68f-f43c-e2bf-4235" value="4+"/>
-        <characteristic name="Special" characteristicTypeId="671c-1e08-f4f3-2c72" value="-1 to Initiative"/>
-      </characteristics>
-    </profile>
-    <profile id="bf96-eaaa-f413-0af7" name="&apos;Eavy armour" hidden="false" profileTypeId="174f-ae7c-b7a2-45dd" profileTypeName="Armour">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Armour Save" characteristicTypeId="d68f-f43c-e2bf-4235" value="4+"/>
-        <characteristic name="Special" characteristicTypeId="671c-1e08-f4f3-2c72" value="-1 to Initiative"/>
-      </characteristics>
-    </profile>
-    <profile id="0f9c-6e8b-ee04-0722" name="Flak armour" hidden="false" profileTypeId="174f-ae7c-b7a2-45dd" profileTypeName="Armour">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Armour Save" characteristicTypeId="d68f-f43c-e2bf-4235" value="6+"/>
-        <characteristic name="Special" characteristicTypeId="671c-1e08-f4f3-2c72" value="5+ against weapons that use templates"/>
-      </characteristics>
-    </profile>
-    <profile id="32ad-d436-7cb5-f843" name="Power armour" hidden="false" profileTypeId="174f-ae7c-b7a2-45dd" profileTypeName="Armour">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Armour Save" characteristicTypeId="d68f-f43c-e2bf-4235" value="3+"/>
-        <characteristic name="Special" characteristicTypeId="671c-1e08-f4f3-2c72" value=""/>
-      </characteristics>
-    </profile>
-    <profile id="54d4-5196-abb4-e9e3" name="Scout armour" hidden="false" profileTypeId="174f-ae7c-b7a2-45dd" profileTypeName="Armour">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Armour Save" characteristicTypeId="d68f-f43c-e2bf-4235" value="4+"/>
-        <characteristic name="Special" characteristicTypeId="671c-1e08-f4f3-2c72"/>
-      </characteristics>
-    </profile>
-    <profile id="8602-c6e0-ba72-d69b" name="Squid-hide armour" hidden="false" profileTypeId="174f-ae7c-b7a2-45dd" profileTypeName="Armour">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Armour Save" characteristicTypeId="d68f-f43c-e2bf-4235" value="6+"/>
-        <characteristic name="Special" characteristicTypeId="671c-1e08-f4f3-2c72"/>
-      </characteristics>
-    </profile>
-    <profile id="1dc0-a9ee-2a01-279a" name="Terminator armour" hidden="false" profileTypeId="174f-ae7c-b7a2-45dd" profileTypeName="Armour">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Armour Save" characteristicTypeId="d68f-f43c-e2bf-4235" value="3+"/>
-        <characteristic name="Special" characteristicTypeId="671c-1e08-f4f3-2c72" value="Unshakeable, Armour saves taken with 2D6, 5+ invulnerable save"/>
-      </characteristics>
-    </profile>
-    <profile id="a4d6-71c1-d7b0-4d7f" name="Assault blade" hidden="false" profileTypeId="af37-1358-a047-8f1b" profileTypeName="Melee weapons">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User"/>
-        <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
-        <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
-        <characteristic name="Special" characteristicTypeId="7e27-ec1b-0e2c-32a9" value="Parry"/>
-      </characteristics>
-    </profile>
     <profile id="33d2-537a-e8ce-d62e" name="Big choppa" hidden="false" profileTypeId="af37-1358-a047-8f1b" profileTypeName="Melee weapons">
       <profiles/>
       <rules/>
@@ -4204,42 +4076,6 @@ A target suffering their final wound from this weapon does not roll on the stand
         <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
         <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
         <characteristic name="Special" characteristicTypeId="7e27-ec1b-0e2c-32a9" value="Draws, Mighty Blow, Two-handed"/>
-      </characteristics>
-    </profile>
-    <profile id="6896-5655-882c-f9e1" name="Chainsword" hidden="false" profileTypeId="af37-1358-a047-8f1b" profileTypeName="Melee weapons">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="4"/>
-        <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
-        <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-2"/>
-        <characteristic name="Special" characteristicTypeId="7e27-ec1b-0e2c-32a9" value="Noisy, Parry"/>
-      </characteristics>
-    </profile>
-    <profile id="c137-6734-d907-5e54" name="Combat blade" hidden="false" profileTypeId="af37-1358-a047-8f1b" profileTypeName="Melee weapons">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User"/>
-        <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
-        <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
-        <characteristic name="Special" characteristicTypeId="7e27-ec1b-0e2c-32a9"/>
-      </characteristics>
-    </profile>
-    <profile id="5bcc-1b83-5a74-9cf2" name="Cutlass" hidden="false" profileTypeId="af37-1358-a047-8f1b" profileTypeName="Melee weapons">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User"/>
-        <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
-        <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
-        <characteristic name="Special" characteristicTypeId="7e27-ec1b-0e2c-32a9" value="Parry"/>
       </characteristics>
     </profile>
     <profile id="2c4d-81c3-4d83-043d" name="Dok&apos;s tools" hidden="false" profileTypeId="af37-1358-a047-8f1b" profileTypeName="Melee weapons">
@@ -4470,24 +4306,6 @@ A target suffering their final wound from this weapon does not roll on the stand
         <characteristic name="Special" characteristicTypeId="7e27-ec1b-0e2c-32a9"/>
       </characteristics>
     </profile>
-    <profile id="0eeb-794c-1f50-b234" name="Camo gear" hidden="false" profileTypeId="a0e5-b3f6-ed97-d6a7" profileTypeName="Wargear">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="b290-69be-8878-8eff" value="Enemy models must subtract 4&quot; from the maximum range of any shooting attacks they make that are directed at a fighter who is equipped with camo gear. This means that a weapon with a maximum range of 12&quot; can only target a fighter with camo gear when they are within 8&quot;. Weapons that use templates are not affected by camo gear."/>
-      </characteristics>
-    </profile>
-    <profile id="b604-f2f2-4f93-b38f" name="Clip harness" hidden="false" profileTypeId="a0e5-b3f6-ed97-d6a7" profileTypeName="Wargear">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="b290-69be-8878-8eff" value="The end of the safety line must be fastened for it it work. A model can fasten a harness if it does not move in  its movement phase. The fighter can still perform other actions in addition to fastening the harness, such as shooting or going into overwatch. The harness is automatically unfastened when the model moves or eners hand-to-hand combat.  If a model with a fastened safty line becomes pinned or goes down within 1&quot; of an edge ten it does not have to test to fall. The fastened harness prevents the wearer from falling, just as if they passed an Initiative test."/>
-      </characteristics>
-    </profile>
     <profile id="f9bb-e20c-19cf-3cb3" name="Gitfinda" hidden="false" profileTypeId="a0e5-b3f6-ed97-d6a7" profileTypeName="Wargear">
       <profiles/>
       <rules/>
@@ -4524,15 +4342,6 @@ A target suffering their final wound from this weapon does not roll on the stand
         <characteristic name="Description" characteristicTypeId="b290-69be-8878-8eff" value="A red-dot sight can be fitted to either a pistol, basic weapon or special weapon. A fighter using a weapon with a red-dot sight receives a +1 to hit modifier.  A fighter hit by a weapon with a red-dot sight stands a chance of spotting the red dot and ducking aside. If the shooter is within a 90° arc to the front of the target, then the target receives a 6+ invulnerable save. A fighter who is pinned or down does not receive this bonus. If the target is a sentry and spots teh dot by making their invulnerable save, then the alarm will also be raised. "/>
       </characteristics>
     </profile>
-    <profile id="c951-55b5-23e6-32f2" name="Telescopic sight" hidden="false" profileTypeId="a0e5-b3f6-ed97-d6a7" profileTypeName="Wargear">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="b290-69be-8878-8eff" value="A telescopic sight can be fitted to a basic weapon or a special weapon. The sight can be used in conjunction with a red-dot sight. A stationary fighter using a weapon with a telescopic sight increases the weapon&apos;s Long Range by a number of inches equal to its Short Range - for example, a lasgun&apos;s maximum range becomes 36&quot;."/>
-      </characteristics>
-    </profile>
     <profile id="156c-ccfa-d936-f644" name="Toxic round" hidden="false" profileTypeId="a0e5-b3f6-ed97-d6a7" profileTypeName="Wargear">
       <profiles/>
       <rules/>
@@ -4540,15 +4349,6 @@ A target suffering their final wound from this weapon does not roll on the stand
       <modifiers/>
       <characteristics>
         <characteristic name="Description" characteristicTypeId="b290-69be-8878-8eff" value="No To Wound roll is required when a target is hit with a toxic round: if the target is hit then the toxins will automatically inflict 1 wound. Armour may still save a target as normal. Note that this only applies against living If a toxic round hits an unliving target, then a normal Wound roll must be made, resolving the shot at the Strength of that weapon.  Injuries: Do not roll on the standard Injury table for target suffering their final wound from a toxic round. Instead, roll on the table below both when the injury is inflicted and in subsequent recovery phases.    -1 No Effect: The toxin has no effect or wears target may continue to fight in the same way they had suffered a flesh wound except that suffer no penalties to their Weapon Skill or Ballistic Skill.   -2-4 Comatose: The target is knocked comatose and falls to the ground. The model counts as down except that they cannot move.   -5-6 Out of Action: The target slumps lifelessly to ground. They may be dead or barely living, but are overcome by the toxin for the rest of the game. Remove the model as you would any other out of action.   If a toxic round hits a model that is already down and inflicts a Comatose result, then the model must continue to roll on the chart above in subsequent recovery instead of the standard injury table. "/>
-      </characteristics>
-    </profile>
-    <profile id="f235-7330-ee9b-5c99" name="Photo-visor" hidden="false" profileTypeId="a0e5-b3f6-ed97-d6a7" profileTypeName="Wargear">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="b290-69be-8878-8eff" value=" A stationary fighter equipped with a photo-visor reduces the penalty when shooting at a model in cover by 1. So, partial cover is ignored and cover counts as a -1 to hit modifier rather than -2. "/>
       </characteristics>
     </profile>
     <profile id="7e0a-1b66-d4c6-9401" name="Slabshield" hidden="false" profileTypeId="a0e5-b3f6-ed97-d6a7" profileTypeName="Wargear">
@@ -4578,7 +4378,53 @@ A target suffering their final wound from this weapon does not roll on the stand
         <characteristic name="Description" characteristicTypeId="b290-69be-8878-8eff" value="If a fighter carries a reload for a weapon, then you can re-roll the first failed Ammo roll made for that weapon. For weapons with an &apos;Auto&apos; Ammo roll, such as grenades, a weapon reload means that you pass the first Ammo roll made for that weapon on a 3+.  "/>
       </characteristics>
     </profile>
-    <profile id="3b93-8b04-f366-7e32" name="Brute shield" hidden="false" profileTypeId="a0e5-b3f6-ed97-d6a7" profileTypeName="Wargear">
+    <profile id="a903-59c8-9caf-e812" name="Cutlass" hidden="false" profileTypeId="af37-1358-a047-8f1b" profileTypeName="Melee weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User"/>
+        <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
+        <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-"/>
+        <characteristic name="Special" characteristicTypeId="7e27-ec1b-0e2c-32a9" value="Parry"/>
+      </characteristics>
+    </profile>
+    <profile id="a332-238c-5b3a-4d39" name="Storm bolter" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-12&quot;"/>
+        <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="12-24&quot;"/>
+        <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="+1"/>
+        <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+        <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="4"/>
+        <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
+        <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-1"/>
+        <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="5+"/>
+        <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Sustained Fire 1"/>
+      </characteristics>
+    </profile>
+    <profile id="deec-4c8c-7bf4-5e3e" name="Grenadier gauntlet" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-8&quot;"/>
+        <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="8-16&quot;"/>
+        <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="-"/>
+        <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-1"/>
+        <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="4"/>
+        <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
+        <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-1"/>
+        <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="7+"/>
+        <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Large Blast"/>
+      </characteristics>
+    </profile>
+    <profile id="260a-c53c-1ff3-2149" name="Brute shield" hidden="false" profileTypeId="a0e5-b3f6-ed97-d6a7" profileTypeName="Wargear">
       <profiles/>
       <rules/>
       <infoLinks/>
