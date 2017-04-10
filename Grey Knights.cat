@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8fa4-05bd-9679-c510" name="Grey Knights Kill Team" revision="2" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8fa4-05bd-9679-c510" name="Grey Knights Kill Team" revision="3" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="e63c-1f6a-a065-b8f7" name="And They Shall Know No Fear" book="Grey Knights Kill Team" page="1" hidden="false">
@@ -951,7 +951,7 @@ psychic ability.</description>
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="c527-702f-8e14-35b3" name="New InfoLink" hidden="false" targetId="109d-6b22-f2ac-64f9" type="profile">
+            <infoLink id="c527-702f-8e14-35b3" name="New InfoLink" hidden="false" targetId="a332-238c-5b3a-4d39" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1076,7 +1076,7 @@ psychic ability.</description>
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="fc60-17c2-d209-391a" name="New InfoLink" hidden="false" targetId="109d-6b22-f2ac-64f9" type="profile">
+            <infoLink id="fc60-17c2-d209-391a" name="New InfoLink" hidden="false" targetId="a332-238c-5b3a-4d39" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1224,7 +1224,7 @@ additional promethium cache.</description>
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="492f-e4af-6f0c-606e" name="New InfoLink" hidden="false" targetId="109d-6b22-f2ac-64f9" type="profile">
+            <infoLink id="492f-e4af-6f0c-606e" name="New InfoLink" hidden="false" targetId="a332-238c-5b3a-4d39" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1361,7 +1361,7 @@ additional promethium cache.</description>
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="9556-38bc-f18b-9393" name="New InfoLink" hidden="false" targetId="109d-6b22-f2ac-64f9" type="profile">
+            <infoLink id="9556-38bc-f18b-9393" name="New InfoLink" hidden="false" targetId="a332-238c-5b3a-4d39" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1556,7 +1556,7 @@ additional promethium cache.</description>
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="82ca-e2ea-ece1-526c" name="New InfoLink" hidden="false" targetId="109d-6b22-f2ac-64f9" type="profile">
+        <infoLink id="82ca-e2ea-ece1-526c" name="s" hidden="false" targetId="a332-238c-5b3a-4d39" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>

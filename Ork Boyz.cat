@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b522-07fb-cf7f-95c9" name="Ork Boyz Kill Team" revision="2" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b522-07fb-cf7f-95c9" name="Ork Boyz Kill Team" revision="3" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="203c-2a7f-56a9-d5a0" name="&apos;Ere We Go!" book="Shadow War: Armageddon" page="76" hidden="false">
@@ -1685,7 +1685,7 @@
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="27b7-9ac9-b122-332d" name="New InfoLink" hidden="false" targetId="5bcc-1b83-5a74-9cf2" type="profile">
+                <infoLink id="27b7-9ac9-b122-332d" name="New InfoLink" hidden="false" targetId="a903-59c8-9caf-e812" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
