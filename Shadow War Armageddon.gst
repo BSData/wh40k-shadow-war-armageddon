@@ -1427,7 +1427,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="Points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3574,7 +3576,7 @@ A target suffering their final wound from this weapon does not roll on the stand
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A frag-bomb spills its explosive contents over a large area, and so uses the large blast template.</description>
+      <description>This weapon uses the large blast template.</description>
     </rule>
     <rule id="3c8c-8433-1dd0-34d5" name="Ripper Blade" hidden="false">
       <profiles/>
@@ -3602,14 +3604,14 @@ A target suffering their final wound from this weapon does not roll on the stand
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A krak grenade can be attached to a stationary structure as explained in the rules for attacking terrain (pg 49). Krak grenades taken as ammunition for a grenade laucnher cannot be used in this way.</description>
+      <description>This weapon can be attached to a stationary structure as explained in the rules for attacking terrain (pg 49). </description>
     </rule>
     <rule id="8efb-3bde-9306-7827" name="Demolition Only" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The melta bomb cannot be thrown like an ordinary grenade and its size prevents its use in a grenade laucher. Instead a melta bomb must be attached to a stationary structure as explained in the rules for attacking terrain (pg 49).</description>
+      <description>This grenade cannot be thrown like an ordinary grenade and its size prevents its use in a grenade laucher. Instead it must be attached to a stationary structure as explained in the rules for attacking terrain (pg 49).</description>
     </rule>
     <rule id="2a11-ee40-f04c-b7b5" name="Unshakeable" hidden="false">
       <profiles/>
