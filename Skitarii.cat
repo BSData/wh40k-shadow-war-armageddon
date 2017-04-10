@@ -472,6 +472,19 @@
               <modifiers/>
               <constraints/>
             </entryLink>
+            <entryLink id="d9a5-016c-41d7-6896" name="New EntryLink" hidden="false" targetId="9299-dd9c-cf01-32f0" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="Points" value="5">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="5712-7418-0512-1129" name="Pistols" hidden="false" collective="false">
@@ -1215,16 +1228,27 @@
       <constraints/>
       <selectionEntries>
         <selectionEntry id="2c58-4e97-3ca5-ecc2" name="Laspistol" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="b9ff-7fcf-7d96-23ec" name="New InfoLink" hidden="false" targetId="7712-8c9d-f3fe-f0cf" type="profile">
+          <profiles>
+            <profile id="aaec-4443-9d6b-29ab" name="Laspistol" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-            </infoLink>
-          </infoLinks>
+              <characteristics>
+                <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-8&quot;"/>
+                <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="8-16&quot;"/>
+                <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="+1"/>
+                <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+                <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="3"/>
+                <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
+                <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-"/>
+                <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="3+"/>
+                <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value=""/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbdf-f16b-c303-fa69" type="max"/>
