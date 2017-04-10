@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8ee6-eb8d-b763-ec56" name="Chaos Space Marines" revision="2" battleScribeVersion="2.00" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8ee6-eb8d-b763-ec56" name="Chaos Space Marines" revision="3" battleScribeVersion="2.00" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -411,7 +411,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="0d27-6094-63ed-c7a6" name="New InfoLink" book="" hidden="false" targetId="16cb-5f6f-6fe4-fa49" type="profile">
+        <infoLink id="0d27-6094-63ed-c7a6" name="New InfoLink" book="" hidden="false" targetId="aff7-bf2b-babb-2baa" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -520,7 +520,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="145e-c301-fcca-a52a" name="New InfoLink" hidden="false" targetId="3429-9fb9-5856-2f8e" type="profile">
+        <infoLink id="145e-c301-fcca-a52a" name="New InfoLink" hidden="false" targetId="a08d-3801-0ca4-fda8" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -837,7 +837,7 @@
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="ccdd-cf16-769e-f82f" name="New InfoLink" book="" hidden="false" targetId="16cb-5f6f-6fe4-fa49" type="profile">
+                <infoLink id="ccdd-cf16-769e-f82f" name="New InfoLink" book="" hidden="false" targetId="aff7-bf2b-babb-2baa" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -965,7 +965,7 @@
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="0c0f-f7d5-e3eb-a261" name="New InfoLink" hidden="false" targetId="3429-9fb9-5856-2f8e" type="profile">
+                <infoLink id="0c0f-f7d5-e3eb-a261" name="New InfoLink" hidden="false" targetId="a08d-3801-0ca4-fda8" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1419,7 +1419,7 @@
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="a791-5266-d843-03d3" name="New InfoLink" book="" hidden="false" targetId="16cb-5f6f-6fe4-fa49" type="profile">
+                <infoLink id="a791-5266-d843-03d3" name="New InfoLink" book="" hidden="false" targetId="aff7-bf2b-babb-2baa" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1539,7 +1539,7 @@
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="4a30-b151-a1c4-ad4c" name="New InfoLink" hidden="false" targetId="3429-9fb9-5856-2f8e" type="profile">
+                <infoLink id="4a30-b151-a1c4-ad4c" name="New InfoLink" hidden="false" targetId="a08d-3801-0ca4-fda8" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1875,7 +1875,7 @@
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="fd23-6571-279a-bdfc" name="New InfoLink" book="" hidden="false" targetId="16cb-5f6f-6fe4-fa49" type="profile">
+                <infoLink id="fd23-6571-279a-bdfc" name="New InfoLink" book="" hidden="false" targetId="aff7-bf2b-babb-2baa" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1995,7 +1995,7 @@
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="b183-9299-7f17-47ef" name="New InfoLink" hidden="false" targetId="3429-9fb9-5856-2f8e" type="profile">
+                <infoLink id="b183-9299-7f17-47ef" name="New InfoLink" hidden="false" targetId="a08d-3801-0ca4-fda8" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2162,13 +2162,13 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="ca8e-68b4-44b8-542c" name="New InfoLink" hidden="false" targetId="32ad-d436-7cb5-f843" type="profile">
+        <infoLink id="ca8e-68b4-44b8-542c" name="New InfoLink" hidden="false" targetId="bb14-46f7-6761-b659" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="d079-c7bd-5309-31f3" name="New InfoLink" hidden="false" targetId="c137-6734-d907-5e54" type="profile">
+        <infoLink id="d079-c7bd-5309-31f3" name="New InfoLink" hidden="false" targetId="8465-754c-e3c0-5565" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2216,7 +2216,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="c547-46df-d5d2-c1ae" name="New InfoLink" hidden="false" targetId="c137-6734-d907-5e54" type="profile">
+            <infoLink id="c547-46df-d5d2-c1ae" name="New InfoLink" hidden="false" targetId="bb14-46f7-6761-b659" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2291,7 +2291,7 @@
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="1e22-d21c-8dc7-ebae" name="New InfoLink" hidden="false" targetId="c137-6734-d907-5e54" type="profile">
+                <infoLink id="1e22-d21c-8dc7-ebae" name="New InfoLink" hidden="false" targetId="bb14-46f7-6761-b659" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2499,25 +2499,19 @@
           </profiles>
           <rules/>
           <infoLinks>
-            <infoLink id="f771-0d7d-55eb-b773" name="New InfoLink" hidden="false" targetId="32ad-d436-7cb5-f843" type="profile">
+            <infoLink id="f771-0d7d-55eb-b773" name="New InfoLink" hidden="false" targetId="8db8-d4f3-9c7e-486a" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="b15a-cb85-4292-818d" name="New InfoLink" hidden="false" targetId="42d1-d0b2-5ed3-7217" type="profile">
+            <infoLink id="998f-9f8c-ecbb-890b" name="New InfoLink" hidden="false" targetId="4026-6403-9cad-fa29" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="998f-9f8c-ecbb-890b" name="New InfoLink" hidden="false" targetId="e782-4d81-150d-1f5b" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="b5d5-9f57-d511-f754" name="New InfoLink" hidden="false" targetId="42d1-d0b2-5ed3-7217" type="profile">
+            <infoLink id="b5d5-9f57-d511-f754" name="New InfoLink" hidden="false" targetId="8465-754c-e3c0-5565" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2601,7 +2595,7 @@
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="0000-008a-dc8f-6926" name="New InfoLink" hidden="false" targetId="16cb-5f6f-6fe4-fa49" type="profile">
+                <infoLink id="0000-008a-dc8f-6926" name="New InfoLink" hidden="false" targetId="aff7-bf2b-babb-2baa" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2661,7 +2655,7 @@
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="cd89-67b8-3dae-857a" name="New InfoLink" hidden="false" targetId="6896-5655-882c-f9e1" type="profile">
+                <infoLink id="cd89-67b8-3dae-857a" name="New InfoLink" hidden="false" targetId="9659-0730-39a1-7b5d" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2800,7 +2794,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="b25c-16ce-0208-37b6" name="New InfoLink" hidden="false" targetId="1dc0-a9ee-2a01-279a" type="profile">
+            <infoLink id="b25c-16ce-0208-37b6" name="New InfoLink" hidden="false" targetId="cb6f-3de8-cb36-020b" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2945,13 +2939,13 @@
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="4bf7-937d-a212-d13c" name="New InfoLink" hidden="false" targetId="3429-9fb9-5856-2f8e" type="profile">
+                    <infoLink id="4bf7-937d-a212-d13c" name="New InfoLink" hidden="false" targetId="749a-c528-5dc0-8d36" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
                       <modifiers/>
                     </infoLink>
-                    <infoLink id="8953-93f3-bb60-c356" name="New InfoLink" hidden="false" targetId="3b0f-67a2-ab69-48c4" type="profile">
+                    <infoLink id="8953-93f3-bb60-c356" name="New InfoLink" hidden="false" targetId="2cce-a71f-f269-1444" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -2989,13 +2983,13 @@
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="0a06-9f4d-dc54-20e8" name="New InfoLink" hidden="false" targetId="3429-9fb9-5856-2f8e" type="profile">
+                    <infoLink id="0a06-9f4d-dc54-20e8" name="New InfoLink" hidden="false" targetId="dfb6-a101-a805-29f4" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
                       <modifiers/>
                     </infoLink>
-                    <infoLink id="eee7-7982-64db-a76b" name="New InfoLink" hidden="false" targetId="5c37-4270-83a1-a56b" type="profile">
+                    <infoLink id="eee7-7982-64db-a76b" name="New InfoLink" hidden="false" targetId="749a-c528-5dc0-8d36" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
