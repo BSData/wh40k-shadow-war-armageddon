@@ -9,15 +9,13 @@
     <forceEntry id="319e-de63-d7e8-d36e" name="Tyranid Warrior kill team" hidden="false">
       <profiles/>
       <rules>
-        <rule id="bcc1-6b61-7e27-2372" name="Tyranid Warrior kill team" hidden="false">
+        <rule id="bcc1-6b61-7e27-2372" name="Tyranid Warrior Mission Rule" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>-  In any missions that allow Ork Boyz kill teams to field additional models (such as the Raid or Hit and Run),
-subtract 2 from the random number of models that take part in the mission for a Tyranid Warrior kill team.
--  If a fighter has more than two pairs of arms and carries a hand-to-hand weapon in each hand, then the fighter rolls one extra Attack dice in hand-tohand combat. Any hits are inflicted by cycling through the weapons they are using in an order chosen by the controlling player.
-- The Disarm combat skill has no effect on Tyranid Warrior fighters: their weapons are a part of them!</description>
+          <description>In any missions that allow Ork Boyz kill teams to field additional models (such as the Raid or Hit and Run), subtract 2 from the random number of models that take part in the mission for a Tyranid Warrior kill team.
+</description>
         </rule>
         <rule id="612c-bf5f-7987-d47c" name="Synapse Creature" hidden="false">
           <profiles/>
@@ -25,6 +23,27 @@ subtract 2 from the random number of models that take part in the mission for a 
           <infoLinks/>
           <modifiers/>
           <description>A fighter with this rule never has to take fear or terror tests and cannot be pinned by shooting attacks, unless they are from high-impact weapons. In addition, a fighter with this rule can always test to recover early from pinning, even if there is no friendly fighter within 2&quot;.</description>
+        </rule>
+        <rule id="bbcb-bd46-f49d-0d02" name="Tyranid Warrior Disarm Rule" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The &lt;b&gt;Disarm&lt;/b&gt; combat skill has no effect on Tyranid Warrior fighters: their weapons are a part of them!</description>
+        </rule>
+        <rule id="95f0-39d7-d99a-bd45" name="Tyranid Warrior Weapon Rule" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If a fighter has more than two pairs of arms and carries a hand-to-hand weapon in each hand, then the fighter rolls one extra Attack dice in hand-to-hand combat. Any hits are inflicted by cycling through the weapons they are using in an order chosen by the controlling player.</description>
+        </rule>
+        <rule id="4e8d-06cb-f5df-efbe" name="Tyranid Warrior Ressuply " hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When you are resupplying your kill team, a fighter from a Tyranid Warrior kill team can replace any of its Hand-to-Hand Bio-weapons, Basic Bio-weapons and/or Biocannons for another weapon as appropriate (provided that you also have enough points to do so).</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -87,7 +106,64 @@ subtract 2 from the random number of models that take part in the mission for a 
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="8858-06ca-0be3-cd2a" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="ab49-a55e-bf12-4a19" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a15f-c65e-8df1-41ed" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="1651-d65d-aa0b-e006" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="ab49-a55e-bf12-4a19" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d14e-3d2f-1be5-2e89" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="66d4-4044-cd25-1660" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="ab49-a55e-bf12-4a19" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5bfd-6e93-fc20-f950" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="54ac-d60c-15e6-3bf5" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="ab49-a55e-bf12-4a19" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f61-1b26-3def-733c" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="1f26-cb1b-dfd2-7424" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="ab49-a55e-bf12-4a19" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dece-df52-dbad-8ea2" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="0098-42da-9043-eaf9" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="ab49-a55e-bf12-4a19" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d06-86b4-988c-cb04" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="c64c-c2a1-b9aa-3645" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="ab49-a55e-bf12-4a19" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e1e-3134-3bf0-1c79" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f563-8d05-302d-5a08" value="6&quot;">
+              <repeats>
+                <repeat field="selections" scope="ab49-a55e-bf12-4a19" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e47e-e26c-dd34-a0dc" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="5&quot;"/>
             <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="5"/>
@@ -280,6 +356,24 @@ subtract 2 from the random number of models that take part in the mission for a 
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="e6c1-5ace-6855-0c36" name="Advance Attributes" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="7b52-4f98-dc00-0b0a" name="New EntryLink" hidden="false" targetId="b49f-e16e-537f-39a0" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="5cc3-fe9f-848f-365f" name="New EntryLink" hidden="false" targetId="f124-3e29-15fe-b134" type="selectionEntry">
@@ -347,7 +441,64 @@ subtract 2 from the random number of models that take part in the mission for a 
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="54ac-d60c-15e6-3bf5" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="522f-1d29-7a44-e368" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f61-1b26-3def-733c" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="1f26-cb1b-dfd2-7424" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="522f-1d29-7a44-e368" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dece-df52-dbad-8ea2" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="66d4-4044-cd25-1660" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="522f-1d29-7a44-e368" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5bfd-6e93-fc20-f950" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f563-8d05-302d-5a08" value="6&quot;">
+              <repeats>
+                <repeat field="selections" scope="522f-1d29-7a44-e368" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e47e-e26c-dd34-a0dc" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="8858-06ca-0be3-cd2a" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="522f-1d29-7a44-e368" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a15f-c65e-8df1-41ed" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="0098-42da-9043-eaf9" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="522f-1d29-7a44-e368" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d06-86b4-988c-cb04" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="c64c-c2a1-b9aa-3645" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="522f-1d29-7a44-e368" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e1e-3134-3bf0-1c79" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="1651-d65d-aa0b-e006" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="522f-1d29-7a44-e368" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d14e-3d2f-1be5-2e89" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="5&quot;"/>
             <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="5"/>
@@ -519,6 +670,24 @@ subtract 2 from the random number of models that take part in the mission for a 
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="bf3c-cab8-c6f4-9934" name="Advance Attributes" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="d33b-288a-9fdd-c89f" name="New EntryLink" hidden="false" targetId="b49f-e16e-537f-39a0" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="2afa-1a99-54bf-50af" name="New EntryLink" hidden="false" targetId="f124-3e29-15fe-b134" type="selectionEntry">
@@ -550,7 +719,7 @@ subtract 2 from the random number of models that take part in the mission for a 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fd2-ff64-8c42-c09b" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="d5f3-f613-5bfa-87d8" name="New EntryLink" hidden="false" targetId="0b73-522c-86ba-3c33" type="selectionEntry">
+        <entryLink id="d5f3-f613-5bfa-87d8" name="New EntryLink" hidden="true" targetId="0b73-522c-86ba-3c33" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -566,6 +735,13 @@ subtract 2 from the random number of models that take part in the mission for a 
               <repeats/>
               <conditions>
                 <condition field="selections" scope="522f-1d29-7a44-e368" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d25f-b6df-dd5e-d4ee" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="522f-1d29-7a44-e368" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d25f-b6df-dd5e-d4ee" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -782,6 +958,15 @@ subtract 2 from the random number of models that take part in the mission for a 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8f0-ed40-e7a9-54ad" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="22e0-bcc1-7c16-e3ed" name="New EntryLink" hidden="false" targetId="e8ed-b7ef-0ff5-85dd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="13ce-9e75-e7cf-3837" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="248e-3f52-328f-a0a3" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="Points" value="175.0"/>
@@ -793,7 +978,64 @@ subtract 2 from the random number of models that take part in the mission for a 
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="0098-42da-9043-eaf9" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="3a0b-dfeb-784b-bfe6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d06-86b4-988c-cb04" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="66d4-4044-cd25-1660" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="3a0b-dfeb-784b-bfe6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5bfd-6e93-fc20-f950" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="8858-06ca-0be3-cd2a" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="3a0b-dfeb-784b-bfe6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a15f-c65e-8df1-41ed" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="1f26-cb1b-dfd2-7424" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="3a0b-dfeb-784b-bfe6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dece-df52-dbad-8ea2" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="c64c-c2a1-b9aa-3645" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="3a0b-dfeb-784b-bfe6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e1e-3134-3bf0-1c79" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f563-8d05-302d-5a08" value="6&quot;">
+              <repeats>
+                <repeat field="selections" scope="3a0b-dfeb-784b-bfe6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e47e-e26c-dd34-a0dc" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="1651-d65d-aa0b-e006" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="3a0b-dfeb-784b-bfe6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d14e-3d2f-1be5-2e89" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="54ac-d60c-15e6-3bf5" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="3a0b-dfeb-784b-bfe6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f61-1b26-3def-733c" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="5&quot;"/>
             <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="4"/>
@@ -989,6 +1231,24 @@ subtract 2 from the random number of models that take part in the mission for a 
               <constraints/>
             </entryLink>
             <entryLink id="1901-0919-891e-a524" name="New EntryLink" hidden="false" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="88de-4276-1800-44da" name="Advance Attributes" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="a78b-b7c0-5041-714b" name="New EntryLink" hidden="false" targetId="b49f-e16e-537f-39a0" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
