@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0156-386b-7ece-ac9c" name="Astra Militarum Veteran Kill Team" revision="3" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0156-386b-7ece-ac9c" name="Astra Militarum Veteran Kill Team" revision="1" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="6d9a-5121-1e08-e14b" name="Voice of Command" hidden="false">
@@ -1685,6 +1685,26 @@
         <cost name="pts" costTypeId="Points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="a847-2bb1-2cc0-8a1e" name="Combat blade" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="af9b-ce59-3001-68b2" name="New InfoLink" hidden="false" targetId="c137-6734-d907-5e54" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="5.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="b2cc-744d-56e9-e881" name="Grenades" book="Shadow War: Armageddon" page="75" hidden="false" collective="false">
@@ -1772,7 +1792,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="0a7c-e69b-74ce-4776" name="New EntryLink" hidden="false" targetId="9299-dd9c-cf01-32f0" type="selectionEntry">
+        <entryLink id="0a7c-e69b-74ce-4776" name="New EntryLink" hidden="false" targetId="a847-2bb1-2cc0-8a1e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1866,9 +1886,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a56b-8e29-e06d-a634" type="max"/>
-          </constraints>
+          <constraints/>
         </entryLink>
         <entryLink id="d3ac-d49f-e9cf-3b38" name="New EntryLink" hidden="false" targetId="dd50-d590-8df8-208b" type="selectionEntry">
           <profiles/>

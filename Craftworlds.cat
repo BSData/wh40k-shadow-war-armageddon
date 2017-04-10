@@ -289,7 +289,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="Points" value="0.0"/>
+        <cost name="pts" costTypeId="Points" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bfaf-802c-38c7-c5ca" name="D-Scythe" hidden="false" collective="false" type="upgrade">
@@ -429,7 +429,7 @@
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="327e-b867-a58e-7bdd" name="New EntryLink" hidden="false" targetId="8dc9-9e56-4056-8eb8" type="selectionEntry">
+        <entryLink id="327e-b867-a58e-7bdd" name="New EntryLink" hidden="false" targetId="9299-dd9c-cf01-32f0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -574,7 +574,7 @@
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="abb6-94b1-5ff3-7399" name="New EntryLink" hidden="false" targetId="8dc9-9e56-4056-8eb8" type="selectionEntry">
+        <entryLink id="abb6-94b1-5ff3-7399" name="New EntryLink" hidden="false" targetId="9299-dd9c-cf01-32f0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -793,7 +793,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd3d-9891-0160-91a2" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="cc72-558d-beea-06af" name="New EntryLink" hidden="false" targetId="8dc9-9e56-4056-8eb8" type="selectionEntry">
+        <entryLink id="cc72-558d-beea-06af" name="New EntryLink" hidden="false" targetId="9299-dd9c-cf01-32f0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -900,7 +900,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="d5a7-1865-7216-615a" name="New EntryLink" hidden="false" targetId="8dc9-9e56-4056-8eb8" type="selectionEntry">
+        <entryLink id="d5a7-1865-7216-615a" name="New EntryLink" hidden="false" targetId="9299-dd9c-cf01-32f0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1724,7 +1724,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="b485-6113-400a-a1f3" name="New EntryLink" hidden="false" targetId="9299-dd9c-cf01-32f0" type="selectionEntry">
+        <entryLink id="b485-6113-400a-a1f3" name="New EntryLink" hidden="false" targetId="8dc9-9e56-4056-8eb8" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
