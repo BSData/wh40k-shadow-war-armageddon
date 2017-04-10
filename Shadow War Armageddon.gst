@@ -3635,7 +3635,7 @@
             <cost name="pts" costTypeId="Points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="db24-d07c-66fc-7cf4" name="+ 1 Wound" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="db24-d07c-66fc-7cf4" name="+1 Wound" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
