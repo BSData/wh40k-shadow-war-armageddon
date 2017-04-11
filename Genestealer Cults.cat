@@ -548,7 +548,64 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="0098-42da-9043-eaf9" value="1">
+              <repeats>
+                <repeat field="selections" scope="76a8-fd77-eb53-2846" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="52d0-d0b7-244e-0f26" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="c64c-c2a1-b9aa-3645" value="1">
+              <repeats>
+                <repeat field="selections" scope="76a8-fd77-eb53-2846" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bcfe-fdaf-28fd-a765" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="54ac-d60c-15e6-3bf5" value="1">
+              <repeats>
+                <repeat field="selections" scope="76a8-fd77-eb53-2846" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5b2a-e8d6-dc1a-9604" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="8858-06ca-0be3-cd2a" value="1">
+              <repeats>
+                <repeat field="selections" scope="76a8-fd77-eb53-2846" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="455f-fe4f-2740-4233" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="66d4-4044-cd25-1660" value="1">
+              <repeats>
+                <repeat field="selections" scope="76a8-fd77-eb53-2846" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="82ac-39db-6a53-ca63" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f563-8d05-302d-5a08" value="5&quot;">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="76a8-fd77-eb53-2846" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2499-9150-7d57-e58e" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="1651-d65d-aa0b-e006" value="1">
+              <repeats>
+                <repeat field="selections" scope="76a8-fd77-eb53-2846" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="db24-d07c-66fc-7cf4" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="1f26-cb1b-dfd2-7424" value="1">
+              <repeats>
+                <repeat field="selections" scope="76a8-fd77-eb53-2846" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69c0-9914-622a-e57a" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="4&quot;"/>
             <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="3"/>
@@ -680,6 +737,13 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <modifiers/>
           <constraints/>
         </entryLink>
+        <entryLink id="a370-8fac-111c-06af" name="New EntryLink" hidden="false" targetId="b189-f62c-cfb6-2670" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="Points" value="120.0"/>
@@ -755,7 +819,64 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="0098-42da-9043-eaf9" value="1">
+              <repeats>
+                <repeat field="selections" scope="7cd6-2662-bee5-c647" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="52d0-d0b7-244e-0f26" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="c64c-c2a1-b9aa-3645" value="1">
+              <repeats>
+                <repeat field="selections" scope="7cd6-2662-bee5-c647" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bcfe-fdaf-28fd-a765" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="54ac-d60c-15e6-3bf5" value="1">
+              <repeats>
+                <repeat field="selections" scope="7cd6-2662-bee5-c647" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5b2a-e8d6-dc1a-9604" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="8858-06ca-0be3-cd2a" value="1">
+              <repeats>
+                <repeat field="selections" scope="7cd6-2662-bee5-c647" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="455f-fe4f-2740-4233" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="66d4-4044-cd25-1660" value="1">
+              <repeats>
+                <repeat field="selections" scope="7cd6-2662-bee5-c647" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="82ac-39db-6a53-ca63" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f563-8d05-302d-5a08" value="5&quot;">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="7cd6-2662-bee5-c647" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2499-9150-7d57-e58e" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="1651-d65d-aa0b-e006" value="1">
+              <repeats>
+                <repeat field="selections" scope="7cd6-2662-bee5-c647" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="db24-d07c-66fc-7cf4" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="1f26-cb1b-dfd2-7424" value="1">
+              <repeats>
+                <repeat field="selections" scope="7cd6-2662-bee5-c647" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69c0-9914-622a-e57a" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="4&quot;"/>
             <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="3"/>
@@ -858,6 +979,13 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <modifiers/>
           <constraints/>
         </entryLink>
+        <entryLink id="3ad0-3ea6-844b-4c22" name="New EntryLink" hidden="false" targetId="b189-f62c-cfb6-2670" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="Points" value="60.0"/>
@@ -950,7 +1078,64 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="0098-42da-9043-eaf9" value="1">
+              <repeats>
+                <repeat field="selections" scope="f765-c0f2-520c-2743" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="52d0-d0b7-244e-0f26" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="c64c-c2a1-b9aa-3645" value="1">
+              <repeats>
+                <repeat field="selections" scope="f765-c0f2-520c-2743" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bcfe-fdaf-28fd-a765" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="54ac-d60c-15e6-3bf5" value="1">
+              <repeats>
+                <repeat field="selections" scope="f765-c0f2-520c-2743" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5b2a-e8d6-dc1a-9604" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="8858-06ca-0be3-cd2a" value="1">
+              <repeats>
+                <repeat field="selections" scope="f765-c0f2-520c-2743" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="455f-fe4f-2740-4233" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="66d4-4044-cd25-1660" value="1">
+              <repeats>
+                <repeat field="selections" scope="f765-c0f2-520c-2743" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="82ac-39db-6a53-ca63" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f563-8d05-302d-5a08" value="5&quot;">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="f765-c0f2-520c-2743" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2499-9150-7d57-e58e" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="1651-d65d-aa0b-e006" value="1">
+              <repeats>
+                <repeat field="selections" scope="f765-c0f2-520c-2743" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="db24-d07c-66fc-7cf4" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="1f26-cb1b-dfd2-7424" value="1">
+              <repeats>
+                <repeat field="selections" scope="f765-c0f2-520c-2743" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69c0-9914-622a-e57a" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="4&quot;"/>
             <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="3"/>
@@ -1054,6 +1239,13 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <constraints/>
         </entryLink>
         <entryLink id="62a5-d6c9-5d60-cf44" name="New EntryLink" hidden="false" targetId="1d87-61c2-3f82-9ae2" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="826e-1bcc-f259-fa98" name="New EntryLink" hidden="false" targetId="b189-f62c-cfb6-2670" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
