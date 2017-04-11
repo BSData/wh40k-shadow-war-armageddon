@@ -22,7 +22,7 @@
           <conditionGroups/>
         </modifier>
       </modifiers>
-      <description>The Wolf Scouts of the Space Wolves, unlike those of other Chapterss, are fully fledged Space Marinesm, with a lifetime&apos;s experience on the battlefield. If you choose the Space Wolves sub-faction for your Space Marine Scout kill team, you cannot recruit any Noitiate Scouts - new recruits belong in the Blood Claws! However, your Scout Gunners have access to the Space Wolves Special Weapons list, in addition to those they normally have access to.</description>
+      <description>The Wolf Scouts of the Space Wolves, unlike those of other Chapters, are fully fledged Space Marinesm, with a lifetime&apos;s experience on the battlefield. If you choose the Space Wolves sub-faction for your Space Marine Scout kill team, you cannot recruit any Noitiate Scouts - new recruits belong in the Blood Claws! However, your Scout Gunners have access to the Space Wolves Special Weapons list, in addition to those they normally have access to.</description>
     </rule>
   </rules>
   <infoLinks/>
@@ -1311,7 +1311,7 @@
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="ab5b-1235-228e-4a3b" name="New EntryLink" hidden="false" targetId="1b1c-bda3-6655-d61f" type="selectionEntry">
+        <entryLink id="ab5b-1235-228e-4a3b" name="New EntryLink" hidden="false" targetId="89c0-15d1-b874-dfaf" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
