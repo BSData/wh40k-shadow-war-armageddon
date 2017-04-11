@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2671-bb54-8181-3a2b" name="Dark Eldar Kill Team" revision="1" battleScribeVersion="2.00" authorName="GenWilhelm" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2671-bb54-8181-3a2b" name="Dark Eldar Kill Team" revision="2" battleScribeVersion="2.00" authorName="GenWilhelm" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="926a-88a7-6027-d2d3" name="Combat Drugs" hidden="false">
@@ -125,7 +125,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f678-6e6d-7668-8394" name="Agoniser" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -183,7 +185,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a4ae-98d0-ba01-e133" name="Chainhook" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -241,7 +245,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9a6e-0f81-95a2-df58" name="Syren" hidden="false" collective="false" type="model">
       <profiles>
@@ -249,7 +255,64 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="0098-42da-9043-eaf9" value="1">
+              <repeats>
+                <repeat field="selections" scope="9a6e-0f81-95a2-df58" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="52d0-d0b7-244e-0f26" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="c64c-c2a1-b9aa-3645" value="1">
+              <repeats>
+                <repeat field="selections" scope="9a6e-0f81-95a2-df58" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bcfe-fdaf-28fd-a765" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="54ac-d60c-15e6-3bf5" value="1">
+              <repeats>
+                <repeat field="selections" scope="9a6e-0f81-95a2-df58" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5b2a-e8d6-dc1a-9604" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="8858-06ca-0be3-cd2a" value="1">
+              <repeats>
+                <repeat field="selections" scope="9a6e-0f81-95a2-df58" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="455f-fe4f-2740-4233" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="66d4-4044-cd25-1660" value="1">
+              <repeats>
+                <repeat field="selections" scope="9a6e-0f81-95a2-df58" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="82ac-39db-6a53-ca63" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f563-8d05-302d-5a08" value="7&quot;">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="9a6e-0f81-95a2-df58" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2499-9150-7d57-e58e" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="1651-d65d-aa0b-e006" value="1">
+              <repeats>
+                <repeat field="selections" scope="9a6e-0f81-95a2-df58" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="db24-d07c-66fc-7cf4" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="1f26-cb1b-dfd2-7424" value="1">
+              <repeats>
+                <repeat field="selections" scope="9a6e-0f81-95a2-df58" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69c0-9914-622a-e57a" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="6&quot;"/>
             <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="4"/>
@@ -373,6 +436,13 @@
           <modifiers/>
           <constraints/>
         </entryLink>
+        <entryLink id="3b10-cde7-399a-f5c6" name="New EntryLink" hidden="false" targetId="b189-f62c-cfb6-2670" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="Points" value="150.0"/>
@@ -401,10 +471,87 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="230e-6493-7bf0-0fe9" name="Bloodbride" hidden="false" collective="false" type="model">
-      <profiles/>
+      <profiles>
+        <profile id="ed50-ce55-0b75-092c" name="Wych" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="0098-42da-9043-eaf9" value="1">
+              <repeats>
+                <repeat field="selections" scope="230e-6493-7bf0-0fe9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="52d0-d0b7-244e-0f26" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="c64c-c2a1-b9aa-3645" value="1">
+              <repeats>
+                <repeat field="selections" scope="230e-6493-7bf0-0fe9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bcfe-fdaf-28fd-a765" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="54ac-d60c-15e6-3bf5" value="1">
+              <repeats>
+                <repeat field="selections" scope="230e-6493-7bf0-0fe9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5b2a-e8d6-dc1a-9604" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="8858-06ca-0be3-cd2a" value="1">
+              <repeats>
+                <repeat field="selections" scope="230e-6493-7bf0-0fe9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="455f-fe4f-2740-4233" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="66d4-4044-cd25-1660" value="1">
+              <repeats>
+                <repeat field="selections" scope="230e-6493-7bf0-0fe9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="82ac-39db-6a53-ca63" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f563-8d05-302d-5a08" value="7&quot;">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="230e-6493-7bf0-0fe9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2499-9150-7d57-e58e" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="1651-d65d-aa0b-e006" value="1">
+              <repeats>
+                <repeat field="selections" scope="230e-6493-7bf0-0fe9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="db24-d07c-66fc-7cf4" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="1f26-cb1b-dfd2-7424" value="1">
+              <repeats>
+                <repeat field="selections" scope="230e-6493-7bf0-0fe9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69c0-9914-622a-e57a" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="6&quot;"/>
+            <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="4"/>
+            <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="4"/>
+            <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="3"/>
+            <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="3"/>
+            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="1"/>
+            <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="6"/>
+            <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="2"/>
+            <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="9"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -487,6 +634,13 @@
           <modifiers/>
           <constraints/>
         </entryLink>
+        <entryLink id="e1f8-8ea5-b9fe-5f2d" name="New EntryLink" hidden="false" targetId="b189-f62c-cfb6-2670" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="Points" value="100.0"/>
@@ -498,7 +652,64 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="0098-42da-9043-eaf9" value="1">
+              <repeats>
+                <repeat field="selections" scope="af74-4d4a-6028-b728" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="52d0-d0b7-244e-0f26" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="c64c-c2a1-b9aa-3645" value="1">
+              <repeats>
+                <repeat field="selections" scope="af74-4d4a-6028-b728" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bcfe-fdaf-28fd-a765" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="54ac-d60c-15e6-3bf5" value="1">
+              <repeats>
+                <repeat field="selections" scope="af74-4d4a-6028-b728" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5b2a-e8d6-dc1a-9604" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="8858-06ca-0be3-cd2a" value="1">
+              <repeats>
+                <repeat field="selections" scope="af74-4d4a-6028-b728" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="455f-fe4f-2740-4233" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="66d4-4044-cd25-1660" value="1">
+              <repeats>
+                <repeat field="selections" scope="af74-4d4a-6028-b728" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="82ac-39db-6a53-ca63" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f563-8d05-302d-5a08" value="7&quot;">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="af74-4d4a-6028-b728" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2499-9150-7d57-e58e" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="1651-d65d-aa0b-e006" value="1">
+              <repeats>
+                <repeat field="selections" scope="af74-4d4a-6028-b728" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="db24-d07c-66fc-7cf4" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="1f26-cb1b-dfd2-7424" value="1">
+              <repeats>
+                <repeat field="selections" scope="af74-4d4a-6028-b728" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69c0-9914-622a-e57a" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="6&quot;"/>
             <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="4"/>
@@ -588,6 +799,13 @@
           <constraints/>
         </entryLink>
         <entryLink id="215a-ddf2-89f0-6357" name="New EntryLink" hidden="false" targetId="0ff5-5c93-42d9-5c29" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="e350-8a3d-d824-cafa" name="New EntryLink" hidden="false" targetId="b189-f62c-cfb6-2670" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -923,7 +1141,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a3dc-2769-bc14-d7ea" name="Shardcarbine" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -959,7 +1179,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8089-b6ae-1342-d8cd" name="Blaster" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -988,7 +1210,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a3ca-1ae4-56fc-a657" name="Shredder" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1017,7 +1241,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ebb3-44e0-4225-7119" name="Dark Lance" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1046,7 +1272,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a439-fe0c-6eb5-9154" name="Haywire Blaster" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1075,7 +1303,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3697-be16-bfe5-a7aa" name="Heat Lance" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1104,7 +1334,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b897-effd-5c12-c087" name="Splinter Cannon" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1140,7 +1372,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="76ca-c584-d1bb-b2a2" name="Plasma Grenades" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1188,7 +1422,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4f10-99ba-1c0c-a03a" name="Gnarlskin" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1210,7 +1446,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ce0b-fc76-5cb3-96dd" name="Blade Venom" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1364,7 +1602,9 @@
           <constraints/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b3ab-c5e8-e7d5-614d" name="Haemonculus" hidden="false" collective="false" type="model">
       <profiles>
@@ -1459,7 +1699,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="96c5-31b8-75a3-7109" name="Scourge" hidden="false" collective="false" type="model">
       <profiles>
@@ -1585,7 +1827,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
