@@ -249,7 +249,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="Points" value="0.0"/>
+        <cost name="pts" costTypeId="Points" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ad8d-3117-33e4-2d91" name="Rending Claw" hidden="false" collective="false" type="upgrade">
