@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5867-48cf-f4d8-496f" name="Tyranid Warrior Kill Team" revision="4" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5867-48cf-f4d8-496f" name="Tyranid Warrior Kill Team" revision="5" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -248,7 +248,7 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="2d8b-ccb1-526a-7a13" name="New EntryLink" hidden="false" targetId="f124-3e29-15fe-b134" type="selectionEntry">
+            <entryLink id="2d8b-ccb1-526a-7a13" name="New EntryLink" hidden="false" targetId="968b-8b96-7350-aeac" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -363,11 +363,6 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="Points" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
             <modifier type="set" field="e617-6777-96ad-1c50" value="0.0">
               <repeats/>
               <conditions/>
@@ -572,7 +567,7 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="f816-cc1a-de27-2c62" name="New EntryLink" hidden="false" targetId="f124-3e29-15fe-b134" type="selectionEntry">
+            <entryLink id="f816-cc1a-de27-2c62" name="New EntryLink" hidden="false" targetId="968b-8b96-7350-aeac" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -666,11 +661,6 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="Points" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
             <modifier type="set" field="8fd2-ff64-8c42-c09b" value="0.0">
               <repeats/>
               <conditions/>
@@ -825,7 +815,7 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="29f9-fd54-0fbb-fbe0" name="New EntryLink" hidden="false" targetId="f124-3e29-15fe-b134" type="selectionEntry">
+            <entryLink id="29f9-fd54-0fbb-fbe0" name="New EntryLink" hidden="false" targetId="968b-8b96-7350-aeac" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -887,11 +877,6 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="Points" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
             <modifier type="set" field="55c9-3d72-d1dd-dcd1" value="0.0">
               <repeats/>
               <conditions/>
@@ -1089,7 +1074,7 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="cf39-57a3-e5e1-3333" name="New EntryLink" hidden="false" targetId="f124-3e29-15fe-b134" type="selectionEntry">
+            <entryLink id="cf39-57a3-e5e1-3333" name="New EntryLink" hidden="false" targetId="968b-8b96-7350-aeac" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1215,11 +1200,6 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="Points" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
             <modifier type="set" field="93a5-b1c5-28b4-32ef" value="0.0">
               <repeats/>
               <conditions/>
@@ -2101,9 +2081,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="Points" value="10.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="7931-db4c-653c-8437" name="Adrenal glands" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2292,6 +2270,38 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="968b-8b96-7350-aeac" name="Pair of scything talons" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6ae2-820e-c4fd-b786" name="New InfoLink" hidden="false" targetId="7d7d-581a-e649-019b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="15b3-d7f7-54a6-7b8a" name="New InfoLink" hidden="false" targetId="5214-29d8-2cb3-3f0a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="37e3-8534-79b6-ec72" name="New InfoLink" hidden="false" targetId="72f0-5212-615b-cb4d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="10.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
