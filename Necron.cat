@@ -801,14 +801,14 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-9&quot;"/>
-            <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="9-18&quot;"/>
+            <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-12&quot;"/>
+            <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="12-24&quot;"/>
             <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="-"/>
             <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
             <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="5"/>
             <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
-            <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-1"/>
-            <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="5+"/>
+            <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-"/>
+            <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="4+"/>
             <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Sustained Fire: 1 dice"/>
           </characteristics>
         </profile>
