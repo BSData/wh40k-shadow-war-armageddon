@@ -422,7 +422,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="b290-69be-8878-8eff" value="The end of the safety line must be fastened for it it work. A model can fasten a harness if it does not move in  its movement phase. The fighter can still perform other actions in addition to fastening the harness, such as shooting or going into overwatch. The harness is automatically unfastened when the model moves or eners hand-to-hand combat.  If a model with a fastened safty line becomes pinned or goes down within 1&quot; of an edge ten it does not have to test to fall. The fastened harness prevents the wearer from falling, just as if they passed an Initiative test."/>
+            <characteristic name="Description" characteristicTypeId="b290-69be-8878-8eff" value="The end of the safety line must be fastened for it it work. A model can fasten a harness if it does not move in its movement phase. The fighter can still perform other actions in addition to fastening the harness, such as shooting or going into overwatch. The harness is automatically unfastened when the model moves or eners hand-to-hand combat.  If a model with a fastened safety line becomes pinned or goes down within 1&quot; of an edge then it does not have to test to fall. The fastened harness prevents the wearer from falling, just as if they passed an Initiative test."/>
           </characteristics>
         </profile>
       </profiles>
