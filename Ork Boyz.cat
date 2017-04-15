@@ -606,7 +606,7 @@
             <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="2"/>
             <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="3"/>
             <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="4"/>
-            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="2"/>
+            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="1"/>
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="2"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="7"/>
