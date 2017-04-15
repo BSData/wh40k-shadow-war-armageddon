@@ -13,7 +13,63 @@
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
-  <forceEntries/>
+  <forceEntries>
+    <forceEntry id="06b3-4a6d-d56a-ced1" name="Astra Militarum Veterans" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcbc-57ee-d27d-40f2" type="max"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9682-f39e-d8ea-cd7a" type="min"/>
+      </constraints>
+      <categoryEntries>
+        <categoryEntry id="1ec6-0974-443a-ed72" name="Leader" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e74-43b0-4978-308e" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a38-dab3-f86b-2d7d" type="min"/>
+          </constraints>
+        </categoryEntry>
+        <categoryEntry id="0b67-41dd-8baf-b40a" name="Troopers" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryEntry>
+        <categoryEntry id="6e04-288f-88cc-296f" name="Specialists" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6f0-c12a-47b5-8ff2" type="max"/>
+          </constraints>
+        </categoryEntry>
+        <categoryEntry id="ae73-3b38-e17c-7274" name="New Recruits" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="limit::Points" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="false" id="fa21-938f-a0f3-3e49" type="max"/>
+          </constraints>
+        </categoryEntry>
+        <categoryEntry id="1025-5a11-01a8-7123" name="Special Operatives" book="Shadow War: Armageddon" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryEntry>
+      </categoryEntries>
+      <forceEntries/>
+    </forceEntry>
+  </forceEntries>
   <selectionEntries>
     <selectionEntry id="874a-b4b4-69c3-fd05" name="Veteran Sergeant" book="Shadow War: Armageddon" page="74" hidden="false" collective="false" categoryEntryId="d857-ffdb-a6af-c1d3" type="model">
       <profiles/>
