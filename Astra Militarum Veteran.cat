@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0156-386b-7ece-ac9c" name="Astra Militarum Veteran Kill Team" revision="4" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0156-386b-7ece-ac9c" name="Astra Militarum Veteran Kill Team" revision="5" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="6d9a-5121-1e08-e14b" name="Voice of Command" hidden="false">
@@ -24,7 +24,7 @@
         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9682-f39e-d8ea-cd7a" type="min"/>
       </constraints>
       <categoryEntries>
-        <categoryEntry id="1ec6-0974-443a-ed72" name="Leader" hidden="false">
+        <categoryEntry id="d857-ffdb-a6af-c1d3" name="Leader" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -34,14 +34,14 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a38-dab3-f86b-2d7d" type="min"/>
           </constraints>
         </categoryEntry>
-        <categoryEntry id="0b67-41dd-8baf-b40a" name="Troopers" hidden="false">
+        <categoryEntry id="b6d4-0969-5e1a-27b6" name="Troopers" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </categoryEntry>
-        <categoryEntry id="6e04-288f-88cc-296f" name="Specialists" hidden="false">
+        <categoryEntry id="0dde-ebb1-9d60-153e" name="Specialists" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -50,7 +50,7 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6f0-c12a-47b5-8ff2" type="max"/>
           </constraints>
         </categoryEntry>
-        <categoryEntry id="ae73-3b38-e17c-7274" name="New Recruits" hidden="false">
+        <categoryEntry id="6900-8e96-c5cf-b1c8" name="New Recruits" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -59,7 +59,7 @@
             <constraint field="limit::Points" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="false" id="fa21-938f-a0f3-3e49" type="max"/>
           </constraints>
         </categoryEntry>
-        <categoryEntry id="1025-5a11-01a8-7123" name="Special Operatives" book="Shadow War: Armageddon" hidden="false">
+        <categoryEntry id="5901-345e-04ba-e937" name="Special Operatives" book="Shadow War: Armageddon" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2064,7 +2064,7 @@
         <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="3"/>
         <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="3"/>
         <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="1"/>
-        <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="33"/>
+        <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="3"/>
         <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
         <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="7"/>
       </characteristics>
