@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d619-26f1-bc79-0b55" name="Genestealer Cults Kill Team" revision="3" battleScribeVersion="2.00" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d619-26f1-bc79-0b55" name="Genestealer Cults Kill Team" revision="4" battleScribeVersion="2.00" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="c46a-31a2-2486-3cb5" name="Genestealer Cult Hybrid Kill Team" hidden="false">
@@ -1411,7 +1411,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="Points" value="25.0"/>
+        <cost name="pts" costTypeId="Points" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="06fe-84cf-ff42-bb99" name="Hot-shot Laser Power Pack" hidden="false" collective="false" type="upgrade">
