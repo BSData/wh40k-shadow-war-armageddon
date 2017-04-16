@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8fa4-05bd-9679-c510" name="Grey Knights Kill Team" revision="3" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8fa4-05bd-9679-c510" name="Grey Knights Kill Team" revision="4" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="e63c-1f6a-a065-b8f7" name="And They Shall Know No Fear" book="Grey Knights Kill Team" page="1" hidden="false">
@@ -274,7 +274,7 @@ psychic ability.</description>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc19-e6b1-e2dd-eada" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4eae-8584-fb60-9b85" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4eae-8584-fb60-9b85" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1664,7 +1664,14 @@ additional promethium cache.</description>
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="bcae-d217-272f-226c" name="New InfoLink" hidden="false" targetId="0d37-83ec-d167-e3f7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <selectionEntries/>
@@ -1731,7 +1738,14 @@ additional promethium cache.</description>
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="2b09-c46c-29ed-eb08" name="New InfoLink" hidden="false" targetId="0d37-83ec-d167-e3f7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <selectionEntries/>
@@ -1742,17 +1756,26 @@ additional promethium cache.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="234f-4fee-36e4-9187" name="Purge Soul" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules>
-        <rule id="4c38-7229-2344-2784" name="Purge Soul" hidden="false">
+      <profiles>
+        <profile id="42c9-5dc9-e396-a0e7" name="Purge Soul" hidden="false" profileTypeId="4f97-5f00-b0bb-5d1b" profileTypeName="Psychic abilities">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Pick an enemy fighter that is within 8&quot; of him and within his line of sight. Both the caster and the target fighter must roll a dice and add their Leadership characteristic. If the target’s total is greater than or equal to the caster’s total, nothing happens. If the caster’s total is greater than the target’s total, the target fighter suffers a number of wounds equal to the difference. No armour saves may be taken against wounds caused in this manner.</description>
-        </rule>
-      </rules>
-      <infoLinks/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="5a56-3d44-16f9-f11e" value="Pick an enemy fighter that is within 8&quot; of him and within his line of sight. Both the caster and the target fighter must roll a dice and add their Leadership characteristic. If the target’s total is greater than or equal to the caster’s total, nothing happens. If the caster’s total is greater than the target’s total, the target fighter suffers a number of wounds equal to the difference. No armour saves may be taken against wounds caused in this manner."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="443f-4a94-f76d-f506" name="New InfoLink" hidden="false" targetId="0d37-83ec-d167-e3f7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <selectionEntries/>
