@@ -1664,7 +1664,14 @@ additional promethium cache.</description>
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="bcae-d217-272f-226c" name="New InfoLink" hidden="false" targetId="0d37-83ec-d167-e3f7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <selectionEntries/>
@@ -1731,7 +1738,14 @@ additional promethium cache.</description>
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="2b09-c46c-29ed-eb08" name="New InfoLink" hidden="false" targetId="0d37-83ec-d167-e3f7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <selectionEntries/>
@@ -1754,7 +1768,14 @@ additional promethium cache.</description>
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="443f-4a94-f76d-f506" name="New InfoLink" hidden="false" targetId="0d37-83ec-d167-e3f7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <selectionEntries/>
