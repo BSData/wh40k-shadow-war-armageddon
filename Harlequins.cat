@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e3a1-e2a2-0869-9c80" name="Harlequins Kill Team" revision="2" battleScribeVersion="2.00" authorName="GenWilhelm" authorUrl="https://github.com/VisionHeavy/BSData_Shadow_War" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e3a1-e2a2-0869-9c80" name="Harlequins Kill Team" revision="3" battleScribeVersion="2.00" authorName="GenWilhelm" authorUrl="https://github.com/VisionHeavy/BSData_Shadow_War" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="ea6c-dd36-7925-81f4" name="Harlequin Troupe Kill Team" hidden="false">
@@ -1870,18 +1870,14 @@ D3 promethium caches.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="645e-8f50-ee95-1579" type="max"/>
-          </constraints>
+          <constraints/>
         </entryLink>
         <entryLink id="0c7b-87fa-91d7-74d9" name="New EntryLink" hidden="false" targetId="de54-5fd7-e08b-30fc" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b3d-e396-c85b-9a69" type="max"/>
-          </constraints>
+          <constraints/>
         </entryLink>
         <entryLink id="34ad-b42b-2e4b-c7be" name="New EntryLink" hidden="false" targetId="83b2-659a-543c-f920" type="selectionEntry">
           <profiles/>
@@ -1902,27 +1898,21 @@ D3 promethium caches.</description>
               </conditionGroups>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c0a-4fe7-2217-1f88" type="max"/>
-          </constraints>
+          <constraints/>
         </entryLink>
         <entryLink id="3388-27a5-4d1d-1ca8" name="New EntryLink" hidden="false" targetId="d50a-8187-6820-5064" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07a8-e780-3b1f-689c" type="max"/>
-          </constraints>
+          <constraints/>
         </entryLink>
         <entryLink id="194f-5fab-ea04-88c5" name="New EntryLink" hidden="false" targetId="a4f9-17a1-cc65-f407" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f78-2cc3-a38d-7d71" type="max"/>
-          </constraints>
+          <constraints/>
         </entryLink>
         <entryLink id="9a40-cdb7-e945-ad39" name="New EntryLink" hidden="false" targetId="da85-1ae8-ba28-0af9" type="selectionEntry">
           <profiles/>
@@ -1943,9 +1933,7 @@ D3 promethium caches.</description>
               </conditionGroups>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b49b-1596-3690-c65c" type="max"/>
-          </constraints>
+          <constraints/>
         </entryLink>
         <entryLink id="0425-195d-5e91-1ff9" name="New EntryLink" hidden="false" targetId="ed27-a087-9d8d-7c6d" type="selectionEntry">
           <profiles/>
@@ -1965,9 +1953,7 @@ D3 promethium caches.</description>
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47d4-0fa3-b761-ea03" type="max"/>
-          </constraints>
+          <constraints/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -1985,9 +1971,7 @@ D3 promethium caches.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e0e-34a6-262a-257f" type="max"/>
-          </constraints>
+          <constraints/>
         </entryLink>
         <entryLink id="4f0f-6ebf-661a-9d8c" name="New EntryLink" hidden="false" targetId="3d78-67d7-6074-ef6a" type="selectionEntry">
           <profiles/>
@@ -2008,9 +1992,7 @@ D3 promethium caches.</description>
               </conditionGroups>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f56-4737-af51-eeff" type="max"/>
-          </constraints>
+          <constraints/>
         </entryLink>
         <entryLink id="1752-5c99-49dd-e5d0" name="New EntryLink" hidden="false" targetId="a474-db54-65ee-f489" type="selectionEntry">
           <profiles/>
@@ -2031,9 +2013,7 @@ D3 promethium caches.</description>
               </conditionGroups>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4300-9058-b5ca-3dc8" type="max"/>
-          </constraints>
+          <constraints/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
