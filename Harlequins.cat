@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e3a1-e2a2-0869-9c80" name="Harlequins Kill Team" revision="3" battleScribeVersion="2.00" authorName="GenWilhelm" authorUrl="https://github.com/VisionHeavy/BSData_Shadow_War" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e3a1-e2a2-0869-9c80" name="Harlequins Kill Team" revision="4" battleScribeVersion="2.00" authorName="GenWilhelm" authorUrl="https://github.com/VisionHeavy/BSData_Shadow_War" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="ea6c-dd36-7925-81f4" name="Harlequin Troupe Kill Team" hidden="false">
@@ -105,7 +105,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
     </selectionEntry>
     <selectionEntry id="da85-1ae8-ba28-0af9" name="Harlequin&apos;s Embrace" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="84eb-00ca-78bc-b0a7" name="Harlequin&apos;s Caress" hidden="false" profileTypeId="af37-1358-a047-8f1b" profileTypeName="Melee weapons">
+        <profile id="84eb-00ca-78bc-b0a7" name="Harlequin&apos;s Embrace" hidden="false" profileTypeId="af37-1358-a047-8f1b" profileTypeName="Melee weapons">
           <profiles/>
           <rules/>
           <infoLinks/>
