@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="d071-2e1e-3aec-44a1" name="Shadow War: Armageddon" book="Shadow War: Armageddon" revision="8" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="d071-2e1e-3aec-44a1" name="Shadow War: Armageddon" book="Shadow War: Armageddon" revision="9" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -402,6 +402,12 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="9cfa-3c13-e3ba-8fe4" name="New InfoLink" hidden="false" targetId="2a11-ee40-f04c-b7b5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -537,7 +543,7 @@
         <cost name="pts" costTypeId="Points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1b50-cb95-45f7-e1ed" name="Hotspot laser power pack" book="Shadow War: Armageddon" page="75" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1b50-cb95-45f7-e1ed" name="Hotshot laser power pack" book="Shadow War: Armageddon" page="75" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
