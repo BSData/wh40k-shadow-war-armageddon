@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="62be-6baa-3320-988b" name="Space Marine Scouts" book="Shadow War: Armageddon" page="72" revision="5" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="62be-6baa-3320-988b" name="Space Marine Scouts" book="Shadow War: Armageddon" page="72" revision="6" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="4523-d000-abef-21ba" name="And They Shall Know No Fear" hidden="false">
@@ -1222,7 +1222,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="Points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1283,7 +1285,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fe28-6037-a1a6-d242" name="Veteran" hidden="false" collective="false" type="model">
       <profiles>
@@ -1393,7 +1397,9 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="a0da-12dd-5d03-f207" name="Flamer" book="Shadow War: Armageddon" page="75" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -1423,7 +1429,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="b7cf-3c5b-af17-1aeb" name="Meltagun" book="Shadow War: Armageddon" page="75" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -1441,7 +1449,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="77a0-b7fc-def5-b1e2" name="Plasma gun" book="Shadow War: Armageddon" page="75" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -1471,7 +1481,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="8a70-a240-d548-5c26" name="Storm bolter" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -1489,7 +1501,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -1576,7 +1590,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="8225-b528-cc78-3c52" name="Plasma pistol" book="Shadow War: Armageddon" page="75" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -1606,7 +1622,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -1663,7 +1681,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="44ef-cd1e-a874-e913" name="Pair of lightning claws" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1687,7 +1707,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0313-97db-ef46-6686" name="Terminator" hidden="false" collective="false" type="model">
       <profiles>
@@ -1768,7 +1790,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="0ca3-333e-6bd9-a8ac" name="Storm bolter &amp; power fist" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -1792,7 +1816,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="81fa-2c5a-84b0-6596" name="Thunder hammer &amp; storm shield" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -1822,7 +1848,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -1838,7 +1866,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="9de7-8b45-b3a4-9f51" name="New EntryLink" hidden="false" targetId="0313-97db-ef46-6686" type="selectionEntry">
+        <entryLink id="9de7-8b45-b3a4-9f51" name="New EntryLink" hidden="false" targetId="a1b7-c813-fbe7-e6cd" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1848,7 +1876,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ae84-b91a-8426-f314" name="Deathwatch Veteran" hidden="false" collective="false" type="model">
       <profiles>
@@ -1927,7 +1957,9 @@
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="pts" costTypeId="Points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
@@ -1990,7 +2022,9 @@
                   </constraints>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="a4b7-9fa2-c788-299f" name="Boltgun &amp; power weapon" book="Shadow War: Armageddon" page="75" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -2076,7 +2110,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
-                  <costs/>
+                  <costs>
+                    <cost name="pts" costTypeId="Points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
@@ -2123,7 +2159,9 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="8b40-f525-4d9a-4f31" name="Power weapon &amp; storm shield" book="Shadow War: Armageddon" page="75" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -2180,7 +2218,9 @@
                   </constraints>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="012f-0096-94e7-b615" name="Shotgun" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -2204,7 +2244,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="Points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -2252,7 +2294,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2fa7-a28f-6426-41f0" name="Storm shield" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2270,7 +2314,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="84d9-32b8-cc2d-ade5" name="Power maul" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2288,7 +2334,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
