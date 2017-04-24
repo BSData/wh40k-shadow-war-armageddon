@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0156-386b-7ece-ac9c" name="Astra Militarum Veteran Kill Team" revision="5" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0156-386b-7ece-ac9c" name="Astra Militarum Veteran Kill Team" revision="6" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="6d9a-5121-1e08-e14b" name="Voice of Command" hidden="false">
@@ -72,16 +72,84 @@
   </forceEntries>
   <selectionEntries>
     <selectionEntry id="874a-b4b4-69c3-fd05" name="Veteran Sergeant" book="Shadow War: Armageddon" page="74" hidden="false" collective="false" categoryEntryId="d857-ffdb-a6af-c1d3" type="model">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="7b0f-7d47-f48f-624c" name="New InfoLink" hidden="false" targetId="f3bb-4527-2373-5302" type="profile">
+      <profiles>
+        <profile id="f3bb-4527-2373-5302" name="Veteran Sergeant" book="Shadow War: Armageddon" page="74" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+          <modifiers>
+            <modifier type="increment" field="0098-42da-9043-eaf9" value="1">
+              <repeats>
+                <repeat field="selections" scope="874a-b4b4-69c3-fd05" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="52d0-d0b7-244e-0f26" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="c64c-c2a1-b9aa-3645" value="1">
+              <repeats>
+                <repeat field="selections" scope="874a-b4b4-69c3-fd05" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bcfe-fdaf-28fd-a765" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="54ac-d60c-15e6-3bf5" value="1">
+              <repeats>
+                <repeat field="selections" scope="874a-b4b4-69c3-fd05" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5b2a-e8d6-dc1a-9604" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="8858-06ca-0be3-cd2a" value="1">
+              <repeats>
+                <repeat field="selections" scope="874a-b4b4-69c3-fd05" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="455f-fe4f-2740-4233" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="66d4-4044-cd25-1660" value="1">
+              <repeats>
+                <repeat field="selections" scope="874a-b4b4-69c3-fd05" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="82ac-39db-6a53-ca63" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f563-8d05-302d-5a08" value="5&quot;">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="874a-b4b4-69c3-fd05" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2499-9150-7d57-e58e" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="1651-d65d-aa0b-e006" value="1">
+              <repeats>
+                <repeat field="selections" scope="874a-b4b4-69c3-fd05" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="db24-d07c-66fc-7cf4" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="1f26-cb1b-dfd2-7424" value="1">
+              <repeats>
+                <repeat field="selections" scope="874a-b4b4-69c3-fd05" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69c0-9914-622a-e57a" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="4&quot;"/>
+            <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="4"/>
+            <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="4"/>
+            <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="3"/>
+            <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="3"/>
+            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="1"/>
+            <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
+            <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
+            <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries/>
@@ -189,6 +257,95 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="9342-b7ae-5215-1484" name="Skills" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="2c9c-fce0-d299-b126" name="New EntryLink" hidden="false" targetId="b189-f62c-cfb6-2670" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="9d0c-c6a9-e5dd-4703" name="New EntryLink" hidden="false" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="e3a1-02cb-46b3-48b7" name="New EntryLink" hidden="false" targetId="d792-3498-c8a8-2d16" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="987e-63b3-ebca-798e" name="New EntryLink" hidden="false" targetId="5d6d-25ca-e7ab-542b" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="964b-b2c6-afb4-62dc" name="New EntryLink" hidden="false" targetId="b7af-97de-f33e-738d" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="1270-a9a2-971f-3983" name="New EntryLink" hidden="false" targetId="39f6-a84f-1a4b-3cfc" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="b476-edfd-07ed-1658" name="New EntryLink" hidden="false" targetId="5a79-1e9b-2ae5-9dfe" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="84dd-0fc5-7418-d01e" type="equalTo"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d8e6-49eb-e9ef-8971" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
+            <entryLink id="a28e-3f64-90fc-0021" name="New EntryLink" hidden="false" targetId="ed95-48d3-3d8d-17ae" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0fc5-c89f-09bd-82db" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="1877-a607-3b49-6047" name="New EntryLink" hidden="false" targetId="b2cc-744d-56e9-e881" type="selectionEntryGroup">
@@ -250,7 +407,82 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="8846-9ece-6a47-9388" name="Veteran Guardsman" book="Shadow War: Armageddon" page="74" hidden="false" collective="false" categoryEntryId="b6d4-0969-5e1a-27b6" type="model">
-      <profiles/>
+      <profiles>
+        <profile id="ea92-9362-d7cc-6d18" name="Veteran Guardsman" book="Shadow War: Armageddon" page="74" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="0098-42da-9043-eaf9" value="1">
+              <repeats>
+                <repeat field="selections" scope="8846-9ece-6a47-9388" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="52d0-d0b7-244e-0f26" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="c64c-c2a1-b9aa-3645" value="1">
+              <repeats>
+                <repeat field="selections" scope="8846-9ece-6a47-9388" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bcfe-fdaf-28fd-a765" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="54ac-d60c-15e6-3bf5" value="1">
+              <repeats>
+                <repeat field="selections" scope="8846-9ece-6a47-9388" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5b2a-e8d6-dc1a-9604" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="8858-06ca-0be3-cd2a" value="1">
+              <repeats>
+                <repeat field="selections" scope="8846-9ece-6a47-9388" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="455f-fe4f-2740-4233" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="66d4-4044-cd25-1660" value="1">
+              <repeats>
+                <repeat field="selections" scope="8846-9ece-6a47-9388" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="82ac-39db-6a53-ca63" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f563-8d05-302d-5a08" value="5&quot;">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8846-9ece-6a47-9388" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2499-9150-7d57-e58e" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="1651-d65d-aa0b-e006" value="1">
+              <repeats>
+                <repeat field="selections" scope="8846-9ece-6a47-9388" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="db24-d07c-66fc-7cf4" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="1f26-cb1b-dfd2-7424" value="1">
+              <repeats>
+                <repeat field="selections" scope="8846-9ece-6a47-9388" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69c0-9914-622a-e57a" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="4&quot;"/>
+            <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="3"/>
+            <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="4"/>
+            <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="3"/>
+            <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="3"/>
+            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="1"/>
+            <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="3"/>
+            <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
+            <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="7"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks>
         <infoLink id="0f13-477d-bf6e-1690" name="New InfoLink" hidden="false" targetId="ea92-9362-d7cc-6d18" type="profile">
@@ -263,7 +495,134 @@
       <modifiers/>
       <constraints/>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="892c-4add-0be5-8428" name="Skills" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="0035-de96-66fc-a166" name="New EntryLink" hidden="false" targetId="b189-f62c-cfb6-2670" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="49f8-9cb7-1866-d292" name="New EntryLink" hidden="false" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="84dd-0fc5-7418-d01e" type="equalTo"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d8e6-49eb-e9ef-8971" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
+            <entryLink id="bcbb-b362-cded-9fa0" name="New EntryLink" hidden="false" targetId="d792-3498-c8a8-2d16" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0fc5-c89f-09bd-82db" type="equalTo"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d8e6-49eb-e9ef-8971" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
+            <entryLink id="7381-37a9-23ec-f1c1" name="New EntryLink" hidden="false" targetId="5d6d-25ca-e7ab-542b" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d8e6-49eb-e9ef-8971" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
+            <entryLink id="fdcc-b326-5ead-461d" name="New EntryLink" hidden="false" targetId="39f6-a84f-1a4b-3cfc" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="84dd-0fc5-7418-d01e" type="equalTo"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0fc5-c89f-09bd-82db" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
+            <entryLink id="0f99-d402-9b94-4f7e" name="New EntryLink" hidden="false" targetId="5a79-1e9b-2ae5-9dfe" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="84dd-0fc5-7418-d01e" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
+            <entryLink id="239e-428f-d003-b992" name="New EntryLink" hidden="false" targetId="ed95-48d3-3d8d-17ae" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0fc5-c89f-09bd-82db" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="554d-32ef-6e2d-80b9" name="New EntryLink" hidden="false" targetId="9299-dd9c-cf01-32f0" type="selectionEntry">
           <profiles/>
@@ -345,7 +704,25 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="51cd-a015-8267-ff5a" name="Guardsman" book="Shadow War: Armageddon" page="74" hidden="false" collective="false" categoryEntryId="6900-8e96-c5cf-b1c8" type="model">
-      <profiles/>
+      <profiles>
+        <profile id="5315-e96f-273c-35f7" name="Guardsman" book="Shadow War: Armageddon" page="74" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="4&quot;"/>
+            <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="3"/>
+            <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="3"/>
+            <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="3"/>
+            <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="3"/>
+            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="1"/>
+            <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="3"/>
+            <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
+            <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="7"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks>
         <infoLink id="6ed7-7765-bb5b-4cfa" name="New InfoLink" hidden="false" targetId="5315-e96f-273c-35f7" type="profile">
@@ -440,7 +817,82 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="f9ee-2c2a-94e9-c039" name="Special Weapons Operative" hidden="false" collective="false" categoryEntryId="0dde-ebb1-9d60-153e" type="model">
-      <profiles/>
+      <profiles>
+        <profile id="0b36-49c0-bc23-de22" name="Special Weapons Operative" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="0098-42da-9043-eaf9" value="1">
+              <repeats>
+                <repeat field="selections" scope="f9ee-2c2a-94e9-c039" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="52d0-d0b7-244e-0f26" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="c64c-c2a1-b9aa-3645" value="1">
+              <repeats>
+                <repeat field="selections" scope="f9ee-2c2a-94e9-c039" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bcfe-fdaf-28fd-a765" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="54ac-d60c-15e6-3bf5" value="1">
+              <repeats>
+                <repeat field="selections" scope="f9ee-2c2a-94e9-c039" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5b2a-e8d6-dc1a-9604" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="8858-06ca-0be3-cd2a" value="1">
+              <repeats>
+                <repeat field="selections" scope="f9ee-2c2a-94e9-c039" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="455f-fe4f-2740-4233" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="66d4-4044-cd25-1660" value="1">
+              <repeats>
+                <repeat field="selections" scope="f9ee-2c2a-94e9-c039" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="82ac-39db-6a53-ca63" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f563-8d05-302d-5a08" value="5&quot;">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="f9ee-2c2a-94e9-c039" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2499-9150-7d57-e58e" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="1651-d65d-aa0b-e006" value="1">
+              <repeats>
+                <repeat field="selections" scope="f9ee-2c2a-94e9-c039" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="db24-d07c-66fc-7cf4" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="1f26-cb1b-dfd2-7424" value="1">
+              <repeats>
+                <repeat field="selections" scope="f9ee-2c2a-94e9-c039" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69c0-9914-622a-e57a" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="4&quot;"/>
+            <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="3"/>
+            <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="4"/>
+            <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="3"/>
+            <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="3"/>
+            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="1"/>
+            <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="3"/>
+            <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
+            <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="7"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks>
         <infoLink id="50aa-4b91-fea4-ca2c" name="New InfoLink" hidden="false" targetId="0b36-49c0-bc23-de22" type="profile">
@@ -453,7 +905,132 @@
       <modifiers/>
       <constraints/>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bc18-8cfa-821f-f018" name="Skills" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="4c36-e20d-5d91-2fee" name="New EntryLink" hidden="false" targetId="b189-f62c-cfb6-2670" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="5207-c50a-fabe-4708" name="New EntryLink" hidden="false" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d8e6-49eb-e9ef-8971" type="equalTo"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="84dd-0fc5-7418-d01e" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
+            <entryLink id="3742-60fc-f701-54e2" name="New EntryLink" hidden="false" targetId="d792-3498-c8a8-2d16" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d8e6-49eb-e9ef-8971" type="equalTo"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0fc5-c89f-09bd-82db" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
+            <entryLink id="cd25-b25e-bd46-6829" name="New EntryLink" hidden="false" targetId="5d6d-25ca-e7ab-542b" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="7314-b119-f619-5e86" name="New EntryLink" hidden="false" targetId="b7af-97de-f33e-738d" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d8e6-49eb-e9ef-8971" type="equalTo"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="84dd-0fc5-7418-d01e" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
+            <entryLink id="9a64-abed-b224-f7de" name="New EntryLink" hidden="false" targetId="39f6-a84f-1a4b-3cfc" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0fc5-c89f-09bd-82db" type="equalTo"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="84dd-0fc5-7418-d01e" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
+            <entryLink id="12bc-99d1-cc52-dac0" name="New EntryLink" hidden="false" targetId="ed95-48d3-3d8d-17ae" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0fc5-c89f-09bd-82db" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="57f6-27fb-d9c3-ca27" name="New EntryLink" hidden="false" targetId="7a3f-c5c7-f5ea-0d2e" type="selectionEntryGroup">
           <profiles/>
@@ -1624,6 +2201,67 @@
         <cost name="pts" costTypeId="Points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="d561-34b6-6b9d-9947" name="Regiment" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3abe-1afb-9367-1031" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d390-996e-0977-8b9d" name="Regiments" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ecf-154c-ef5f-9968" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c1e-0605-0873-889d" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="84dd-0fc5-7418-d01e" name="Cadian" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+            <selectionEntry id="0fc5-c89f-09bd-82db" name="Catachan" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+            <selectionEntry id="d8e6-49eb-e9ef-8971" name="Steel Legion" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
@@ -2034,74 +2672,5 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules/>
-  <sharedProfiles>
-    <profile id="f3bb-4527-2373-5302" name="Veteran Sergeant" book="Shadow War: Armageddon" page="74" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="4&quot;"/>
-        <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="4"/>
-        <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="4"/>
-        <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="3"/>
-        <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="3"/>
-        <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="1"/>
-        <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
-        <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
-        <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="8"/>
-      </characteristics>
-    </profile>
-    <profile id="ea92-9362-d7cc-6d18" name="Veteran Guardsman" book="Shadow War: Armageddon" page="74" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="4&quot;"/>
-        <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="3"/>
-        <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="4"/>
-        <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="3"/>
-        <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="3"/>
-        <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="1"/>
-        <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="3"/>
-        <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
-        <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="7"/>
-      </characteristics>
-    </profile>
-    <profile id="5315-e96f-273c-35f7" name="Guardsman" book="Shadow War: Armageddon" page="74" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="4&quot;"/>
-        <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="3"/>
-        <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="3"/>
-        <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="3"/>
-        <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="3"/>
-        <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="1"/>
-        <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="3"/>
-        <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
-        <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="7"/>
-      </characteristics>
-    </profile>
-    <profile id="0b36-49c0-bc23-de22" name="Special Weapons Operative" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="4&quot;"/>
-        <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="3"/>
-        <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="4"/>
-        <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="3"/>
-        <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="3"/>
-        <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="1"/>
-        <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="3"/>
-        <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
-        <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="7"/>
-      </characteristics>
-    </profile>
-  </sharedProfiles>
+  <sharedProfiles/>
 </catalogue>
