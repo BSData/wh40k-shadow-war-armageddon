@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="d071-2e1e-3aec-44a1" name="Shadow War: Armageddon" book="Shadow War: Armageddon" revision="9" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="d071-2e1e-3aec-44a1" name="Shadow War: Armageddon" book="Shadow War: Armageddon" revision="10" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2339,6 +2339,499 @@
         <cost name="pts" costTypeId="Points" value="180.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c770-f0bb-6350-b8fc" name="Vindicare Assassin" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="e978-cdcc-d377-7241" name="Vindicare Assassin" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="6&quot;"/>
+            <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="8"/>
+            <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="8"/>
+            <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="4"/>
+            <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="4"/>
+            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="3"/>
+            <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="7"/>
+            <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="4"/>
+            <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="10"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f925-adb1-2dcf-8b1c" name="Unshakeable Focus" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>A Vindicare Assassin does not have to shoot at the closest enemy.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7700-521c-3b3e-9a87" name="New InfoLink" hidden="false" targetId="9cd4-ce48-e57a-42e3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e03f-ba1c-83ee-e0ee" name="New InfoLink" hidden="false" targetId="d109-b7e3-8a92-c93c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="c767-8542-8429-3472" name="Exitus Pistol" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="c626-09b1-513d-5fc9" name="Exitus Pistol" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Ranged Weapons">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-8&quot;"/>
+                <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="8-16&quot;"/>
+                <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="+2"/>
+                <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+                <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="4"/>
+                <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
+                <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-3"/>
+                <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="6+"/>
+                <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Exitus Ammo, Silent"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="a982-f40e-4f72-8252" name="New InfoLink" hidden="false" targetId="0908-d389-d16e-10e2" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="796c-4574-5117-a70c" name="New InfoLink" hidden="false" targetId="c9ef-f491-3b1a-7174" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78c1-430c-abad-1e99" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a819-adbf-c900-785b" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="Points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6376-e979-cc42-4fd2" name="Exitus Rifle" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="bb10-b9b3-1070-908c" name="Exitus Rifle" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Ranged Weapons">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-24&quot;"/>
+                <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="24-72&quot;"/>
+                <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="-1"/>
+                <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+                <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="4"/>
+                <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
+                <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-3"/>
+                <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="6+"/>
+                <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Exitus Ammo, Silent, Sniper Weapon"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="6404-7d1b-aae3-e4ab" name="New InfoLink" hidden="false" targetId="0908-d389-d16e-10e2" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="3a45-4a53-87d2-012f" name="New InfoLink" hidden="false" targetId="c9ef-f491-3b1a-7174" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="5b85-4498-beae-2991" name="New InfoLink" hidden="false" targetId="32e0-23ba-673a-0f4d" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06f4-27e4-9084-a287" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c6f-b8c2-537f-6d74" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="Points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b624-ae2d-3ff2-73f4" name="Blind Grenades" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="1be3-af56-3ea4-ff13" name="Blind Grenades" hidden="false" profileTypeId="a0e5-b3f6-ed97-d6a7" profileTypeName="Wargear">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="b290-69be-8878-8eff" value="If an enemy fighter charges a Vindicare Assassin that is not already involved in hand-to-hand combat, they do not gain the +1 bonus for charging in the ensuing hand-to-hand combat phase."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="821d-1a04-f808-b021" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc7d-ce06-3307-ee2a" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="Points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="5275-46a2-d166-7d0f" name="New EntryLink" hidden="false" targetId="9299-dd9c-cf01-32f0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7816-8dd5-88fb-ed4e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d40d-0dd6-a167-6b4e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9af6-2c75-c504-375b" name="New EntryLink" hidden="false" targetId="3e0a-16db-95f6-8382" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="Points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e355-74d4-2fb3-ae77" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6068-09fe-f051-36b2" name="New EntryLink" hidden="false" targetId="0bc2-eaa8-9162-587e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="Points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d297-ae47-5c8f-92db" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9ba9-1cb4-471e-b90e" name="New EntryLink" hidden="false" targetId="0c1c-724a-9505-a7f2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5265-a101-40ec-d1d5" name="Eversor Assassin" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="f74b-27c2-f249-0c3e" name="Eversor Assassin" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="6&quot;"/>
+            <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="8"/>
+            <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="8"/>
+            <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="4"/>
+            <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="4"/>
+            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="3"/>
+            <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="7"/>
+            <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="4"/>
+            <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="10"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="070a-112c-2960-8b1e" name="Frenzon" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>An Eversor Assassin is frenzied.</description>
+        </rule>
+        <rule id="2ada-a464-f8fd-8fef" name="Sprint" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>An Eversor Assassin may triple their movement rate when they run or charge, rather than doubling it as normal.</description>
+        </rule>
+        <rule id="41a9-0f7e-f155-cc5d" name="Bio-meltdown" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When an Eversor Assassin is taken out of action, before they are removed from the battlefield, each fighter within 1&quot; suffers an automatic Strength 5 hit. If this hit wounds a fighter, it inflicts 1 wound. Saves can be taken against any wounds caused, but have a -2 modifier. If, as a result of this rule, there are no fighters left on the battlefield (other than downed fighters) the Eversor Assassin&apos;s player wins the mission, regardless of any other conditions. Otherwise, the Eversor Assassin&apos;s player loses the mission, regardless of any other conditions.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="2ee5-020b-cbcc-4a2e" name="New InfoLink" hidden="false" targetId="9cd4-ce48-e57a-42e3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bcd2-113e-d048-b973" name="New InfoLink" hidden="false" targetId="d109-b7e3-8a92-c93c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="8088-592f-9d98-fcf8" name="Neuro-Gauntlet" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="0c0c-1a2a-7df6-ddec" name="Neuro-Gauntlet" hidden="false" profileTypeId="af37-1358-a047-8f1b" profileTypeName="Melee weapons">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Str." characteristicTypeId="9a9a-9bdf-2b5a-279d" value="User"/>
+                <characteristic name="Dam." characteristicTypeId="a39b-9e21-d153-3bde" value="1"/>
+                <characteristic name="Save Mod." characteristicTypeId="1b78-23d3-0ae9-ef89" value="-1"/>
+                <characteristic name="Special" characteristicTypeId="7e27-ec1b-0e2c-32a9" value="Toxic"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="fe1d-eb5a-027f-ea90" name="New InfoLink" hidden="false" targetId="bad7-5210-19f2-5530" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf42-4ebb-1fd1-f6e6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="705b-188e-6fa4-ad32" type="min"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="Points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6225-bf46-04bc-0aad" name="Sentinel Array" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="8674-e68f-8e9f-3192" name="Sentinel Array" hidden="false" profileTypeId="a0e5-b3f6-ed97-d6a7" profileTypeName="Wargear">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="b290-69be-8878-8eff" value="At the end of each of your turns, if the Eversor Assassin is not engaged in hand-to-hand combat or down, you may put them on overwatch."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bd2-4747-e8ac-b551" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c2d-d7e3-bcf8-4bc5" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="Points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1509-7418-a393-e91e" name="Executioner Pistol" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="dd4f-5b8c-ad49-f69d" name="Bolt Pistol Round" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Weapons">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-8&quot;"/>
+                <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="8-16&quot;"/>
+                <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="+2"/>
+                <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+                <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="4"/>
+                <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
+                <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-1"/>
+                <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="5+"/>
+                <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Sustained Fire 1"/>
+              </characteristics>
+            </profile>
+            <profile id="74c2-2b45-eb64-ee4f" name="Needle Pistol Round" hidden="false" profileTypeId="b255-eba6-1c9f-26fc" profileTypeName="Ranged Weapons">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Short Range" characteristicTypeId="89ac-853a-14fc-b1dd" value="0-8&quot;"/>
+                <characteristic name="Long Range" characteristicTypeId="1d1e-799a-797a-8380" value="8-16&quot;"/>
+                <characteristic name="Short To Hit" characteristicTypeId="3960-fa8d-7173-1741" value="+2"/>
+                <characteristic name="Long To Hit" characteristicTypeId="820a-4619-a5cf-19de" value="-"/>
+                <characteristic name="Str." characteristicTypeId="4992-ddc7-e15b-b52e" value="1"/>
+                <characteristic name="Dam." characteristicTypeId="e946-be4d-c2c5-7982" value="1"/>
+                <characteristic name="Save Mod." characteristicTypeId="fb7a-4c67-9c34-8d6b" value="-1"/>
+                <characteristic name="Ammo Roll" characteristicTypeId="92f3-1032-8626-d9a8" value="5+"/>
+                <characteristic name="Special" characteristicTypeId="01b9-d7ab-46e1-8a73" value="Silent, Sustained Fire 1, Toxic"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="1339-9fd6-ff93-f161" name="Executioner Pistol" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>An Eversor Assassin can choose to fire either bolt pistol rounds or needle pistol rounds each time they fire this weapon. If an ammo roll is failed for one of the kinds of rounds, the Eversor Assassin can still fire the other kind of round.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="eb7f-b7f4-9686-5bd3" name="New InfoLink" hidden="false" targetId="0908-d389-d16e-10e2" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="3415-0f91-9e28-3339" name="New InfoLink" hidden="false" targetId="bad7-5210-19f2-5530" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="521a-d24e-3bd2-3705" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83f1-2531-fa02-1e3b" type="min"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="Points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="5004-3d8e-e97b-b39a" name="New EntryLink" hidden="false" targetId="ed27-a087-9d8d-7c6d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="Points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8036-7ce6-8e77-4710" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a336-dd87-d812-b3ba" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8800-cb73-621f-7e8f" name="New EntryLink" hidden="false" targetId="0c1c-724a-9505-a7f2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="c7a9-594a-79a3-273b" name="New EntryLink" hidden="false" targetId="c4f3-d1b1-b04b-2994" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="Points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c600-eb7a-9c1e-e949" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0c1c-724a-9505-a7f2" name="Synskin" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="7059-9c67-a6e0-31c0" name="Synskin" hidden="false" profileTypeId="a0e5-b3f6-ed97-d6a7" profileTypeName="Wargear">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="b290-69be-8878-8eff" value="When you make an Injury roll for a fighter with synskin (other than for weapons with special Injury tables), treat a roll of 2 or 3 as a 1 instead."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1eba-e155-f054-24d8" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34af-abf4-6048-df44" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="39f6-a84f-1a4b-3cfc" name="Stealth Skills" hidden="false" collective="false">
@@ -3797,6 +4290,45 @@ A target suffering their final wound from this weapon does not roll on the stand
       <infoLinks/>
       <modifiers/>
       <description>A fighter wearing Terminator armour cannot be pinned by shooting attacks, unless they are from high-impact weapons.</description>
+    </rule>
+    <rule id="9cd4-ce48-e57a-42e3" name="Lone Operative" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>In a campaign, this model can only be used in Lone Operative games.</description>
+    </rule>
+    <rule id="c9ef-f491-3b1a-7174" name="Exitus Ammo" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Each time a Vindicare Assassin fires this weapon (including in hand-to-hand combat), choose one of the three following types of ammunition and apply the chosen ammunition’s rules to that shot:
+
+Shield-breaker - Invulnerable saves cannot be taken against this shot.
+Turbo-penetrator - This shot has a Damage characteristic of D3, rather than 1.
+Hellfire - When making a To Wound roll for this shot, a roll of 2+ is successful unless the target is unliving, in which case the weapon&apos;s Strength characteristic is used as normal.</description>
+    </rule>
+    <rule id="ae27-ba42-01fc-c580" name="Fearless" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A model with this special rule automatically passes fear and terror tests.</description>
+    </rule>
+    <rule id="e66d-589c-6197-2131" name="Infiltration" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Once both kill teams have been set up, but before a mission begins, you may make two free run moves with each model with this special rule. They may not do anything during these moves except run, and they may not move within 8&quot; of an enemy.</description>
+    </rule>
+    <rule id="d109-b7e3-8a92-c93c" name="Lightning Relflexes" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A model with this special rule has a 4+ invulnerable save and can never be pinned.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8fa4-05bd-9679-c510" name="Grey Knights Kill Team" revision="5" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8fa4-05bd-9679-c510" name="Grey Knights Kill Team" revision="6" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="e63c-1f6a-a065-b8f7" name="And They Shall Know No Fear" book="Grey Knights Kill Team" page="1" hidden="false">
@@ -127,6 +127,20 @@ psychic ability.</description>
       <constraints/>
     </entryLink>
     <entryLink id="812f-acbe-43d0-ebca" name="New EntryLink" hidden="false" targetId="c6c3-f867-027e-ef73" type="selectionEntry" categoryEntryId="2115-96be-dcf7-22a0">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="471a-a978-729d-d459" name="New EntryLink" hidden="false" targetId="5265-a101-40ec-d1d5" type="selectionEntry" categoryEntryId="2115-96be-dcf7-22a0">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="5ec3-d6fc-8fa5-665d" name="New EntryLink" hidden="false" targetId="c770-f0bb-6350-b8fc" type="selectionEntry" categoryEntryId="2115-96be-dcf7-22a0">
       <profiles/>
       <rules/>
       <infoLinks/>
