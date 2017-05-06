@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5867-48cf-f4d8-496f" name="Tyranid Warrior Kill Team" revision="6" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5867-48cf-f4d8-496f" name="Tyranid Warrior Kill Team" revision="7" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -299,6 +299,19 @@
               <rules/>
               <infoLinks/>
               <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="cee9-9b47-80ef-301c" name="New EntryLink" hidden="false" targetId="e827-ce02-bde0-ce75" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="Points" value="40">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
             </entryLink>
           </entryLinks>
@@ -620,6 +633,19 @@
               <modifiers/>
               <constraints/>
             </entryLink>
+            <entryLink id="a55a-ee9c-762b-7dc2" name="New EntryLink" hidden="false" targetId="e827-ce02-bde0-ce75" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="Points" value="40">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="9666-5bd7-4f14-348b" name="Skills" hidden="false" collective="false">
@@ -866,6 +892,19 @@
               <rules/>
               <infoLinks/>
               <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="9819-4879-aa07-fd04" name="New EntryLink" hidden="false" targetId="e827-ce02-bde0-ce75" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="Points" value="40">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
             </entryLink>
           </entryLinks>
@@ -1152,6 +1191,19 @@
               <modifiers/>
               <constraints/>
             </entryLink>
+            <entryLink id="b62e-1339-073c-3331" name="New EntryLink" hidden="false" targetId="e827-ce02-bde0-ce75" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="Points" value="40">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="fb02-0978-85e0-c790" name="Skills" hidden="false" collective="false">
@@ -1270,7 +1322,7 @@
             <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="3"/>
             <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="4"/>
             <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="4"/>
-            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="1"/>
+            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="3"/>
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="5"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="3"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="6"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d619-26f1-bc79-0b55" name="Genestealer Cults Kill Team" revision="4" battleScribeVersion="2.00" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d619-26f1-bc79-0b55" name="Genestealer Cults Kill Team" revision="5" battleScribeVersion="2.00" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="c46a-31a2-2486-3cb5" name="Genestealer Cult Hybrid Kill Team" hidden="false">
@@ -1411,7 +1411,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="Points" value="35.0"/>
+        <cost name="pts" costTypeId="Points" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="06fe-84cf-ff42-bb99" name="Hot-shot Laser Power Pack" hidden="false" collective="false" type="upgrade">
@@ -1844,14 +1844,22 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <constraints/>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="a89a-c306-5ebc-2570" name="Pistol" hidden="false" collective="false" defaultSelectionEntryId="2970-858b-94c1-40fd">
+        <selectionEntryGroup id="a89a-c306-5ebc-2570" name="Pistols" hidden="false" collective="false" defaultSelectionEntryId="2970-858b-94c1-40fd">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="84d6-1707-bdf9-aff8" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="d3a8-cc31-2af4-da19" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="032b-a2f7-4513-a928" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ca6-9429-638c-938d" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84d6-1707-bdf9-aff8" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84d6-1707-bdf9-aff8" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1888,10 +1896,25 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="24bc-c062-58a1-6ef1" value="3">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="d3a8-cc31-2af4-da19" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="032b-a2f7-4513-a928" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="24bc-c062-58a1-6ef1" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="d3a8-cc31-2af4-da19" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a89a-c306-5ebc-2570" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e13-ff54-a4f1-7bf0" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24bc-c062-58a1-6ef1" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e13-ff54-a4f1-7bf0" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24bc-c062-58a1-6ef1" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1901,15 +1924,17 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="set" field="8705-0ce6-c446-8af9" value="1">
+                <modifier type="set" field="8705-0ce6-c446-8af9" value="0">
                   <repeats/>
-                  <conditions/>
+                  <conditions>
+                    <condition field="selections" scope="d3a8-cc31-2af4-da19" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a89a-c306-5ebc-2570" type="atLeast"/>
+                  </conditions>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8705-0ce6-c446-8af9" type="min"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="facc-fc97-d378-58a7" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8705-0ce6-c446-8af9" type="min"/>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="facc-fc97-d378-58a7" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="3ca9-d01d-66b1-fc3d" name="New EntryLink" hidden="false" targetId="9348-0726-6f28-8432" type="selectionEntry">
