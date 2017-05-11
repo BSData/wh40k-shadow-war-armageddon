@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8db7-e6ad-7af1-2877" name="Tau Pathfinder Kill Team" revision="5" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8db7-e6ad-7af1-2877" name="Tau Pathfinder Kill Team" revision="6" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="c635-9a2d-0ece-ace5" name="Supporting Fire" hidden="false">
@@ -20,6 +20,20 @@ combat.</description>
       <rules/>
       <infoLinks/>
       <modifiers>
+        <modifier type="increment" field="25e1-da85-4981-23d3" value="1">
+          <repeats>
+            <repeat field="selections" scope="b6ac-7e7c-19dc-0d1b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="caf6-09cf-25c4-9b77" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="a4a7-9383-4d31-6cee" value="1">
+          <repeats>
+            <repeat field="selections" scope="b6ac-7e7c-19dc-0d1b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="caf6-09cf-25c4-9b77" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
         <modifier type="increment" field="25e1-da85-4981-23d3" value="1">
           <repeats>
             <repeat field="selections" scope="b6ac-7e7c-19dc-0d1b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="caf6-09cf-25c4-9b77" repeats="1" roundUp="false"/>
@@ -921,7 +935,7 @@ combat.</description>
             <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="2"/>
             <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="3"/>
             <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="4"/>
-            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="1"/>
+            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="2"/>
             <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="2"/>
             <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
             <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="8"/>
