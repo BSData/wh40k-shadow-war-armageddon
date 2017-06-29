@@ -351,7 +351,7 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="4101-cd06-d741-b130" name="New EntryLink" hidden="true" targetId="d792-3498-c8a8-2d16" type="selectionEntryGroup">
+            <entryLink id="4101-cd06-d741-b130" name="Combat Skills" hidden="false" targetId="d792-3498-c8a8-2d16" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -359,7 +359,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="16e0-b3f4-06aa-2469" name="New EntryLink" hidden="true" targetId="5d6d-25ca-e7ab-542b" type="selectionEntryGroup">
+            <entryLink id="16e0-b3f4-06aa-2469" name="Guerilla Skills" hidden="false" targetId="5d6d-25ca-e7ab-542b" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -367,7 +367,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="fa41-6a20-e1be-8fed" name="New EntryLink" hidden="true" targetId="b7af-97de-f33e-738d" type="selectionEntryGroup">
+            <entryLink id="fa41-6a20-e1be-8fed" name="Ferocity Skills" hidden="false" targetId="b7af-97de-f33e-738d" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -375,7 +375,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="ad68-691d-2c3e-6c59" name="New EntryLink" hidden="true" targetId="ed95-48d3-3d8d-17ae" type="selectionEntryGroup">
+            <entryLink id="ad68-691d-2c3e-6c59" name="Muscle Skills" hidden="false" targetId="ed95-48d3-3d8d-17ae" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -383,7 +383,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="5af1-1727-daca-dbb8" name="New EntryLink" hidden="true" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
+            <entryLink id="5af1-1727-daca-dbb8" name="Shooting Skills" hidden="false" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -404,7 +404,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="4897-5f48-4c10-3450" name="New EntryLink" hidden="true" targetId="39f6-a84f-1a4b-3cfc" type="selectionEntryGroup">
+            <entryLink id="4897-5f48-4c10-3450" name="Stealth Skills" hidden="false" targetId="39f6-a84f-1a4b-3cfc" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -425,7 +425,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="dcbd-c42b-27e2-3886" name="New EntryLink" hidden="false" targetId="5a79-1e9b-2ae5-9dfe" type="selectionEntryGroup">
+            <entryLink id="dcbd-c42b-27e2-3886" name="Agility Skills" hidden="false" targetId="5a79-1e9b-2ae5-9dfe" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -628,7 +628,7 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="0d4b-5154-a401-f976" name="New EntryLink" hidden="true" targetId="d792-3498-c8a8-2d16" type="selectionEntryGroup">
+            <entryLink id="0d4b-5154-a401-f976" name="Combat Skills" hidden="false" targetId="d792-3498-c8a8-2d16" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -649,7 +649,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="c685-e523-c397-9259" name="New EntryLink" hidden="true" targetId="5d6d-25ca-e7ab-542b" type="selectionEntryGroup">
+            <entryLink id="c685-e523-c397-9259" name="Guerilla Skills" hidden="false" targetId="5d6d-25ca-e7ab-542b" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -674,7 +674,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="a9ed-cc99-7b96-d54d" name="New EntryLink" hidden="true" targetId="b7af-97de-f33e-738d" type="selectionEntryGroup">
+            <entryLink id="a9ed-cc99-7b96-d54d" name="Ferocity Skills" hidden="false" targetId="b7af-97de-f33e-738d" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -695,7 +695,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="5da5-8871-8da4-82ea" name="New EntryLink" hidden="true" targetId="ed95-48d3-3d8d-17ae" type="selectionEntryGroup">
+            <entryLink id="5da5-8871-8da4-82ea" name="Muscle Skills" hidden="false" targetId="ed95-48d3-3d8d-17ae" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -717,7 +717,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="7eec-39c2-bcd3-0971" name="New EntryLink" hidden="true" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
+            <entryLink id="7eec-39c2-bcd3-0971" name="Shooting Skills" hidden="false" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -741,7 +741,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="76c5-cbc8-35b0-6a9e" name="New EntryLink" hidden="true" targetId="39f6-a84f-1a4b-3cfc" type="selectionEntryGroup">
+            <entryLink id="76c5-cbc8-35b0-6a9e" name="Stealth Skills" hidden="false" targetId="39f6-a84f-1a4b-3cfc" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -766,7 +766,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="fabd-726d-3653-9122" name="New EntryLink" hidden="false" targetId="5a79-1e9b-2ae5-9dfe" type="selectionEntryGroup">
+            <entryLink id="fabd-726d-3653-9122" name="Agility Skills" hidden="false" targetId="5a79-1e9b-2ae5-9dfe" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1060,7 +1060,7 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="ef0c-af36-3de0-2e85" name="New EntryLink" hidden="true" targetId="d792-3498-c8a8-2d16" type="selectionEntryGroup">
+            <entryLink id="ef0c-af36-3de0-2e85" name="Combat Skills" hidden="false" targetId="d792-3498-c8a8-2d16" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1082,7 +1082,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="5bce-8955-1e07-3af2" name="New EntryLink" hidden="true" targetId="5d6d-25ca-e7ab-542b" type="selectionEntryGroup">
+            <entryLink id="5bce-8955-1e07-3af2" name="Guerilla Skills" hidden="false" targetId="5d6d-25ca-e7ab-542b" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1103,7 +1103,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="dd8a-2f81-d275-fcf8" name="New EntryLink" hidden="true" targetId="b7af-97de-f33e-738d" type="selectionEntryGroup">
+            <entryLink id="dd8a-2f81-d275-fcf8" name="Ferocity Skills" hidden="false" targetId="b7af-97de-f33e-738d" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1124,7 +1124,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="cd22-3831-ffc2-5981" name="New EntryLink" hidden="true" targetId="ed95-48d3-3d8d-17ae" type="selectionEntryGroup">
+            <entryLink id="cd22-3831-ffc2-5981" name="Muscle Skills" hidden="false" targetId="ed95-48d3-3d8d-17ae" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1146,7 +1146,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="89f0-f9cd-e923-2e5a" name="New EntryLink" hidden="true" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
+            <entryLink id="89f0-f9cd-e923-2e5a" name="Shooting Skills" hidden="false" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1168,7 +1168,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="937c-ef30-ecbc-e8aa" name="New EntryLink" hidden="true" targetId="39f6-a84f-1a4b-3cfc" type="selectionEntryGroup">
+            <entryLink id="937c-ef30-ecbc-e8aa" name="Stealth Skills" hidden="false" targetId="39f6-a84f-1a4b-3cfc" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1192,7 +1192,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="1a5e-76c6-3d07-8e3c" name="New EntryLink" hidden="false" targetId="5a79-1e9b-2ae5-9dfe" type="selectionEntryGroup">
+            <entryLink id="1a5e-76c6-3d07-8e3c" name="Agility Skills" hidden="false" targetId="5a79-1e9b-2ae5-9dfe" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>

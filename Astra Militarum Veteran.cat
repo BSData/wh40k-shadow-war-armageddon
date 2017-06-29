@@ -55,10 +55,25 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="9682-f39e-d8ea-cd7a" value="1">
+          <repeats>
+            <repeat field="selections" scope="06b3-4a6d-d56a-ced1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d561-34b6-6b9d-9947" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="fcbc-57ee-d27d-40f2" value="1">
+          <repeats>
+            <repeat field="selections" scope="06b3-4a6d-d56a-ced1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d561-34b6-6b9d-9947" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcbc-57ee-d27d-40f2" type="max"/>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9682-f39e-d8ea-cd7a" type="min"/>
+        <constraint field="selections" scope="06b3-4a6d-d56a-ced1" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcbc-57ee-d27d-40f2" type="max"/>
+        <constraint field="selections" scope="06b3-4a6d-d56a-ced1" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9682-f39e-d8ea-cd7a" type="min"/>
       </constraints>
       <forceEntries/>
       <categoryLinks>
