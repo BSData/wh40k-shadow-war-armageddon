@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="74fa-4f89-9978-6fb7" name="Inquisition" revision="4" battleScribeVersion="2.00" authorName="GenWilhelm" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="74fa-4f89-9978-6fb7" name="Inquisition" revision="5" battleScribeVersion="2.01" authorName="GenWilhelm" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="a911-5a15-b8b1-0376" name="Alien Hunters" hidden="false">
@@ -22,78 +22,169 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
+  <categoryEntries/>
   <forceEntries/>
   <selectionEntries/>
   <entryLinks>
-    <entryLink id="2934-d1f8-9fdb-55c3" name="New EntryLink" hidden="false" targetId="98e7-a6f9-b9cd-aea1" type="selectionEntry" categoryEntryId="d857-ffdb-a6af-c1d3">
+    <entryLink id="2934-d1f8-9fdb-55c3" name="New EntryLink" hidden="false" targetId="98e7-a6f9-b9cd-aea1" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="2934-d1f8-9fdb-55c3-d857-ffdb-a6af-c1d3" hidden="false" targetId="d857-ffdb-a6af-c1d3" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="f185-3078-11a7-8d67" name="New EntryLink" hidden="false" targetId="1cfb-effd-e824-2849" type="selectionEntry" categoryEntryId="b6d4-0969-5e1a-27b6">
+    <entryLink id="f185-3078-11a7-8d67" name="New EntryLink" hidden="false" targetId="1cfb-effd-e824-2849" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="f185-3078-11a7-8d67-b6d4-0969-5e1a-27b6" hidden="false" targetId="b6d4-0969-5e1a-27b6" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="09b2-95f9-f721-c9ff" name="New EntryLink" hidden="false" targetId="0f0f-48f5-35ef-4dd0" type="selectionEntry" categoryEntryId="6900-8e96-c5cf-b1c8">
+    <entryLink id="09b2-95f9-f721-c9ff" name="New EntryLink" hidden="false" targetId="0f0f-48f5-35ef-4dd0" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="09b2-95f9-f721-c9ff-6900-8e96-c5cf-b1c8" hidden="false" targetId="6900-8e96-c5cf-b1c8" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="afd2-8af4-a13f-de8a" name="New EntryLink" hidden="false" targetId="0f23-b963-786e-e03d" type="selectionEntry" categoryEntryId="0dde-ebb1-9d60-153e">
+    <entryLink id="afd2-8af4-a13f-de8a" name="New EntryLink" hidden="false" targetId="0f23-b963-786e-e03d" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="afd2-8af4-a13f-de8a-0dde-ebb1-9d60-153e" hidden="false" targetId="0dde-ebb1-9d60-153e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="e103-0c7f-937c-0b9e" name="New EntryLink" hidden="false" targetId="0af2-52e7-4ccb-06cd" type="selectionEntry" categoryEntryId="5901-345e-04ba-e937">
+    <entryLink id="e103-0c7f-937c-0b9e" name="New EntryLink" hidden="false" targetId="0af2-52e7-4ccb-06cd" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="e103-0c7f-937c-0b9e-5901-345e-04ba-e937" hidden="false" targetId="5901-345e-04ba-e937" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="5d11-1101-2784-df1d" name="New EntryLink" hidden="false" targetId="9e78-6fc7-27d1-75e8" type="selectionEntry" categoryEntryId="5901-345e-04ba-e937">
+    <entryLink id="5d11-1101-2784-df1d" name="New EntryLink" hidden="false" targetId="9e78-6fc7-27d1-75e8" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="5d11-1101-2784-df1d-5901-345e-04ba-e937" hidden="false" targetId="5901-345e-04ba-e937" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="2731-9df6-5903-34af" name="New EntryLink" hidden="false" targetId="a3e7-8061-293e-a31e" type="selectionEntry" categoryEntryId="5901-345e-04ba-e937">
+    <entryLink id="2731-9df6-5903-34af" name="New EntryLink" hidden="false" targetId="a3e7-8061-293e-a31e" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="2731-9df6-5903-34af-5901-345e-04ba-e937" hidden="false" targetId="5901-345e-04ba-e937" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="84f3-cd13-e653-0678" name="New EntryLink" hidden="false" targetId="8d04-80da-e87b-d165" type="selectionEntry" categoryEntryId="5901-345e-04ba-e937">
+    <entryLink id="84f3-cd13-e653-0678" name="New EntryLink" hidden="false" targetId="8d04-80da-e87b-d165" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="84f3-cd13-e653-0678-5901-345e-04ba-e937" hidden="false" targetId="5901-345e-04ba-e937" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="a80c-c8d8-3413-86fa" name="New EntryLink" hidden="false" targetId="5265-a101-40ec-d1d5" type="selectionEntry" categoryEntryId="5901-345e-04ba-e937">
+    <entryLink id="a80c-c8d8-3413-86fa" name="New EntryLink" hidden="false" targetId="5265-a101-40ec-d1d5" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="a80c-c8d8-3413-86fa-5901-345e-04ba-e937" hidden="false" targetId="5901-345e-04ba-e937" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="42d5-8bee-7a7d-6908" name="New EntryLink" hidden="false" targetId="c770-f0bb-6350-b8fc" type="selectionEntry" categoryEntryId="5901-345e-04ba-e937">
+    <entryLink id="42d5-8bee-7a7d-6908" name="New EntryLink" hidden="false" targetId="c770-f0bb-6350-b8fc" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="42d5-8bee-7a7d-6908-5901-345e-04ba-e937" hidden="false" targetId="5901-345e-04ba-e937" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -178,6 +269,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="f314-9b66-541f-4e21" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="b709-ce0d-3c2b-4069">
@@ -189,6 +281,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c806-ef39-490d-0b0d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e343-94f1-f17b-ecd2" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -204,6 +297,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
                 </modifier>
               </modifiers>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="b709-ce0d-3c2b-4069" name="New EntryLink" hidden="false" targetId="0510-46d5-d5d5-0912" type="selectionEntry">
               <profiles/>
@@ -217,6 +311,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
                 </modifier>
               </modifiers>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -226,6 +321,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -235,6 +331,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="acda-503a-c38e-5222" name="New EntryLink" hidden="false" targetId="ed95-48d3-3d8d-17ae" type="selectionEntryGroup">
               <profiles/>
@@ -242,6 +339,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="f65b-eeb1-4f23-8ec3" name="New EntryLink" hidden="false" targetId="5d6d-25ca-e7ab-542b" type="selectionEntryGroup">
               <profiles/>
@@ -249,6 +347,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="7482-60dc-5287-5409" name="New EntryLink" hidden="false" targetId="39f6-a84f-1a4b-3cfc" type="selectionEntryGroup">
               <profiles/>
@@ -256,6 +355,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="1ce6-97d6-2a35-a0e4" name="New EntryLink" hidden="false" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
               <profiles/>
@@ -263,6 +363,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="48d7-a6e9-4934-1f01" name="New EntryLink" hidden="false" targetId="d792-3498-c8a8-2d16" type="selectionEntryGroup">
               <profiles/>
@@ -270,6 +371,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="b93c-8e5b-394d-d943" name="New EntryLink" hidden="false" targetId="b189-f62c-cfb6-2670" type="selectionEntryGroup">
               <profiles/>
@@ -277,6 +379,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -291,6 +394,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6847-fdec-b457-e9d3" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a15e-7548-bae8-98a5" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="6fd2-b1fe-44c3-e968" name="New EntryLink" hidden="false" targetId="efb9-9bfa-9b3e-7ccc" type="selectionEntryGroup">
           <profiles/>
@@ -298,6 +402,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="a9f2-51a0-ef07-ce15" name="New EntryLink" hidden="false" targetId="d312-737d-c9c4-6bb5" type="selectionEntryGroup">
           <profiles/>
@@ -305,6 +410,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="f3fc-fe99-98d9-fc95" name="New EntryLink" hidden="false" targetId="64d3-20a1-0979-25e6" type="selectionEntryGroup">
           <profiles/>
@@ -312,6 +418,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="8f48-d1f3-297e-efa6" name="New EntryLink" hidden="false" targetId="7f26-ba81-30a8-8d35" type="selectionEntryGroup">
           <profiles/>
@@ -319,6 +426,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="6ef8-f4e2-3f4a-24c1" name="New EntryLink" hidden="false" targetId="4e9e-2c4a-105c-4ef7" type="selectionEntryGroup">
           <profiles/>
@@ -326,6 +434,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="06e4-3ded-b79b-7600" name="New EntryLink" hidden="false" targetId="86fb-9976-ea53-858e" type="selectionEntryGroup">
           <profiles/>
@@ -333,6 +442,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -434,6 +544,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="caa4-3ff8-4c47-8580" name="Skills" hidden="false" collective="false">
@@ -442,6 +553,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -451,6 +563,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="d892-e64a-1763-8f5f" name="New EntryLink" hidden="false" targetId="5d6d-25ca-e7ab-542b" type="selectionEntryGroup">
               <profiles/>
@@ -458,6 +571,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="8b1a-9ad4-c773-9903" name="New EntryLink" hidden="false" targetId="d792-3498-c8a8-2d16" type="selectionEntryGroup">
               <profiles/>
@@ -465,6 +579,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="7710-f1a0-8763-bb46" name="New EntryLink" hidden="false" targetId="b189-f62c-cfb6-2670" type="selectionEntryGroup">
               <profiles/>
@@ -472,6 +587,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -486,6 +602,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb79-5d32-041b-1f67" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16a2-4783-ff2f-6438" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="df76-3c8d-e965-b06f" name="New EntryLink" hidden="false" targetId="c685-6427-15c3-7496" type="selectionEntry">
           <profiles/>
@@ -495,6 +612,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e04c-4e5d-d7a5-6620" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="cf85-8df8-0457-6982" name="New EntryLink" hidden="false" targetId="64d3-20a1-0979-25e6" type="selectionEntryGroup">
           <profiles/>
@@ -502,6 +620,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="0792-3013-ffe1-e848" name="New EntryLink" hidden="false" targetId="4e9e-2c4a-105c-4ef7" type="selectionEntryGroup">
           <profiles/>
@@ -509,6 +628,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="13b5-018d-c938-c0c2" name="New EntryLink" hidden="false" targetId="d312-737d-c9c4-6bb5" type="selectionEntryGroup">
           <profiles/>
@@ -516,6 +636,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="1a2c-4077-1776-5577" name="New EntryLink" hidden="false" targetId="7f26-ba81-30a8-8d35" type="selectionEntryGroup">
           <profiles/>
@@ -523,6 +644,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="882a-ac30-08ff-6715" name="New EntryLink" hidden="false" targetId="efb9-9bfa-9b3e-7ccc" type="selectionEntryGroup">
           <profiles/>
@@ -530,6 +652,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="e786-ef0b-1c35-675a" name="New EntryLink" hidden="false" targetId="86fb-9976-ea53-858e" type="selectionEntryGroup">
           <profiles/>
@@ -537,6 +660,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="f375-98b6-6c66-30fd" name="New EntryLink" hidden="false" targetId="302d-841f-02dd-fb07" type="selectionEntryGroup">
           <profiles/>
@@ -544,6 +668,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -589,6 +714,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -601,6 +727,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad3a-f927-cb3e-f0f3" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90f6-a16e-9f4e-3d8f" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="bdc0-7e1e-8a56-27ab" name="New EntryLink" hidden="false" targetId="c685-6427-15c3-7496" type="selectionEntry">
           <profiles/>
@@ -610,6 +737,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b213-07d5-5a72-3085" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="8dc1-73ac-4e69-6e99" name="New EntryLink" hidden="false" targetId="64d3-20a1-0979-25e6" type="selectionEntryGroup">
           <profiles/>
@@ -617,6 +745,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="cb5e-0843-842a-0419" name="New EntryLink" hidden="false" targetId="d312-737d-c9c4-6bb5" type="selectionEntryGroup">
           <profiles/>
@@ -624,6 +753,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="8593-b145-e76d-b9ec" name="New EntryLink" hidden="false" targetId="4e9e-2c4a-105c-4ef7" type="selectionEntryGroup">
           <profiles/>
@@ -631,6 +761,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="0dce-caee-49cf-9bbe" name="New EntryLink" hidden="false" targetId="efb9-9bfa-9b3e-7ccc" type="selectionEntryGroup">
           <profiles/>
@@ -638,6 +769,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="4dc2-4912-3502-ba90" name="New EntryLink" hidden="false" targetId="86fb-9976-ea53-858e" type="selectionEntryGroup">
           <profiles/>
@@ -645,6 +777,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="0a73-c286-e1e8-562f" name="New EntryLink" hidden="false" targetId="302d-841f-02dd-fb07" type="selectionEntryGroup">
           <profiles/>
@@ -652,6 +785,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -739,6 +873,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="8f1b-2b26-d50d-b6da" name="Skills" hidden="false" collective="false">
@@ -747,6 +882,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -756,6 +892,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="7aec-fafc-2265-6b7e" name="New EntryLink" hidden="false" targetId="ed95-48d3-3d8d-17ae" type="selectionEntryGroup">
               <profiles/>
@@ -763,6 +900,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="6f43-3c26-22e5-7194" name="New EntryLink" hidden="false" targetId="5d6d-25ca-e7ab-542b" type="selectionEntryGroup">
               <profiles/>
@@ -770,6 +908,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="dd86-01f3-9664-66bd" name="New EntryLink" hidden="false" targetId="d792-3498-c8a8-2d16" type="selectionEntryGroup">
               <profiles/>
@@ -777,6 +916,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="de7a-8921-4788-f24c" name="New EntryLink" hidden="false" targetId="b189-f62c-cfb6-2670" type="selectionEntryGroup">
               <profiles/>
@@ -784,6 +924,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -798,6 +939,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4511-342e-f47f-8c2c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fbe-41cc-7ced-29ba" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="dc98-5936-a47a-8a75" name="New EntryLink" hidden="false" targetId="0510-46d5-d5d5-0912" type="selectionEntry">
           <profiles/>
@@ -813,6 +955,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="349c-1159-a1d2-e45d" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="3ec9-d25f-83f0-0f5b" name="New EntryLink" hidden="false" targetId="86fb-9976-ea53-858e" type="selectionEntryGroup">
           <profiles/>
@@ -820,6 +963,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="13d5-ad86-2412-a11c" name="New EntryLink" hidden="false" targetId="efb9-9bfa-9b3e-7ccc" type="selectionEntryGroup">
           <profiles/>
@@ -827,6 +971,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="e0fb-da7e-d1ab-0fc9" name="New EntryLink" hidden="false" targetId="64d3-20a1-0979-25e6" type="selectionEntryGroup">
           <profiles/>
@@ -834,6 +979,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="cd08-5725-aa8a-7fdb" name="New EntryLink" hidden="false" targetId="4e9e-2c4a-105c-4ef7" type="selectionEntryGroup">
           <profiles/>
@@ -841,6 +987,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -874,6 +1021,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -907,6 +1055,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -946,6 +1095,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -977,6 +1127,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="e7d8-1fb9-3538-cb71" name="Scopes" hidden="false" collective="false">
@@ -985,6 +1136,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -996,6 +1148,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9099-42f7-564d-6040" type="max"/>
               </constraints>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1013,6 +1166,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1050,6 +1204,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1081,6 +1236,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1119,6 +1275,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="1241-835f-aaf1-fea4" name="Scopes" hidden="false" collective="false">
@@ -1127,6 +1284,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -1138,6 +1296,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca5d-559f-4680-b05e" type="max"/>
               </constraints>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1155,6 +1314,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="14b9-f494-1052-e0b5" name="New EntryLink" hidden="false" targetId="7df9-bbd4-9de1-0841" type="selectionEntry">
           <profiles/>
@@ -1162,6 +1322,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1192,6 +1353,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="a0e7-ceb2-d8bf-7d3f" name="Scopes" hidden="false" collective="false">
@@ -1200,6 +1362,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -1211,6 +1374,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50d5-5c45-85ad-4612" type="max"/>
               </constraints>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="caac-113d-88e2-97bc" name="New EntryLink" hidden="false" targetId="4770-38f6-6a85-b653" type="selectionEntry">
               <profiles/>
@@ -1220,6 +1384,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de91-3801-c34f-7b03" type="max"/>
               </constraints>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1237,6 +1402,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1274,6 +1440,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="69d3-af5e-695b-3908" name="Scopes" hidden="false" collective="false">
@@ -1282,6 +1449,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -1293,6 +1461,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fb9-6559-0ba4-5199" type="max"/>
               </constraints>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="b7cd-a850-cb33-af45" name="New EntryLink" hidden="false" targetId="4770-38f6-6a85-b653" type="selectionEntry">
               <profiles/>
@@ -1302,6 +1471,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb5e-694b-6ff4-a14b" type="max"/>
               </constraints>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1319,6 +1489,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1350,6 +1521,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="7736-e9f5-fbe5-6193" name="Scopes" hidden="false" collective="false">
@@ -1358,6 +1530,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -1369,6 +1542,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2603-ae0a-3434-cdf6" type="max"/>
               </constraints>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="87be-53c3-20d6-e8fd" name="New EntryLink" hidden="false" targetId="4770-38f6-6a85-b653" type="selectionEntry">
               <profiles/>
@@ -1378,6 +1552,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31fc-7e5f-1d83-8cb3" type="max"/>
               </constraints>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1395,6 +1570,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1420,6 +1596,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="5f69-cc47-260d-7028" name="Scopes" hidden="false" collective="false">
@@ -1428,6 +1605,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -1439,6 +1617,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19f3-42cf-8b05-f75e" type="max"/>
               </constraints>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="9cb9-041c-6375-2df4" name="New EntryLink" hidden="false" targetId="4770-38f6-6a85-b653" type="selectionEntry">
               <profiles/>
@@ -1448,6 +1627,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a65f-0179-0526-063b" type="max"/>
               </constraints>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1465,6 +1645,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1507,6 +1688,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afb0-f8a3-bdf5-2f1b" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1532,6 +1714,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d912-f9f1-3e19-47ec" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1557,6 +1740,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d815-8e69-9197-0a96" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1582,6 +1766,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f83-183b-9aa1-1a50" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1610,6 +1795,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff35-c07b-7cd9-c659" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1625,6 +1811,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66bf-468f-5456-828b" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1651,6 +1838,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1701,6 +1889,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1713,6 +1902,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7854-52ae-1b60-d626" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93cd-42fa-df04-9fa0" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1758,6 +1948,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="183c-8e4d-bd68-5eae" name="Weapons" hidden="false" collective="false" defaultSelectionEntryId="44da-567e-ee58-b013">
@@ -1769,6 +1960,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="374f-306d-debc-afdd" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e619-47b8-dc26-93bc" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -1789,6 +1981,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
                 </modifier>
               </modifiers>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="2f07-c2a7-4fc0-5682" name="New EntryLink" hidden="false" targetId="b406-7c69-691e-5706" type="selectionEntry">
               <profiles/>
@@ -1796,6 +1989,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1810,6 +2004,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3544-75be-92c0-b75f" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c22-2e10-a4c4-193f" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1840,6 +2035,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="9a5a-ce3f-f6c9-69bc" name="Weapon options" hidden="false" collective="false" defaultSelectionEntryId="add7-1f78-d60f-bf48">
@@ -1851,6 +2047,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4315-7004-03bf-24b0" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ba8-4796-9eec-0a2b" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="add7-1f78-d60f-bf48" name="Boltgun" book="Shadow War: Armageddon" page="75" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -1865,6 +2062,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               </infoLinks>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries>
                 <selectionEntry id="2431-dd7d-4e33-d37a" name="Silencer" hidden="false" collective="false" type="upgrade">
                   <profiles/>
@@ -1882,6 +2080,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d674-0878-5d56-5303" type="max"/>
                   </constraints>
+                  <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
@@ -1900,6 +2099,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bac1-3ef8-c42b-5ec4" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09d6-7649-4fce-f28c" type="max"/>
                   </constraints>
+                  <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks>
@@ -1915,6 +2115,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
                         </modifier>
                       </modifiers>
                       <constraints/>
+                      <categoryLinks/>
                     </entryLink>
                     <entryLink id="22e7-cd8c-1443-d944" name="New EntryLink" hidden="false" targetId="4770-38f6-6a85-b653" type="selectionEntry">
                       <profiles/>
@@ -1928,6 +2129,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
                         </modifier>
                       </modifiers>
                       <constraints/>
+                      <categoryLinks/>
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -1942,6 +2144,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6639-3831-ef43-2e9f" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df35-2281-9fa1-d8d4" type="max"/>
                   </constraints>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
               <costs>
@@ -1954,6 +2157,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries>
                 <selectionEntry id="8880-d17b-2af8-b0c5" name="Boltgun" book="Shadow War: Armageddon" page="75" hidden="false" collective="false" type="upgrade">
                   <profiles/>
@@ -1971,6 +2175,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e66b-98dd-9ec4-e3b1" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="099b-906d-7794-34ed" type="max"/>
                   </constraints>
+                  <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="a30c-f16e-66de-aa0d" name="Scopes" hidden="false" collective="false">
@@ -1982,6 +2187,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c90f-9fbf-531f-e525" type="min"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11d2-9260-7589-2f98" type="max"/>
                       </constraints>
+                      <categoryLinks/>
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks>
@@ -1997,6 +2203,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
                             </modifier>
                           </modifiers>
                           <constraints/>
+                          <categoryLinks/>
                         </entryLink>
                         <entryLink id="59ae-7925-c520-a67c" name="New EntryLink" hidden="false" targetId="4770-38f6-6a85-b653" type="selectionEntry">
                           <profiles/>
@@ -2010,6 +2217,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
                             </modifier>
                           </modifiers>
                           <constraints/>
+                          <categoryLinks/>
                         </entryLink>
                       </entryLinks>
                     </selectionEntryGroup>
@@ -2024,6 +2232,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e12d-2c4d-145f-3f14" type="min"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1c2-6d0d-4d12-cfaa" type="max"/>
                       </constraints>
+                      <categoryLinks/>
                     </entryLink>
                   </entryLinks>
                   <costs>
@@ -2041,6 +2250,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fd5-db69-1f56-6b1b" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2767-d73a-8760-39e8" type="max"/>
                   </constraints>
+                  <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks>
@@ -2056,6 +2266,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
                         </modifier>
                       </modifiers>
                       <constraints/>
+                      <categoryLinks/>
                     </entryLink>
                     <entryLink id="f3cb-b5cd-1e0c-b9b5" name="New EntryLink" hidden="false" targetId="2ecf-7f44-824e-d9f9" type="selectionEntry">
                       <profiles/>
@@ -2069,6 +2280,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
                         </modifier>
                       </modifiers>
                       <constraints/>
+                      <categoryLinks/>
                     </entryLink>
                     <entryLink id="d00e-28a9-5438-636c" name="New EntryLink" hidden="false" targetId="763a-9246-9237-495c" type="selectionEntry">
                       <profiles/>
@@ -2082,6 +2294,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
                         </modifier>
                       </modifiers>
                       <constraints/>
+                      <categoryLinks/>
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -2097,6 +2310,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups>
                 <selectionEntryGroup id="65b3-6779-1fa9-7f3d" name="Power weapon" hidden="false" collective="false">
@@ -2108,6 +2322,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a03-a034-0f30-2a90" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7adb-50d3-7cb3-ffdc" type="max"/>
                   </constraints>
+                  <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks>
@@ -2123,6 +2338,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
                         </modifier>
                       </modifiers>
                       <constraints/>
+                      <categoryLinks/>
                     </entryLink>
                     <entryLink id="f7d3-f023-9924-a9e0" name="New EntryLink" hidden="false" targetId="2ecf-7f44-824e-d9f9" type="selectionEntry">
                       <profiles/>
@@ -2136,6 +2352,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
                         </modifier>
                       </modifiers>
                       <constraints/>
+                      <categoryLinks/>
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -2156,6 +2373,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ee6-160d-35a9-1d89" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98d2-cd34-c227-0fbd" type="max"/>
                   </constraints>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
               <costs>
@@ -2181,6 +2399,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               </infoLinks>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -2208,6 +2427,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f048-89a7-5f5b-7b2e" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="9dc0-a496-c16a-45a0" name="New EntryLink" hidden="false" targetId="43ce-dc52-b26b-97a8" type="selectionEntry">
           <profiles/>
@@ -2223,6 +2443,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7409-6c80-a8ee-5d8a" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="5e99-368e-c32c-b83b" name="New EntryLink" hidden="false" targetId="68f4-fc70-d991-d2d1" type="selectionEntry">
           <profiles/>
@@ -2232,6 +2453,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3b9-f49b-17d6-6ace" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -2261,6 +2483,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -2292,6 +2515,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="809c-ac0c-ef5b-05a2" name="Pair of Lightning Claws" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -2314,6 +2538,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee96-d8f3-dad2-2f5e" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -2347,6 +2572,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2182-bcd6-3131-11ec" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d91-f8e5-8b6d-b04c" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="ef49-103e-78ba-efd3" name="Bolt Pistol" book="Shadow War: Armageddon" page="75" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -2361,6 +2587,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               </infoLinks>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -2373,6 +2600,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdcb-501b-b50b-e41a" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dda3-a1af-2ff9-a7b5" type="max"/>
                   </constraints>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
               <costs>
@@ -2404,6 +2632,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               </infoLinks>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -2420,6 +2649,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="d1c4-cc58-3e82-fb60" name="New EntryLink" hidden="false" targetId="048d-4d37-2876-1de4" type="selectionEntry">
               <profiles/>
@@ -2427,6 +2657,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -2454,6 +2685,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb8e-fa10-e3d4-b133" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5ed-e61c-bd9c-9a6e" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="d0c3-51c6-8ad2-bb1f" name="Lightning Claw" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -2474,6 +2706,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               </infoLinks>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -2506,6 +2739,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
               </infoLinks>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -2528,6 +2762,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
                 </modifier>
               </modifiers>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="2f6d-c896-e92b-c613" name="New EntryLink" hidden="false" targetId="9564-97f0-3e94-c023" type="selectionEntry">
               <profiles/>
@@ -2541,6 +2776,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
                 </modifier>
               </modifiers>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="ef08-6054-b5fc-7521" name="New EntryLink" hidden="false" targetId="2ecf-7f44-824e-d9f9" type="selectionEntry">
               <profiles/>
@@ -2554,6 +2790,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
                 </modifier>
               </modifiers>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="6cec-82cf-9aa6-d43e" name="New EntryLink" hidden="false" targetId="ed27-a087-9d8d-7c6d" type="selectionEntry">
               <profiles/>
@@ -2567,6 +2804,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
                 </modifier>
               </modifiers>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -2586,6 +2824,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e870-9b85-fd3c-3df1" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="94f6-9ba1-a587-b6f2" name="New EntryLink" hidden="false" targetId="43ce-dc52-b26b-97a8" type="selectionEntry">
           <profiles/>
@@ -2601,6 +2840,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e59e-32d4-bf0e-ea25" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="1c96-0cd7-3b9a-ecab" name="New EntryLink" hidden="false" targetId="68f4-fc70-d991-d2d1" type="selectionEntry">
           <profiles/>
@@ -2610,6 +2850,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f74c-6cd4-9497-a763" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="45a3-17c5-fceb-e3f6" name="New EntryLink" hidden="false" targetId="4443-dec0-5059-8ce1" type="selectionEntry">
           <profiles/>
@@ -2619,6 +2860,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="101e-986e-ab62-9c88" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -2633,6 +2875,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -2642,6 +2885,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="ced7-4da7-3951-7dcd" name="New EntryLink" hidden="false" targetId="c4f3-d1b1-b04b-2994" type="selectionEntry">
           <profiles/>
@@ -2649,6 +2893,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="9f1f-4ac9-4cd9-c4b5" name="New EntryLink" hidden="false" targetId="16e2-4008-4156-6b09" type="selectionEntry">
           <profiles/>
@@ -2656,6 +2901,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="3eee-7243-f01b-ffaf" name="New EntryLink" hidden="false" targetId="43ce-dc52-b26b-97a8" type="selectionEntry">
           <profiles/>
@@ -2663,6 +2909,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -2672,6 +2919,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -2681,6 +2929,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="6da9-56b7-5446-d85c" name="New EntryLink" hidden="false" targetId="c859-4edb-bbb2-5102" type="selectionEntry">
           <profiles/>
@@ -2688,6 +2937,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="c28d-209f-e156-29d7" name="New EntryLink" hidden="false" targetId="c88b-a0e7-82f2-2014" type="selectionEntry">
           <profiles/>
@@ -2703,6 +2953,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="958f-d252-789d-ce07" name="New EntryLink" hidden="false" targetId="ebe2-22bb-988d-b719" type="selectionEntry">
           <profiles/>
@@ -2718,6 +2969,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="6c01-07cd-bac4-1f8d" name="New EntryLink" hidden="false" targetId="0bc2-eaa8-9162-587e" type="selectionEntry">
           <profiles/>
@@ -2725,6 +2977,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="fcf7-0c0d-8935-f7e4" name="New EntryLink" hidden="false" targetId="763a-9246-9237-495c" type="selectionEntry">
           <profiles/>
@@ -2746,6 +2999,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -2755,6 +3009,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="44fc-b7ba-028e-2592" name="Combat blade" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -2769,6 +3024,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           </infoLinks>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -2785,6 +3041,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="0ecb-7707-5a96-c1e7" name="New EntryLink" hidden="false" targetId="eb92-02cc-fd71-cfa9" type="selectionEntry">
           <profiles/>
@@ -2800,6 +3057,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="3655-06ad-470e-acbb" name="New EntryLink" hidden="false" targetId="ed27-a087-9d8d-7c6d" type="selectionEntry">
           <profiles/>
@@ -2807,6 +3065,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="8782-d362-4abc-ba4c" name="New EntryLink" hidden="false" targetId="2ecf-7f44-824e-d9f9" type="selectionEntry">
           <profiles/>
@@ -2814,6 +3073,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -2823,6 +3083,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -2832,6 +3093,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="901b-228f-f81f-f6c5" name="New EntryLink" hidden="false" targetId="21e1-b9f5-5532-c231" type="selectionEntry">
           <profiles/>
@@ -2839,6 +3101,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="d260-dea6-aa5d-c4ed" name="New EntryLink" hidden="false" targetId="1b15-820c-5866-2373" type="selectionEntry">
           <profiles/>
@@ -2846,6 +3109,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="4f4f-ca03-d110-2e37" name="New EntryLink" hidden="false" targetId="8e4b-dfd3-4038-370c" type="selectionEntry">
           <profiles/>
@@ -2861,6 +3125,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="c866-6257-14e7-c920" name="New EntryLink" hidden="false" targetId="848d-903c-8bd7-b4a4" type="selectionEntry">
           <profiles/>
@@ -2868,6 +3133,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -2877,6 +3143,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -2886,6 +3153,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="aa83-bca5-ba32-966b" name="New EntryLink" hidden="false" targetId="355f-d70b-3b30-f0e1" type="selectionEntry">
           <profiles/>
@@ -2893,6 +3161,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="3750-4c0a-75a0-4a86" name="New EntryLink" hidden="false" targetId="1d3a-05d0-432a-60e5" type="selectionEntry">
           <profiles/>
@@ -2900,6 +3169,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="8849-5709-06da-5cb8" name="New EntryLink" hidden="false" targetId="cb7c-64bc-0686-b91e" type="selectionEntry">
           <profiles/>
@@ -2907,6 +3177,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="7f82-1bb3-4486-b817" name="New EntryLink" hidden="false" targetId="fb1e-eb33-1d21-c14f" type="selectionEntry">
           <profiles/>
@@ -2914,6 +3185,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -2923,6 +3195,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -2940,6 +3213,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="65ee-4990-dbec-7f4d" name="New EntryLink" hidden="false" targetId="0c9e-b59b-fec1-9fe1" type="selectionEntry">
           <profiles/>
@@ -2955,6 +3229,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="c4ea-017e-9159-7d82" name="New EntryLink" hidden="false" targetId="2e83-1223-632e-c39d" type="selectionEntry">
           <profiles/>
@@ -2962,6 +3237,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -2973,6 +3249,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30c3-c9ae-e1a3-fbf5" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="69f8-1e5e-e1be-d248" name="+1 WS" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -2980,6 +3257,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -2993,6 +3271,7 @@ To represent their varied origins, each time you recruit an Inquisitorial Acolyt
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>

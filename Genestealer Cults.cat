@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d619-26f1-bc79-0b55" name="Genestealer Cults Kill Team" revision="6" battleScribeVersion="2.00" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d619-26f1-bc79-0b55" name="Genestealer Cults Kill Team" revision="7" battleScribeVersion="2.01" authorName="GenWilhelm" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="c46a-31a2-2486-3cb5" name="Genestealer Cult Hybrid Kill Team" hidden="false">
@@ -22,6 +22,43 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
+  <categoryEntries>
+    <categoryEntry id="d857-ffdb-a6af-c1d3" name="Leader" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="b6d4-0969-5e1a-27b6" name="Troopers" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="0dde-ebb1-9d60-153e" name="Specialists" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="6900-8e96-c5cf-b1c8" name="New Recruits" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="5901-345e-04ba-e937" name="Special Operatives" book="Shadow War: Armageddon" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+  </categoryEntries>
   <forceEntries>
     <forceEntry id="4b2f-ec2f-f2ae-f875" name="Genestealer Cult Hybrid Kill Team" hidden="false">
       <profiles/>
@@ -32,8 +69,9 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
         <constraint field="selections" scope="4b2f-ec2f-f2ae-f875" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e856-d17a-a391-dca1" type="max"/>
         <constraint field="selections" scope="4b2f-ec2f-f2ae-f875" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="522f-4356-297e-d8e7" type="min"/>
       </constraints>
-      <categoryEntries>
-        <categoryEntry id="d857-ffdb-a6af-c1d3" name="Leader" hidden="false">
+      <forceEntries/>
+      <categoryLinks>
+        <categoryLink id="4b2f-ec2f-f2ae-f875-d857-ffdb-a6af-c1d3" name="Leader" hidden="false" targetId="d857-ffdb-a6af-c1d3" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -42,15 +80,15 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a3d-9e9b-9f53-e869" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8eb9-f1e2-180d-2f40" type="min"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="b6d4-0969-5e1a-27b6" name="Troopers" hidden="false">
+        </categoryLink>
+        <categoryLink id="4b2f-ec2f-f2ae-f875-b6d4-0969-5e1a-27b6" name="Troopers" hidden="false" targetId="b6d4-0969-5e1a-27b6" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryEntry>
-        <categoryEntry id="0dde-ebb1-9d60-153e" name="Specialists" hidden="false">
+        </categoryLink>
+        <categoryLink id="4b2f-ec2f-f2ae-f875-0dde-ebb1-9d60-153e" name="Specialists" hidden="false" targetId="0dde-ebb1-9d60-153e" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -58,8 +96,8 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea32-0b45-8740-7a4f" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="6900-8e96-c5cf-b1c8" name="New Recruits" hidden="false">
+        </categoryLink>
+        <categoryLink id="4b2f-ec2f-f2ae-f875-6900-8e96-c5cf-b1c8" name="New Recruits" hidden="false" targetId="6900-8e96-c5cf-b1c8" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -67,68 +105,130 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <constraints>
             <constraint field="limit::Points" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="false" id="f5e3-c791-c24e-9755" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="5901-345e-04ba-e937" name="Special Operatives" book="Shadow War: Armageddon" hidden="false">
+        </categoryLink>
+        <categoryLink id="4b2f-ec2f-f2ae-f875-5901-345e-04ba-e937" name="Special Operatives" book="Shadow War: Armageddon" hidden="false" targetId="5901-345e-04ba-e937" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryEntry>
-      </categoryEntries>
-      <forceEntries/>
+        </categoryLink>
+      </categoryLinks>
     </forceEntry>
   </forceEntries>
   <selectionEntries/>
   <entryLinks>
-    <entryLink id="5241-d68d-19f8-c3fb" name="New EntryLink" hidden="false" targetId="7cd6-2662-bee5-c647" type="selectionEntry" categoryEntryId="b6d4-0969-5e1a-27b6">
+    <entryLink id="5241-d68d-19f8-c3fb" name="New EntryLink" hidden="false" targetId="7cd6-2662-bee5-c647" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="5241-d68d-19f8-c3fb-b6d4-0969-5e1a-27b6" hidden="false" targetId="b6d4-0969-5e1a-27b6" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="b26f-b880-f61f-26a3" name="New EntryLink" hidden="false" targetId="f765-c0f2-520c-2743" type="selectionEntry" categoryEntryId="0dde-ebb1-9d60-153e">
+    <entryLink id="b26f-b880-f61f-26a3" name="New EntryLink" hidden="false" targetId="f765-c0f2-520c-2743" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="b26f-b880-f61f-26a3-0dde-ebb1-9d60-153e" hidden="false" targetId="0dde-ebb1-9d60-153e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="3255-f2f7-70be-911f" name="New EntryLink" hidden="false" targetId="76a8-fd77-eb53-2846" type="selectionEntry" categoryEntryId="d857-ffdb-a6af-c1d3">
+    <entryLink id="3255-f2f7-70be-911f" name="New EntryLink" hidden="false" targetId="76a8-fd77-eb53-2846" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="3255-f2f7-70be-911f-d857-ffdb-a6af-c1d3" hidden="false" targetId="d857-ffdb-a6af-c1d3" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="2d48-1ef2-35a0-c707" name="New EntryLink" hidden="false" targetId="f779-984d-3f2d-a90f" type="selectionEntry" categoryEntryId="6900-8e96-c5cf-b1c8">
+    <entryLink id="2d48-1ef2-35a0-c707" name="New EntryLink" hidden="false" targetId="f779-984d-3f2d-a90f" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="2d48-1ef2-35a0-c707-6900-8e96-c5cf-b1c8" hidden="false" targetId="6900-8e96-c5cf-b1c8" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="3225-5495-5651-ac0d" name="New EntryLink" hidden="false" targetId="5433-fa0b-0ee3-6941" type="selectionEntry" categoryEntryId="5901-345e-04ba-e937">
+    <entryLink id="3225-5495-5651-ac0d" name="New EntryLink" hidden="false" targetId="5433-fa0b-0ee3-6941" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="3225-5495-5651-ac0d-5901-345e-04ba-e937" hidden="false" targetId="5901-345e-04ba-e937" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="e24d-130c-c440-cdec" name="New EntryLink" hidden="false" targetId="d3a8-cc31-2af4-da19" type="selectionEntry" categoryEntryId="5901-345e-04ba-e937">
+    <entryLink id="e24d-130c-c440-cdec" name="New EntryLink" hidden="false" targetId="d3a8-cc31-2af4-da19" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="e24d-130c-c440-cdec-5901-345e-04ba-e937" hidden="false" targetId="5901-345e-04ba-e937" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="95ff-e153-8aa1-34df" name="New EntryLink" hidden="false" targetId="a599-b1e3-2058-1461" type="selectionEntry" categoryEntryId="5901-345e-04ba-e937">
+    <entryLink id="95ff-e153-8aa1-34df" name="New EntryLink" hidden="false" targetId="a599-b1e3-2058-1461" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="95ff-e153-8aa1-34df-5901-345e-04ba-e937" hidden="false" targetId="5901-345e-04ba-e937" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -151,6 +251,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -185,6 +286,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -219,6 +321,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -245,6 +348,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -279,6 +383,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -310,6 +415,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -325,6 +431,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -347,6 +454,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ab2-86c1-fdab-9b88" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -386,6 +494,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -417,6 +526,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -432,6 +542,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="86e4-8ad4-e23b-6b22" name="New EntryLink" hidden="false" targetId="06fe-84cf-ff42-bb99" type="selectionEntry">
           <profiles/>
@@ -439,6 +550,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -469,6 +581,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -484,6 +597,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -521,6 +635,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -536,6 +651,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -631,6 +747,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="0f85-fb7e-420e-c9a2" name="Skills" hidden="false" collective="false">
@@ -639,6 +756,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -648,6 +766,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="9aba-2969-2f75-e172" name="New EntryLink" hidden="false" targetId="b7af-97de-f33e-738d" type="selectionEntryGroup">
               <profiles/>
@@ -655,6 +774,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="010b-2f60-a6e5-d069" name="New EntryLink" hidden="false" targetId="5d6d-25ca-e7ab-542b" type="selectionEntryGroup">
               <profiles/>
@@ -662,6 +782,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="69b3-ac6c-ec75-e3e8" name="New EntryLink" hidden="false" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
               <profiles/>
@@ -669,6 +790,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="34c5-db85-617c-ba98" name="New EntryLink" hidden="false" targetId="ed95-48d3-3d8d-17ae" type="selectionEntryGroup">
               <profiles/>
@@ -676,6 +798,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="a574-abd6-e46e-e3ee" name="New EntryLink" hidden="false" targetId="d792-3498-c8a8-2d16" type="selectionEntryGroup">
               <profiles/>
@@ -683,6 +806,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -694,6 +818,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="ca2c-789a-2f03-d92e" name="New EntryLink" hidden="false" targetId="4308-e408-5fe3-b995" type="selectionEntry">
           <profiles/>
@@ -701,6 +826,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="119b-19d3-4b6c-5ef0" name="New EntryLink" hidden="false" targetId="6dda-a125-470a-c046" type="selectionEntryGroup">
           <profiles/>
@@ -708,6 +834,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="7a02-9940-d98c-0942" name="New EntryLink" hidden="false" targetId="f0ec-64c9-156e-ef9b" type="selectionEntryGroup">
           <profiles/>
@@ -715,6 +842,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="a1c0-6058-7e76-05bb" name="New EntryLink" hidden="false" targetId="f356-63ab-9ab8-2c1c" type="selectionEntryGroup">
           <profiles/>
@@ -722,6 +850,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="86e8-eeb7-89be-f093" name="New EntryLink" hidden="false" targetId="084d-ac6c-1977-03a1" type="selectionEntryGroup">
           <profiles/>
@@ -729,6 +858,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="878f-a9ed-71bd-b1bc" name="New EntryLink" hidden="false" targetId="5248-b390-21ce-4c91" type="selectionEntryGroup">
           <profiles/>
@@ -736,6 +866,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="a370-8fac-111c-06af" name="New EntryLink" hidden="false" targetId="b189-f62c-cfb6-2670" type="selectionEntryGroup">
           <profiles/>
@@ -743,6 +874,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -771,6 +903,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23f9-45df-9d13-6fe3" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f78-1a22-ff53-87bc" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -806,6 +939,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9d2-1059-dc6c-b3c9" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="845d-aafc-f660-fb66" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -894,6 +1028,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="0df4-7a88-79de-575e" name="Skills" hidden="false" collective="false">
@@ -902,6 +1037,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -911,6 +1047,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="1d84-2a19-b94f-5043" name="New EntryLink" hidden="false" targetId="b7af-97de-f33e-738d" type="selectionEntryGroup">
               <profiles/>
@@ -918,6 +1055,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="b86d-df10-50a8-3391" name="New EntryLink" hidden="false" targetId="5d6d-25ca-e7ab-542b" type="selectionEntryGroup">
               <profiles/>
@@ -925,6 +1063,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -936,6 +1075,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="1060-bd1c-0cfb-6290" name="New EntryLink" hidden="false" targetId="4308-e408-5fe3-b995" type="selectionEntry">
           <profiles/>
@@ -943,6 +1083,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="053d-346b-73a9-a824" name="New EntryLink" hidden="false" targetId="6dda-a125-470a-c046" type="selectionEntryGroup">
           <profiles/>
@@ -950,6 +1091,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="8551-5761-0625-38c7" name="New EntryLink" hidden="false" targetId="f0ec-64c9-156e-ef9b" type="selectionEntryGroup">
           <profiles/>
@@ -957,6 +1099,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="7ea2-6a48-93d5-7e6c" name="New EntryLink" hidden="false" targetId="f356-63ab-9ab8-2c1c" type="selectionEntryGroup">
           <profiles/>
@@ -964,6 +1107,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="372a-bfe7-f9bf-5841" name="New EntryLink" hidden="false" targetId="084d-ac6c-1977-03a1" type="selectionEntryGroup">
           <profiles/>
@@ -971,6 +1115,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="8960-dcfb-435b-48e3" name="New EntryLink" hidden="false" targetId="5248-b390-21ce-4c91" type="selectionEntryGroup">
           <profiles/>
@@ -978,6 +1123,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="3ad0-3ea6-844b-4c22" name="New EntryLink" hidden="false" targetId="b189-f62c-cfb6-2670" type="selectionEntryGroup">
           <profiles/>
@@ -985,6 +1131,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1015,6 +1162,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1024,6 +1172,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="4e8a-40e9-47da-538a" name="New EntryLink" hidden="false" targetId="4308-e408-5fe3-b995" type="selectionEntry">
           <profiles/>
@@ -1031,6 +1180,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="b313-df53-2246-33b6" name="New EntryLink" hidden="false" targetId="6dda-a125-470a-c046" type="selectionEntryGroup">
           <profiles/>
@@ -1038,6 +1188,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="0dfe-3f21-e935-6e01" name="New EntryLink" hidden="false" targetId="f0ec-64c9-156e-ef9b" type="selectionEntryGroup">
           <profiles/>
@@ -1045,6 +1196,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="778b-915c-f16b-1368" name="New EntryLink" hidden="false" targetId="f356-63ab-9ab8-2c1c" type="selectionEntryGroup">
           <profiles/>
@@ -1052,6 +1204,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="3052-33f3-ec94-7fd1" name="New EntryLink" hidden="false" targetId="084d-ac6c-1977-03a1" type="selectionEntryGroup">
           <profiles/>
@@ -1059,6 +1212,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="e646-bae6-f65a-8203" name="New EntryLink" hidden="false" targetId="5248-b390-21ce-4c91" type="selectionEntryGroup">
           <profiles/>
@@ -1066,6 +1220,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1153,6 +1308,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="57ed-c16a-fe60-4f77" name="Skills" hidden="false" collective="false">
@@ -1161,6 +1317,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -1170,6 +1327,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="c74d-2722-15da-2f51" name="New EntryLink" hidden="false" targetId="5d6d-25ca-e7ab-542b" type="selectionEntryGroup">
               <profiles/>
@@ -1177,6 +1335,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="91de-e003-4c54-3eef" name="New EntryLink" hidden="false" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
               <profiles/>
@@ -1184,6 +1343,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="84be-0e20-da1d-3931" name="New EntryLink" hidden="false" targetId="ed95-48d3-3d8d-17ae" type="selectionEntryGroup">
               <profiles/>
@@ -1191,6 +1351,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1202,6 +1363,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="2f0c-7f86-d185-99a0" name="New EntryLink" hidden="false" targetId="4308-e408-5fe3-b995" type="selectionEntry">
           <profiles/>
@@ -1209,6 +1371,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="cb45-eb60-4522-445b" name="New EntryLink" hidden="false" targetId="6dda-a125-470a-c046" type="selectionEntryGroup">
           <profiles/>
@@ -1216,6 +1379,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="98a3-bd5f-941f-401c" name="New EntryLink" hidden="false" targetId="f0ec-64c9-156e-ef9b" type="selectionEntryGroup">
           <profiles/>
@@ -1223,6 +1387,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="e983-b9e3-e900-cacc" name="New EntryLink" hidden="false" targetId="f356-63ab-9ab8-2c1c" type="selectionEntryGroup">
           <profiles/>
@@ -1230,6 +1395,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="9283-9fcc-5128-f15b" name="New EntryLink" hidden="false" targetId="5248-b390-21ce-4c91" type="selectionEntryGroup">
           <profiles/>
@@ -1237,6 +1403,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="62a5-d6c9-5d60-cf44" name="New EntryLink" hidden="false" targetId="1d87-61c2-3f82-9ae2" type="selectionEntryGroup">
           <profiles/>
@@ -1244,6 +1411,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="826e-1bcc-f259-fa98" name="New EntryLink" hidden="false" targetId="b189-f62c-cfb6-2670" type="selectionEntryGroup">
           <profiles/>
@@ -1251,6 +1419,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1270,6 +1439,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1301,6 +1471,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1316,6 +1487,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1341,6 +1513,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1356,6 +1529,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1386,6 +1560,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1401,6 +1576,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="e7dc-2648-4c7a-e1f8" name="New EntryLink" hidden="false" targetId="06fe-84cf-ff42-bb99" type="selectionEntry">
           <profiles/>
@@ -1408,6 +1584,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1429,6 +1606,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbd1-b239-ae80-531e" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1467,6 +1645,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1482,6 +1661,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1512,6 +1692,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1527,6 +1708,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1557,6 +1739,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1572,6 +1755,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1619,6 +1803,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1634,6 +1819,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1667,6 +1853,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1706,6 +1893,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="87ff-cde5-4624-abe8" name="Pistol" hidden="false" collective="false" defaultSelectionEntryId="6b63-b621-65c1-90ee">
@@ -1717,6 +1905,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e8b-fbdc-1de4-ab48" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f5a-f63a-f388-dd7a" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -1732,6 +1921,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
                 </modifier>
               </modifiers>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="f024-0f07-fa45-904b" name="New EntryLink" hidden="false" targetId="0c31-afa6-607f-724f" type="selectionEntry">
               <profiles/>
@@ -1745,6 +1935,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
                 </modifier>
               </modifiers>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1756,6 +1947,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="7d9b-8349-6339-439d" name="New EntryLink" hidden="false" targetId="ad8d-3117-33e4-2d91" type="selectionEntry">
           <profiles/>
@@ -1766,6 +1958,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20a8-52b6-fa2e-4968" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e160-4d42-4c2b-5f00" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="37d5-eade-3304-98cc" name="New EntryLink" hidden="false" targetId="4308-e408-5fe3-b995" type="selectionEntry">
           <profiles/>
@@ -1773,6 +1966,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="fac5-d1ca-8780-5a04" name="New EntryLink" hidden="false" targetId="2b61-9b04-c136-35ba" type="selectionEntry">
           <profiles/>
@@ -1789,6 +1983,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47f0-1a7b-3fe6-247e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1649-595f-6a79-b487" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="82c0-0cc2-0fdc-541a" name="New EntryLink" hidden="false" targetId="0bc2-eaa8-9162-587e" type="selectionEntry">
           <profiles/>
@@ -1804,6 +1999,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25a3-c778-420a-7b9d" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1842,6 +2038,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="a89a-c306-5ebc-2570" name="Pistols" hidden="false" collective="false" defaultSelectionEntryId="2970-858b-94c1-40fd">
@@ -1861,6 +2058,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ca6-9429-638c-938d" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84d6-1707-bdf9-aff8" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -1876,6 +2074,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
                 </modifier>
               </modifiers>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="1191-55dc-b8ee-aeb5" name="New EntryLink" hidden="false" targetId="0c31-afa6-607f-724f" type="selectionEntry">
               <profiles/>
@@ -1889,6 +2088,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
                 </modifier>
               </modifiers>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1916,6 +2116,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e13-ff54-a4f1-7bf0" type="min"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24bc-c062-58a1-6ef1" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -1936,6 +2137,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8705-0ce6-c446-8af9" type="min"/>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="facc-fc97-d378-58a7" type="max"/>
               </constraints>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="3ca9-d01d-66b1-fc3d" name="New EntryLink" hidden="false" targetId="9348-0726-6f28-8432" type="selectionEntry">
               <profiles/>
@@ -1952,6 +2154,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a436-515e-f973-c562" type="min"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df23-58ac-d5b8-a080" type="max"/>
               </constraints>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="032b-a2f7-4513-a928" name="New EntryLink" hidden="false" targetId="7aee-42ce-3b86-f66c" type="selectionEntry">
               <profiles/>
@@ -1961,6 +2164,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbbc-e5f0-3013-bddb" type="max"/>
               </constraints>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="6c8b-f53f-eb5b-9d79" name="New EntryLink" hidden="false" targetId="c4de-e0cc-eb31-f270" type="selectionEntry">
               <profiles/>
@@ -1970,6 +2174,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f449-ba83-7ec0-0356" type="max"/>
               </constraints>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1990,6 +2195,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fab-6a63-5e1e-bce7" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91e8-d4e3-51cc-1d80" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="519a-acfa-cd55-bba8" name="New EntryLink" hidden="false" targetId="4308-e408-5fe3-b995" type="selectionEntry">
           <profiles/>
@@ -1997,6 +2203,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -2063,6 +2270,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -2075,6 +2283,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a60f-70fc-0cfb-6553" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43e6-7ee3-44ae-d018" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -2089,6 +2298,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -2100,6 +2310,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df59-b623-0fe7-1af4" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="b14f-871a-f81f-d20d" name="New EntryLink" hidden="false" targetId="9299-dd9c-cf01-32f0" type="selectionEntry">
           <profiles/>
@@ -2120,6 +2331,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9b6-ac2d-82ea-4617" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="cff8-f3ed-f390-c87c" name="New EntryLink" hidden="false" targetId="aa8c-6a56-e0b5-48b7" type="selectionEntry">
           <profiles/>
@@ -2137,6 +2349,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9217-6ad4-12d5-7b0b" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="e0e4-0609-4daa-9782" name="New EntryLink" hidden="false" targetId="9338-58c6-f589-c89e" type="selectionEntry">
           <profiles/>
@@ -2154,6 +2367,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b953-84e8-039a-44d7" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -2163,6 +2377,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -2174,6 +2389,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8b3-7429-1189-311b" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="9e89-4902-34fe-1543" name="New EntryLink" hidden="false" targetId="3a1e-9e21-dbb3-57db" type="selectionEntry">
           <profiles/>
@@ -2183,6 +2399,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5984-df55-fda3-05d3" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="13bf-cbd7-4680-2e3b" name="New EntryLink" hidden="false" targetId="b009-9acb-eb25-8a96" type="selectionEntry">
           <profiles/>
@@ -2200,6 +2417,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2901-23ec-9065-1c95" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="c481-d35c-b951-2743" name="New EntryLink" hidden="false" targetId="233a-f555-962d-c738" type="selectionEntry">
           <profiles/>
@@ -2209,6 +2427,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7576-c5f3-30d2-5bb6" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -2218,6 +2437,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -2229,6 +2449,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61c3-7c8a-306e-9ba0" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -2238,6 +2459,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -2255,6 +2477,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a4c-de21-c9ad-a88e" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="0801-5cec-e775-715b" name="New EntryLink" hidden="false" targetId="0bc2-eaa8-9162-587e" type="selectionEntry">
           <profiles/>
@@ -2264,6 +2487,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19b3-7a35-784e-f184" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -2273,6 +2497,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -2284,6 +2509,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8952-5c84-5451-e81e" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="b7de-7ac9-f3cf-9b86" name="New EntryLink" hidden="false" targetId="2f6b-8d9e-e0e2-9a8d" type="selectionEntry">
           <profiles/>
@@ -2293,6 +2519,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fdd-223a-39fe-c485" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="fb3b-e19b-bb74-158b" name="New EntryLink" hidden="false" targetId="0301-073d-1851-5315" type="selectionEntry">
           <profiles/>
@@ -2302,6 +2529,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52a2-eeb1-904e-52b7" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -2311,6 +2539,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -2322,6 +2551,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c4c-6e5b-5d63-817a" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="37d6-ba37-8983-4d5d" name="New EntryLink" hidden="false" targetId="6409-d111-2af4-9be6" type="selectionEntry">
           <profiles/>
@@ -2331,6 +2561,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf7f-191c-00d7-d114" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="3fa6-4e41-6519-0243" name="New EntryLink" hidden="false" targetId="2760-3692-1a3d-9cea" type="selectionEntry">
           <profiles/>
@@ -2340,6 +2571,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcc8-e388-5e34-37de" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="dc85-de34-b2e5-307a" name="New EntryLink" hidden="false" targetId="444d-cf95-f107-4ff2" type="selectionEntry">
           <profiles/>
@@ -2349,6 +2581,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc11-96fa-1032-e0ea" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="ee64-8502-674a-eb73" name="New EntryLink" hidden="false" targetId="6d55-ff73-fce5-b31a" type="selectionEntry">
           <profiles/>
@@ -2358,6 +2591,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12c1-023a-b689-f027" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="2472-90a6-3f69-d212" name="New EntryLink" hidden="false" targetId="77e2-afa9-e8e1-7b1e" type="selectionEntry">
           <profiles/>
@@ -2373,6 +2607,7 @@ If a fighter has more than two arms and carries a weapon in each hand, then the 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d35-3e10-dfee-202d" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>

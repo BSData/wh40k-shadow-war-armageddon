@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8fa4-05bd-9679-c510" name="Grey Knights Kill Team" revision="6" battleScribeVersion="2.00" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8fa4-05bd-9679-c510" name="Grey Knights Kill Team" revision="7" battleScribeVersion="2.01" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="e63c-1f6a-a065-b8f7" name="And They Shall Know No Fear" book="Grey Knights Kill Team" page="1" hidden="false">
@@ -15,6 +15,36 @@ test to recover early from pinning, even if there is no friendly fighter within 
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
+  <categoryEntries>
+    <categoryEntry id="e8f7-69a0-dfe7-2675" name="Kill Team Leader" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="dfd8-af39-8374-d822" name="Tooper" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="940a-dcf5-0847-1df7" name="Specialist" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="2115-96be-dcf7-22a0" name="Special Operatives" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+  </categoryEntries>
   <forceEntries>
     <forceEntry id="b504-a7a7-10a6-7fc8" name="Grey Knights Kill Team" hidden="false">
       <profiles/>
@@ -44,8 +74,9 @@ psychic ability.</description>
         <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="748d-588a-c364-22fb" type="max"/>
         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="577c-9e6e-a625-d2d8" type="min"/>
       </constraints>
-      <categoryEntries>
-        <categoryEntry id="e8f7-69a0-dfe7-2675" name="Kill Team Leader" hidden="false">
+      <forceEntries/>
+      <categoryLinks>
+        <categoryLink id="b504-a7a7-10a6-7fc8-e8f7-69a0-dfe7-2675" name="Kill Team Leader" hidden="false" targetId="e8f7-69a0-dfe7-2675" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -54,15 +85,15 @@ psychic ability.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fef-729b-baf7-ab43" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8647-52f7-b6f5-7f17" type="min"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="dfd8-af39-8374-d822" name="Tooper" hidden="false">
+        </categoryLink>
+        <categoryLink id="b504-a7a7-10a6-7fc8-dfd8-af39-8374-d822" name="Tooper" hidden="false" targetId="dfd8-af39-8374-d822" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryEntry>
-        <categoryEntry id="940a-dcf5-0847-1df7" name="Specialist" hidden="false">
+        </categoryLink>
+        <categoryLink id="b504-a7a7-10a6-7fc8-940a-dcf5-0847-1df7" name="Specialist" hidden="false" targetId="940a-dcf5-0847-1df7" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -70,82 +101,162 @@ psychic ability.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c349-bcdd-f5f3-8296" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="2115-96be-dcf7-22a0" name="Special Operatives" hidden="false">
+        </categoryLink>
+        <categoryLink id="b504-a7a7-10a6-7fc8-2115-96be-dcf7-22a0" name="Special Operatives" hidden="false" targetId="2115-96be-dcf7-22a0" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryEntry>
-      </categoryEntries>
-      <forceEntries/>
+        </categoryLink>
+      </categoryLinks>
     </forceEntry>
   </forceEntries>
   <selectionEntries/>
   <entryLinks>
-    <entryLink id="e1c5-ea1e-28f0-2180" name="New EntryLink" hidden="false" targetId="fe33-fe26-2f9b-a64e" type="selectionEntry" categoryEntryId="e8f7-69a0-dfe7-2675">
+    <entryLink id="e1c5-ea1e-28f0-2180" name="New EntryLink" hidden="false" targetId="fe33-fe26-2f9b-a64e" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="e1c5-ea1e-28f0-2180-e8f7-69a0-dfe7-2675" hidden="false" targetId="e8f7-69a0-dfe7-2675" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="70e3-bdc8-58cf-af08" name="New EntryLink" hidden="false" targetId="aeb7-b99b-b132-ac8e" type="selectionEntry" categoryEntryId="940a-dcf5-0847-1df7">
+    <entryLink id="70e3-bdc8-58cf-af08" name="New EntryLink" hidden="false" targetId="aeb7-b99b-b132-ac8e" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="70e3-bdc8-58cf-af08-940a-dcf5-0847-1df7" hidden="false" targetId="940a-dcf5-0847-1df7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="96b0-da6e-4932-b520" name="New EntryLink" hidden="false" targetId="a217-d435-7259-bbb3" type="selectionEntry" categoryEntryId="dfd8-af39-8374-d822">
+    <entryLink id="96b0-da6e-4932-b520" name="New EntryLink" hidden="false" targetId="a217-d435-7259-bbb3" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="96b0-da6e-4932-b520-dfd8-af39-8374-d822" hidden="false" targetId="dfd8-af39-8374-d822" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="d39e-e511-a26c-627a" name="New EntryLink" hidden="false" targetId="c866-7416-3652-338a" type="selectionEntry" categoryEntryId="2115-96be-dcf7-22a0">
+    <entryLink id="d39e-e511-a26c-627a" name="New EntryLink" hidden="false" targetId="c866-7416-3652-338a" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="d39e-e511-a26c-627a-2115-96be-dcf7-22a0" hidden="false" targetId="2115-96be-dcf7-22a0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="0a6b-2bc3-2ee9-7367" name="New EntryLink" hidden="false" targetId="8c8f-d90c-0251-bcb8" type="selectionEntry" categoryEntryId="2115-96be-dcf7-22a0">
+    <entryLink id="0a6b-2bc3-2ee9-7367" name="New EntryLink" hidden="false" targetId="8c8f-d90c-0251-bcb8" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="0a6b-2bc3-2ee9-7367-2115-96be-dcf7-22a0" hidden="false" targetId="2115-96be-dcf7-22a0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="dd5a-8130-a1ee-ee68" name="New EntryLink" hidden="false" targetId="18fe-311e-aa2d-1b4b" type="selectionEntry" categoryEntryId="2115-96be-dcf7-22a0">
+    <entryLink id="dd5a-8130-a1ee-ee68" name="New EntryLink" hidden="false" targetId="18fe-311e-aa2d-1b4b" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="dd5a-8130-a1ee-ee68-2115-96be-dcf7-22a0" hidden="false" targetId="2115-96be-dcf7-22a0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="812f-acbe-43d0-ebca" name="New EntryLink" hidden="false" targetId="c6c3-f867-027e-ef73" type="selectionEntry" categoryEntryId="2115-96be-dcf7-22a0">
+    <entryLink id="812f-acbe-43d0-ebca" name="New EntryLink" hidden="false" targetId="c6c3-f867-027e-ef73" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="812f-acbe-43d0-ebca-2115-96be-dcf7-22a0" hidden="false" targetId="2115-96be-dcf7-22a0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="471a-a978-729d-d459" name="New EntryLink" hidden="false" targetId="5265-a101-40ec-d1d5" type="selectionEntry" categoryEntryId="2115-96be-dcf7-22a0">
+    <entryLink id="471a-a978-729d-d459" name="New EntryLink" hidden="false" targetId="5265-a101-40ec-d1d5" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="471a-a978-729d-d459-2115-96be-dcf7-22a0" hidden="false" targetId="2115-96be-dcf7-22a0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="5ec3-d6fc-8fa5-665d" name="New EntryLink" hidden="false" targetId="c770-f0bb-6350-b8fc" type="selectionEntry" categoryEntryId="2115-96be-dcf7-22a0">
+    <entryLink id="5ec3-d6fc-8fa5-665d" name="New EntryLink" hidden="false" targetId="c770-f0bb-6350-b8fc" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="5ec3-d6fc-8fa5-665d-2115-96be-dcf7-22a0" hidden="false" targetId="2115-96be-dcf7-22a0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -230,6 +341,7 @@ psychic ability.</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="d7b5-7546-8990-2c90" name="Skills" hidden="false" collective="false">
@@ -238,6 +350,7 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -247,6 +360,7 @@ psychic ability.</description>
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="86ce-7b32-8a18-1d1d" name="New EntryLink" hidden="false" targetId="5d6d-25ca-e7ab-542b" type="selectionEntryGroup">
               <profiles/>
@@ -254,6 +368,7 @@ psychic ability.</description>
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="f43d-5b9a-770f-9e13" name="New EntryLink" hidden="false" targetId="b7af-97de-f33e-738d" type="selectionEntryGroup">
               <profiles/>
@@ -261,6 +376,7 @@ psychic ability.</description>
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="2e4e-d268-8c83-81d8" name="New EntryLink" hidden="false" targetId="ed95-48d3-3d8d-17ae" type="selectionEntryGroup">
               <profiles/>
@@ -268,6 +384,7 @@ psychic ability.</description>
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="43cf-3562-6023-9bbc" name="New EntryLink" hidden="false" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
               <profiles/>
@@ -275,6 +392,7 @@ psychic ability.</description>
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="264d-24e8-2792-b078" name="New EntryLink" hidden="false" targetId="5a79-1e9b-2ae5-9dfe" type="selectionEntryGroup">
               <profiles/>
@@ -282,6 +400,7 @@ psychic ability.</description>
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -296,6 +415,7 @@ psychic ability.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1847-7fbb-3faf-f811" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6df-15a9-db41-8bc3" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="5be1-b613-48a4-15d1" name="New EntryLink" hidden="false" targetId="7a14-e87c-9eae-b7a0" type="selectionEntry">
           <profiles/>
@@ -306,6 +426,7 @@ psychic ability.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0468-4066-7a08-24a3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17f3-2159-0ec9-a650" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="dba6-306e-791d-acba" name="New EntryLink" hidden="false" targetId="8a3b-1d62-bcd8-e545" type="selectionEntryGroup">
           <profiles/>
@@ -313,6 +434,7 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="6442-a4d3-8002-7ca8" name="New EntryLink" hidden="false" targetId="b884-cd14-997b-c305" type="selectionEntryGroup">
           <profiles/>
@@ -320,6 +442,7 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="9a50-b99d-5353-252f" name="New EntryLink" hidden="false" targetId="3927-df5b-7cd5-cd4b" type="selectionEntryGroup">
           <profiles/>
@@ -327,6 +450,7 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="04b8-dfdc-6539-082b" name="New EntryLink" hidden="false" targetId="234f-4fee-36e4-9187" type="selectionEntry">
           <profiles/>
@@ -337,6 +461,7 @@ psychic ability.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b16-ef6e-4c30-3dd3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="001e-2eef-2624-4213" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="f8a4-ee8c-26b3-a2be" name="New EntryLink" hidden="false" targetId="bbcf-a297-9361-dfa3" type="selectionEntry">
           <profiles/>
@@ -347,6 +472,7 @@ psychic ability.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc19-e6b1-e2dd-eada" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4eae-8584-fb60-9b85" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="f5f9-133b-25d9-daeb" name="New EntryLink" hidden="false" targetId="b189-f62c-cfb6-2670" type="selectionEntryGroup">
           <profiles/>
@@ -354,6 +480,7 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -392,6 +519,7 @@ psychic ability.</description>
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -425,6 +553,7 @@ psychic ability.</description>
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -451,6 +580,7 @@ psychic ability.</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -484,6 +614,7 @@ psychic ability.</description>
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -518,6 +649,7 @@ psychic ability.</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -562,6 +694,7 @@ psychic ability.</description>
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="b348-dfd9-555e-d622" name="Weapon Reload" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -569,6 +702,7 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -607,6 +741,7 @@ psychic ability.</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="f55d-6d38-f7ba-0012" name="Weapon Reload" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -614,6 +749,7 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -629,6 +765,7 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -638,6 +775,7 @@ psychic ability.</description>
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="a931-526c-9596-35f6" name="New EntryLink" hidden="false" targetId="4770-38f6-6a85-b653" type="selectionEntry">
               <profiles/>
@@ -645,6 +783,7 @@ psychic ability.</description>
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -678,6 +817,7 @@ psychic ability.</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="30b1-d9ef-b146-96cb" name="Weapon Reload" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -685,6 +825,7 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -700,6 +841,7 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -709,6 +851,7 @@ psychic ability.</description>
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="aa79-44ed-0586-3348" name="New EntryLink" hidden="false" targetId="4770-38f6-6a85-b653" type="selectionEntry">
               <profiles/>
@@ -716,6 +859,7 @@ psychic ability.</description>
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -806,6 +950,7 @@ psychic ability.</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="8bc3-b9df-5219-10da" name="Skills" hidden="false" collective="false">
@@ -814,6 +959,7 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -823,6 +969,7 @@ psychic ability.</description>
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="8f34-82b8-5a72-ce84" name="New EntryLink" hidden="false" targetId="ed95-48d3-3d8d-17ae" type="selectionEntryGroup">
               <profiles/>
@@ -830,6 +977,7 @@ psychic ability.</description>
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="1f7d-8e50-876b-165c" name="New EntryLink" hidden="false" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
               <profiles/>
@@ -837,6 +985,7 @@ psychic ability.</description>
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -851,6 +1000,7 @@ psychic ability.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f1a-43c4-5921-d194" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17d2-ee6f-1f71-b639" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="5111-536b-5f4d-8455" name="New EntryLink" hidden="false" targetId="7a14-e87c-9eae-b7a0" type="selectionEntry">
           <profiles/>
@@ -861,6 +1011,7 @@ psychic ability.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a205-cffd-4de0-e3a8" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b4f-8f06-b472-a345" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="5f64-e7bf-b6f3-3e30" name="New EntryLink" hidden="false" targetId="b884-cd14-997b-c305" type="selectionEntryGroup">
           <profiles/>
@@ -868,6 +1019,7 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="b3c0-b146-81be-c268" name="New EntryLink" hidden="false" targetId="8a3b-1d62-bcd8-e545" type="selectionEntryGroup">
           <profiles/>
@@ -875,6 +1027,7 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="03d2-54bc-e8e2-d3b3" name="New EntryLink" hidden="false" targetId="3927-df5b-7cd5-cd4b" type="selectionEntryGroup">
           <profiles/>
@@ -882,6 +1035,7 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="8cca-ff96-8a07-89c6" name="New EntryLink" hidden="false" targetId="bbcf-a297-9361-dfa3" type="selectionEntry">
           <profiles/>
@@ -892,6 +1046,7 @@ psychic ability.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27f9-a8b2-d019-8df8" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="407d-5725-8bef-3505" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="dc4c-dc95-2735-5f3d" name="New EntryLink" hidden="false" targetId="b189-f62c-cfb6-2670" type="selectionEntryGroup">
           <profiles/>
@@ -899,6 +1054,7 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -986,6 +1142,7 @@ psychic ability.</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="148f-d5a3-9937-658c" name="Skills" hidden="false" collective="false">
@@ -994,6 +1151,7 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -1003,6 +1161,7 @@ psychic ability.</description>
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="a3ff-55d5-61dc-ba6e" name="New EntryLink" hidden="false" targetId="5d6d-25ca-e7ab-542b" type="selectionEntryGroup">
               <profiles/>
@@ -1010,6 +1169,7 @@ psychic ability.</description>
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="9e62-718c-227e-db48" name="New EntryLink" hidden="false" targetId="ed95-48d3-3d8d-17ae" type="selectionEntryGroup">
               <profiles/>
@@ -1017,6 +1177,7 @@ psychic ability.</description>
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="dfbf-87fe-e100-a7d4" name="New EntryLink" hidden="false" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
               <profiles/>
@@ -1024,6 +1185,7 @@ psychic ability.</description>
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1035,6 +1197,7 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="d71a-e224-8479-3384" name="New EntryLink" hidden="false" targetId="8a3b-1d62-bcd8-e545" type="selectionEntryGroup">
           <profiles/>
@@ -1042,6 +1205,7 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="b191-b380-0f45-00e2" name="New EntryLink" hidden="false" targetId="b884-cd14-997b-c305" type="selectionEntryGroup">
           <profiles/>
@@ -1049,6 +1213,7 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="3f6f-7770-4a1b-0f43" name="New EntryLink" hidden="false" targetId="7a14-e87c-9eae-b7a0" type="selectionEntry">
           <profiles/>
@@ -1078,6 +1243,7 @@ psychic ability.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a43-1590-d526-9ae2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="506e-ee01-9f99-1afd" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="55ad-a017-9717-5fc6" name="New EntryLink" hidden="false" targetId="68f4-fc70-d991-d2d1" type="selectionEntry">
           <profiles/>
@@ -1088,6 +1254,7 @@ psychic ability.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c89b-6e72-710a-cda0" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8e7-f9f5-99a2-ca85" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="5ead-be29-b7e7-f312" name="New EntryLink" hidden="false" targetId="2ba6-6fd0-2064-2af4" type="selectionEntryGroup">
           <profiles/>
@@ -1095,6 +1262,7 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="5f2c-b3e0-4515-1984" name="New EntryLink" hidden="false" targetId="9b7f-daf0-3d23-43bc" type="selectionEntry">
           <profiles/>
@@ -1105,6 +1273,7 @@ psychic ability.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="503f-555d-0bd3-f2b4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43c1-8973-3c18-04e0" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="5525-1721-ac2f-03f4" name="New EntryLink" hidden="false" targetId="bbcf-a297-9361-dfa3" type="selectionEntry">
           <profiles/>
@@ -1115,6 +1284,7 @@ psychic ability.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="622e-6031-a3b7-c3c4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3aa-8b11-ca90-def9" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="a007-9cf1-2d3c-c0f3" name="New EntryLink" hidden="false" targetId="b189-f62c-cfb6-2670" type="selectionEntryGroup">
           <profiles/>
@@ -1122,6 +1292,7 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1152,6 +1323,7 @@ psychic ability.</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="11ab-8045-cc3d-0945" name="Storm bolter" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1169,6 +1341,7 @@ psychic ability.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="107b-ef9d-4fe7-c44f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d29-01f5-f221-3422" type="min"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1188,6 +1361,7 @@ psychic ability.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5144-d0d3-03d9-2b95" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31d8-108a-e5e4-73d6" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="ea40-90f0-640e-7c3e" name="New EntryLink" hidden="false" targetId="8a3b-1d62-bcd8-e545" type="selectionEntryGroup">
           <profiles/>
@@ -1195,6 +1369,7 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="8db9-7d69-41f1-08a4" name="New EntryLink" hidden="false" targetId="b8ea-51ad-363d-9018" type="selectionEntry">
           <profiles/>
@@ -1211,6 +1386,7 @@ psychic ability.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f30-00de-82a2-d442" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3462-6de9-d97d-1619" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="a91e-acc7-7ac7-cf79" name="New EntryLink" hidden="false" targetId="43ce-dc52-b26b-97a8" type="selectionEntry">
           <profiles/>
@@ -1227,6 +1403,7 @@ psychic ability.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d61-2d8b-9004-616b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec83-6fb7-aaaf-cf9e" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="e76a-dd6a-4fae-f0e6" name="New EntryLink" hidden="false" targetId="bbcf-a297-9361-dfa3" type="selectionEntry">
           <profiles/>
@@ -1237,6 +1414,7 @@ psychic ability.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d12b-6ee6-5b5c-51ce" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d19-6b26-bc06-40d4" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="a21f-7f5f-a5cb-4a55" name="New EntryLink" hidden="false" targetId="7616-2383-15dd-d59e" type="selectionEntry">
           <profiles/>
@@ -1247,6 +1425,7 @@ psychic ability.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1529-fd36-f601-1be4" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f7b-bd87-f816-f4e4" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1277,6 +1456,7 @@ psychic ability.</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="62f1-4bae-6354-6634" name="Storm bolter" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1294,6 +1474,7 @@ psychic ability.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ed9-162d-01ac-6005" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3ac-2f9b-bf4d-4f0b" type="min"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1313,6 +1494,7 @@ psychic ability.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8816-3a05-b069-8317" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0909-ba28-e678-347d" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="7281-616a-0e6e-e6ac" name="New EntryLink" hidden="false" targetId="68f4-fc70-d991-d2d1" type="selectionEntry">
           <profiles/>
@@ -1323,6 +1505,7 @@ psychic ability.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4c9-c2e9-aae6-6841" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e3a-ec17-1020-cbbc" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="0427-2c63-69b8-0464" name="New EntryLink" hidden="false" targetId="43ce-dc52-b26b-97a8" type="selectionEntry">
           <profiles/>
@@ -1339,6 +1522,7 @@ psychic ability.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5561-7c59-494c-d20b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca89-305f-d8b7-1564" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="9498-287a-a0c5-4e28" name="New EntryLink" hidden="false" targetId="b8ea-51ad-363d-9018" type="selectionEntry">
           <profiles/>
@@ -1355,6 +1539,7 @@ psychic ability.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5081-eca8-483f-73d1" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f937-b0d0-71e7-2c57" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="5a1a-6ffa-e807-b281" name="New EntryLink" hidden="false" targetId="d586-0709-bcf0-8e9b" type="selectionEntry">
           <profiles/>
@@ -1365,6 +1550,7 @@ psychic ability.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d562-cb31-8877-0c88" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f366-e02f-b126-45f7" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="5a21-845f-cf9d-d117" name="New EntryLink" hidden="false" targetId="8a3b-1d62-bcd8-e545" type="selectionEntryGroup">
           <profiles/>
@@ -1372,6 +1558,7 @@ psychic ability.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1425,6 +1612,7 @@ additional promethium cache.</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="a896-599e-c4d8-ebc6" name="Storm bolter" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1442,6 +1630,7 @@ additional promethium cache.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8829-1032-6d15-c7da" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9c2-b293-3def-fefb" type="min"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1461,6 +1650,7 @@ additional promethium cache.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bb2-203f-e2df-e07f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9857-b4dc-d190-126f" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="2cc3-8a84-fe55-9a63" name="New EntryLink" hidden="false" targetId="b8ea-51ad-363d-9018" type="selectionEntry">
           <profiles/>
@@ -1477,6 +1667,7 @@ additional promethium cache.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07fc-6942-7b2d-0444" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5c9-176b-8548-42fe" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="d86d-8571-ac30-5920" name="New EntryLink" hidden="false" targetId="43ce-dc52-b26b-97a8" type="selectionEntry">
           <profiles/>
@@ -1493,6 +1684,7 @@ additional promethium cache.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b539-e2dd-940e-83e8" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f05d-cd67-e36c-3dbf" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="b0b4-ad44-e2ae-acc5" name="New EntryLink" hidden="false" targetId="a1b7-c813-fbe7-e6cd" type="selectionEntry">
           <profiles/>
@@ -1503,6 +1695,7 @@ additional promethium cache.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a5b-9a89-0dbb-1ec1" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f16-312f-d65a-77b1" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="a6e8-74b5-eeed-100a" name="New EntryLink" hidden="false" targetId="8a3b-1d62-bcd8-e545" type="selectionEntryGroup">
           <profiles/>
@@ -1510,6 +1703,7 @@ additional promethium cache.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1562,6 +1756,7 @@ additional promethium cache.</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="2874-c39c-9d7a-c153" name="Storm bolter" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1598,6 +1793,7 @@ additional promethium cache.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c812-96ac-62ca-56df" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="354e-a19a-815e-fc22" type="min"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1615,6 +1811,7 @@ additional promethium cache.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="786e-1731-9d93-d67b" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -1630,6 +1827,7 @@ additional promethium cache.</description>
                 </modifier>
               </modifiers>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="03ae-7b28-0903-fb0a" name="New EntryLink" hidden="false" targetId="4408-8b41-f773-3c9a" type="selectionEntry">
               <profiles/>
@@ -1643,6 +1841,7 @@ additional promethium cache.</description>
                 </modifier>
               </modifiers>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="905c-6e98-f9eb-8a04" name="New EntryLink" hidden="false" targetId="4448-be34-5a7e-891e" type="selectionEntry">
               <profiles/>
@@ -1656,6 +1855,7 @@ additional promethium cache.</description>
                 </modifier>
               </modifiers>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1670,6 +1870,7 @@ additional promethium cache.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3641-29f5-f1c2-ba2c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2aee-4d05-a1ac-133f" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="0bfc-c349-1e13-73ae" name="New EntryLink" hidden="false" targetId="234f-4fee-36e4-9187" type="selectionEntry">
           <profiles/>
@@ -1680,6 +1881,7 @@ additional promethium cache.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b50-acef-5c6a-25d6" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7c6-606d-471a-543c" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="d051-be3e-7fa4-359f" name="New EntryLink" hidden="false" targetId="b8ea-51ad-363d-9018" type="selectionEntry">
           <profiles/>
@@ -1696,6 +1898,7 @@ additional promethium cache.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3845-bf3a-b1dd-05c8" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba6c-1386-3c0c-b313" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="8511-d631-d510-bfa1" name="New EntryLink" hidden="false" targetId="43ce-dc52-b26b-97a8" type="selectionEntry">
           <profiles/>
@@ -1712,6 +1915,7 @@ additional promethium cache.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f903-49a3-067a-4f82" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8969-011f-b67d-7239" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="17db-ac8f-d50a-7756" name="New EntryLink" hidden="false" targetId="a1b7-c813-fbe7-e6cd" type="selectionEntry">
           <profiles/>
@@ -1722,6 +1926,7 @@ additional promethium cache.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ceeb-b267-e96c-b5aa" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50db-4920-194d-b25d" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="8534-da00-634f-5192" name="New EntryLink" hidden="false" targetId="8a3b-1d62-bcd8-e545" type="selectionEntryGroup">
           <profiles/>
@@ -1729,6 +1934,7 @@ additional promethium cache.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1751,6 +1957,7 @@ additional promethium cache.</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1771,6 +1978,7 @@ additional promethium cache.</description>
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="ff26-c51d-9956-9162" name="Psybolts" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1804,6 +2012,7 @@ additional promethium cache.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1817,6 +2026,7 @@ additional promethium cache.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1832,6 +2042,7 @@ additional promethium cache.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -1841,6 +2052,7 @@ additional promethium cache.</description>
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="75f5-1e5a-ce46-f6d6" name="New EntryLink" hidden="false" targetId="4770-38f6-6a85-b653" type="selectionEntry">
               <profiles/>
@@ -1848,6 +2060,7 @@ additional promethium cache.</description>
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1880,6 +2093,7 @@ additional promethium cache.</description>
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1924,6 +2138,7 @@ additional promethium cache.</description>
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1954,6 +2169,7 @@ additional promethium cache.</description>
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1984,6 +2200,7 @@ additional promethium cache.</description>
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1999,6 +2216,7 @@ additional promethium cache.</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -2008,6 +2226,7 @@ additional promethium cache.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="ac7b-abc2-66c3-1a25" name="New EntryLink" hidden="false" targetId="4408-8b41-f773-3c9a" type="selectionEntry">
           <profiles/>
@@ -2015,6 +2234,7 @@ additional promethium cache.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="2470-eeab-9d10-dc02" name="New EntryLink" hidden="false" targetId="4448-be34-5a7e-891e" type="selectionEntry">
           <profiles/>
@@ -2022,6 +2242,7 @@ additional promethium cache.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -2050,6 +2271,7 @@ additional promethium cache.</description>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="256b-3619-7d95-4f35" type="max"/>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4380-bdd3-6df4-7133" type="min"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -2077,6 +2299,7 @@ additional promethium cache.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d09d-b17b-ca33-cce2" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="4c3b-0934-ba4e-c0ec" name="New EntryLink" hidden="false" targetId="013e-d73d-0cf7-f3f1" type="selectionEntry">
           <profiles/>
@@ -2102,6 +2325,7 @@ additional promethium cache.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3919-3599-3b60-f367" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="b8ca-2a20-de79-c8dd" name="New EntryLink" hidden="false" targetId="3001-9c2f-05e6-0728" type="selectionEntry">
           <profiles/>
@@ -2127,6 +2351,7 @@ additional promethium cache.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d166-5fa6-805e-e177" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="50c6-d86d-0971-b70a" name="New EntryLink" hidden="false" targetId="d6f3-5e32-53a5-29e9" type="selectionEntry">
           <profiles/>
@@ -2152,6 +2377,7 @@ additional promethium cache.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6e0-c3a8-77ea-1761" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="74b2-63d5-6aa8-3374" name="New EntryLink" hidden="false" targetId="60dc-2c32-da31-77cb" type="selectionEntry">
           <profiles/>
@@ -2177,6 +2403,7 @@ additional promethium cache.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6295-65d6-1c89-9de6" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -2186,6 +2413,7 @@ additional promethium cache.</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -2195,6 +2423,7 @@ additional promethium cache.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="d792-0a60-0b84-2b9c" name="New EntryLink" hidden="false" targetId="43ce-dc52-b26b-97a8" type="selectionEntry">
           <profiles/>
@@ -2202,6 +2431,7 @@ additional promethium cache.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="9854-d381-78c6-ac9a" name="New EntryLink" hidden="false" targetId="c4f3-d1b1-b04b-2994" type="selectionEntry">
           <profiles/>
@@ -2217,6 +2447,7 @@ additional promethium cache.</description>
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -2226,6 +2457,7 @@ additional promethium cache.</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -2235,6 +2467,7 @@ additional promethium cache.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="51c5-4014-92c0-d068" name="New EntryLink" hidden="false" targetId="0bc2-eaa8-9162-587e" type="selectionEntry">
           <profiles/>
@@ -2242,6 +2475,7 @@ additional promethium cache.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>

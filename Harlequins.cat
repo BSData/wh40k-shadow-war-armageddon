@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e3a1-e2a2-0869-9c80" name="Harlequins Kill Team" revision="4" battleScribeVersion="2.00" authorName="GenWilhelm" authorUrl="https://github.com/VisionHeavy/BSData_Shadow_War" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e3a1-e2a2-0869-9c80" name="Harlequins Kill Team" revision="5" battleScribeVersion="2.01" authorName="GenWilhelm" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-shadow-war-armageddon" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="ea6c-dd36-7925-81f4" name="Harlequin Troupe Kill Team" hidden="false">
@@ -15,57 +15,121 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
+  <categoryEntries/>
   <forceEntries/>
   <selectionEntries/>
   <entryLinks>
-    <entryLink id="28de-1618-a29d-1c90" name="New EntryLink" hidden="false" targetId="0d79-3ceb-aa2e-624e" type="selectionEntry" categoryEntryId="d857-ffdb-a6af-c1d3">
+    <entryLink id="28de-1618-a29d-1c90" name="New EntryLink" hidden="false" targetId="0d79-3ceb-aa2e-624e" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="28de-1618-a29d-1c90-d857-ffdb-a6af-c1d3" hidden="false" targetId="d857-ffdb-a6af-c1d3" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="57ed-22c2-206a-8034" name="New EntryLink" hidden="false" targetId="88b8-a465-1bfe-a75f" type="selectionEntry" categoryEntryId="b6d4-0969-5e1a-27b6">
+    <entryLink id="57ed-22c2-206a-8034" name="New EntryLink" hidden="false" targetId="88b8-a465-1bfe-a75f" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="57ed-22c2-206a-8034-b6d4-0969-5e1a-27b6" hidden="false" targetId="b6d4-0969-5e1a-27b6" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="79b4-c938-4b36-2957" name="New EntryLink" hidden="false" targetId="0f83-9bf9-490b-1364" type="selectionEntry" categoryEntryId="6900-8e96-c5cf-b1c8">
+    <entryLink id="79b4-c938-4b36-2957" name="New EntryLink" hidden="false" targetId="0f83-9bf9-490b-1364" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="79b4-c938-4b36-2957-6900-8e96-c5cf-b1c8" hidden="false" targetId="6900-8e96-c5cf-b1c8" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="387f-6c03-5626-a7bc" name="New EntryLink" hidden="false" targetId="2ff9-8a71-a3dc-7de4" type="selectionEntry" categoryEntryId="0dde-ebb1-9d60-153e">
+    <entryLink id="387f-6c03-5626-a7bc" name="New EntryLink" hidden="false" targetId="2ff9-8a71-a3dc-7de4" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="387f-6c03-5626-a7bc-0dde-ebb1-9d60-153e" hidden="false" targetId="0dde-ebb1-9d60-153e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="f1cb-7ec3-b69a-865c" name="New EntryLink" hidden="false" targetId="3043-93ff-297d-c6dd" type="selectionEntry" categoryEntryId="5901-345e-04ba-e937">
+    <entryLink id="f1cb-7ec3-b69a-865c" name="New EntryLink" hidden="false" targetId="3043-93ff-297d-c6dd" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="f1cb-7ec3-b69a-865c-5901-345e-04ba-e937" hidden="false" targetId="5901-345e-04ba-e937" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="c17d-4d93-362a-8ce4" name="New EntryLink" hidden="false" targetId="37c0-6410-4efd-d22c" type="selectionEntry" categoryEntryId="5901-345e-04ba-e937">
+    <entryLink id="c17d-4d93-362a-8ce4" name="New EntryLink" hidden="false" targetId="37c0-6410-4efd-d22c" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="c17d-4d93-362a-8ce4-5901-345e-04ba-e937" hidden="false" targetId="5901-345e-04ba-e937" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="9c6d-f713-ea78-9562" name="New EntryLink" hidden="false" targetId="5296-36b6-98e8-d0d3" type="selectionEntry" categoryEntryId="5901-345e-04ba-e937">
+    <entryLink id="9c6d-f713-ea78-9562" name="New EntryLink" hidden="false" targetId="5296-36b6-98e8-d0d3" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="9c6d-f713-ea78-9562-5901-345e-04ba-e937" hidden="false" targetId="5901-345e-04ba-e937" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -96,6 +160,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -130,6 +195,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -176,6 +242,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -210,6 +277,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -243,6 +311,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -274,6 +343,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -289,6 +359,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -327,6 +398,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -342,6 +414,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -372,6 +445,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -387,6 +461,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -449,6 +524,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -483,6 +559,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -506,6 +583,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -545,6 +623,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -568,6 +647,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -591,6 +671,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -686,6 +767,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="ef79-f9f7-7256-9513" name="Skills" hidden="false" collective="false">
@@ -694,6 +776,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -703,6 +786,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="6bad-a059-cffb-4554" name="New EntryLink" hidden="false" targetId="5d6d-25ca-e7ab-542b" type="selectionEntryGroup">
               <profiles/>
@@ -710,6 +794,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="824f-e30a-82eb-1ae7" name="New EntryLink" hidden="false" targetId="b7af-97de-f33e-738d" type="selectionEntryGroup">
               <profiles/>
@@ -717,6 +802,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="7842-9194-c3d8-7e27" name="New EntryLink" hidden="false" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
               <profiles/>
@@ -724,6 +810,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="9bcd-a867-1a3a-21aa" name="New EntryLink" hidden="false" targetId="39f6-a84f-1a4b-3cfc" type="selectionEntryGroup">
               <profiles/>
@@ -731,6 +818,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="b2e2-4a72-ef6f-fafa" name="New EntryLink" hidden="false" targetId="5a79-1e9b-2ae5-9dfe" type="selectionEntryGroup">
               <profiles/>
@@ -738,6 +826,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -749,6 +838,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="c300-55df-6132-a87d" name="New EntryLink" hidden="false" targetId="a6f9-087b-442f-8194" type="selectionEntry">
           <profiles/>
@@ -759,6 +849,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d8e-cbc8-f467-b758" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32f4-2778-afc9-b9ff" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="a1bc-d743-9021-89b9" name="New EntryLink" hidden="false" targetId="3aaf-33a9-8661-b118" type="selectionEntry">
           <profiles/>
@@ -769,6 +860,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="587f-e423-4baa-9d09" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9e5-606c-12a5-7da7" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="7c1b-ea17-5ebc-f4d3" name="New EntryLink" hidden="false" targetId="6c3b-b190-5489-80a7" type="selectionEntry">
           <profiles/>
@@ -779,6 +871,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a58-d68a-1163-c517" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9344-e4ed-1477-dfd3" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="bc7c-840c-01f3-444c" name="New EntryLink" hidden="false" targetId="8198-7254-7931-83d1" type="selectionEntryGroup">
           <profiles/>
@@ -786,6 +879,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="b9c0-d233-fc13-07c1" name="New EntryLink" hidden="false" targetId="5fc4-004a-d650-8a89" type="selectionEntryGroup">
           <profiles/>
@@ -793,6 +887,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="9c5e-a8d3-0736-73df" name="New EntryLink" hidden="false" targetId="b245-b69c-7521-774d" type="selectionEntryGroup">
           <profiles/>
@@ -800,6 +895,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="1a18-2988-e8d5-9fe6" name="New EntryLink" hidden="false" targetId="d84d-c142-a475-a12c" type="selectionEntryGroup">
           <profiles/>
@@ -807,6 +903,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="6c51-f4bb-d861-9e67" name="New EntryLink" hidden="false" targetId="b189-f62c-cfb6-2670" type="selectionEntryGroup">
           <profiles/>
@@ -814,6 +911,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -908,6 +1006,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="ed4c-6d03-f802-6d9a" name="Skills" hidden="false" collective="false">
@@ -916,6 +1015,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -925,6 +1025,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="9d14-432a-41f9-192a" name="New EntryLink" hidden="false" targetId="39f6-a84f-1a4b-3cfc" type="selectionEntryGroup">
               <profiles/>
@@ -932,6 +1033,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="70cd-dff2-d866-b243" name="New EntryLink" hidden="false" targetId="5a79-1e9b-2ae5-9dfe" type="selectionEntryGroup">
               <profiles/>
@@ -939,6 +1041,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -950,6 +1053,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="9eaf-8110-b976-6c28" name="New EntryLink" hidden="false" targetId="a6f9-087b-442f-8194" type="selectionEntry">
           <profiles/>
@@ -960,6 +1064,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa10-d7cd-30d6-f2ae" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dc9-4721-1f2e-c467" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="8435-5851-bfc3-b6d9" name="New EntryLink" hidden="false" targetId="3aaf-33a9-8661-b118" type="selectionEntry">
           <profiles/>
@@ -970,6 +1075,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a42b-4f95-01ec-0f47" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13cf-4994-a6cc-fe12" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="233e-ed55-d3bb-5120" name="New EntryLink" hidden="false" targetId="6c3b-b190-5489-80a7" type="selectionEntry">
           <profiles/>
@@ -980,6 +1086,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b756-dd88-145f-eab7" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76f9-a6a7-2ff6-1e2b" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="9d31-a576-effa-b382" name="New EntryLink" hidden="false" targetId="8198-7254-7931-83d1" type="selectionEntryGroup">
           <profiles/>
@@ -987,6 +1094,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="f632-1f64-1bb2-aed2" name="New EntryLink" hidden="false" targetId="5fc4-004a-d650-8a89" type="selectionEntryGroup">
           <profiles/>
@@ -994,6 +1102,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="5f7e-9ca8-61a8-b965" name="New EntryLink" hidden="false" targetId="b245-b69c-7521-774d" type="selectionEntryGroup">
           <profiles/>
@@ -1001,6 +1110,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="547e-af46-936a-7fc3" name="New EntryLink" hidden="false" targetId="d84d-c142-a475-a12c" type="selectionEntryGroup">
           <profiles/>
@@ -1008,6 +1118,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="881a-ea23-25d2-2b1f" name="New EntryLink" hidden="false" targetId="b189-f62c-cfb6-2670" type="selectionEntryGroup">
           <profiles/>
@@ -1015,6 +1126,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1052,6 +1164,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1061,6 +1174,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="1d60-b328-0664-ab1a" name="New EntryLink" hidden="false" targetId="a6f9-087b-442f-8194" type="selectionEntry">
           <profiles/>
@@ -1071,6 +1185,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad0a-9ed3-e51c-3949" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5049-bb8c-8b96-5513" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="efd3-160b-53ab-b8e1" name="New EntryLink" hidden="false" targetId="3aaf-33a9-8661-b118" type="selectionEntry">
           <profiles/>
@@ -1081,6 +1196,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cb5-3452-eb9e-7f63" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87f7-5753-5ab4-d98b" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="0702-e609-9ad9-b72a" name="New EntryLink" hidden="false" targetId="6c3b-b190-5489-80a7" type="selectionEntry">
           <profiles/>
@@ -1091,6 +1207,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f08e-262e-d9e7-ff07" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9b5-eb89-bf5c-4a14" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="c12c-98b1-bf87-d008" name="New EntryLink" hidden="false" targetId="8198-7254-7931-83d1" type="selectionEntryGroup">
           <profiles/>
@@ -1098,6 +1215,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="c200-3703-ea72-87d3" name="New EntryLink" hidden="false" targetId="5fc4-004a-d650-8a89" type="selectionEntryGroup">
           <profiles/>
@@ -1105,6 +1223,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="2aaa-0d81-62fc-e1fb" name="New EntryLink" hidden="false" targetId="b245-b69c-7521-774d" type="selectionEntryGroup">
           <profiles/>
@@ -1112,6 +1231,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="3c78-f8f0-b2da-6118" name="New EntryLink" hidden="false" targetId="d84d-c142-a475-a12c" type="selectionEntryGroup">
           <profiles/>
@@ -1119,6 +1239,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1213,6 +1334,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="1d7b-2d7f-d28e-8a0d" name="Skills" hidden="false" collective="false">
@@ -1221,6 +1343,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -1230,6 +1353,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="3505-84d6-60b9-4ea1" name="New EntryLink" hidden="false" targetId="202b-6b7a-15fa-27e9" type="selectionEntryGroup">
               <profiles/>
@@ -1237,6 +1361,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="1dfd-d9f2-7fd8-edaf" name="New EntryLink" hidden="false" targetId="39f6-a84f-1a4b-3cfc" type="selectionEntryGroup">
               <profiles/>
@@ -1244,6 +1369,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="e81d-2958-d2dc-0a1c" name="New EntryLink" hidden="false" targetId="5a79-1e9b-2ae5-9dfe" type="selectionEntryGroup">
               <profiles/>
@@ -1251,6 +1377,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1262,6 +1389,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="cbad-67f1-5602-da72" name="New EntryLink" hidden="false" targetId="a6f9-087b-442f-8194" type="selectionEntry">
           <profiles/>
@@ -1272,6 +1400,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab44-7253-45c8-4d4a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="652c-4f32-a239-7c5c" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="2cf8-971d-cecb-53cc" name="New EntryLink" hidden="false" targetId="3aaf-33a9-8661-b118" type="selectionEntry">
           <profiles/>
@@ -1282,6 +1411,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6608-9e50-aedf-b65f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f9c-8ed2-5f6a-9345" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="558e-e5b2-c1b4-0b67" name="New EntryLink" hidden="false" targetId="6c3b-b190-5489-80a7" type="selectionEntry">
           <profiles/>
@@ -1292,6 +1422,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73b2-1fbc-d31d-19a0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1803-60bf-ef60-83d5" type="min"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="4db2-936c-7607-e2a2" name="New EntryLink" hidden="false" targetId="8198-7254-7931-83d1" type="selectionEntryGroup">
           <profiles/>
@@ -1299,6 +1430,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="574f-fc7e-ae27-9e7d" name="New EntryLink" hidden="false" targetId="5fc4-004a-d650-8a89" type="selectionEntryGroup">
           <profiles/>
@@ -1306,6 +1438,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="fc1d-d921-bbe6-84c9" name="New EntryLink" hidden="false" targetId="b245-b69c-7521-774d" type="selectionEntryGroup">
           <profiles/>
@@ -1313,6 +1446,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="268e-829f-408f-3b80" name="New EntryLink" hidden="false" targetId="d84d-c142-a475-a12c" type="selectionEntryGroup">
           <profiles/>
@@ -1320,6 +1454,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="6bb2-859f-8a9e-97b0" name="New EntryLink" hidden="false" targetId="b189-f62c-cfb6-2670" type="selectionEntryGroup">
           <profiles/>
@@ -1327,6 +1462,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1359,6 +1495,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1382,6 +1519,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="782c-eb98-e644-c2fc" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1411,6 +1549,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecb4-8f1b-72ce-347d" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef9f-d487-c248-de09" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1437,6 +1576,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1490,6 +1630,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1502,6 +1643,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7f9-5b01-9f8d-c254" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18dd-7c71-18c6-97cd" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="ce75-7474-4c7c-58d6" name="New EntryLink" hidden="false" targetId="6c3b-b190-5489-80a7" type="selectionEntry">
           <profiles/>
@@ -1512,6 +1654,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e147-13f5-023a-52c9" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d505-867b-4673-cc91" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="3f5a-18b0-591b-ae07" name="New EntryLink" hidden="false" targetId="a6f9-087b-442f-8194" type="selectionEntry">
           <profiles/>
@@ -1522,6 +1665,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b7f-37e5-b111-c7a2" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e53-2a0c-1924-5cb3" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="7e3f-ec2e-67d1-bc5b" name="New EntryLink" hidden="false" targetId="1284-7ffd-28ad-1d9a" type="selectionEntry">
           <profiles/>
@@ -1529,6 +1673,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="d2f8-e3f1-60ea-2a82" name="New EntryLink" hidden="false" targetId="ef58-d3e6-9e1e-61c1" type="selectionEntry">
           <profiles/>
@@ -1539,6 +1684,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9b0-4957-5cdf-3167" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4d2-2635-0423-5f32" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1591,6 +1737,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="f20c-aff9-c9bf-a5ad" name="Pistol" hidden="false" collective="false" defaultSelectionEntryId="782f-a2d5-42a8-9c9f">
@@ -1602,6 +1749,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efc6-10fb-1ae0-c8d6" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45ba-fb49-51b9-447e" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -1617,6 +1765,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
                 </modifier>
               </modifiers>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="fdd4-f270-b59b-388e" name="New EntryLink" hidden="false" targetId="3d78-67d7-6074-ef6a" type="selectionEntry">
               <profiles/>
@@ -1630,6 +1779,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
                 </modifier>
               </modifiers>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1644,6 +1794,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4df-999d-5214-68a1" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8e8-783a-0622-b7a3" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="3662-2032-68b5-c0fb" name="New EntryLink" hidden="false" targetId="6c3b-b190-5489-80a7" type="selectionEntry">
           <profiles/>
@@ -1654,6 +1805,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ad3-245b-cd90-5262" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2da-eff3-c5d2-4f6f" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="a518-3eda-b007-c762" name="New EntryLink" hidden="false" targetId="a6f9-087b-442f-8194" type="selectionEntry">
           <profiles/>
@@ -1664,6 +1816,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a69b-e01c-43ce-60dd" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83a9-243c-2ffc-2e8d" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="7579-2da4-fd00-5748" name="New EntryLink" hidden="false" targetId="71e7-0d3e-1b3b-0291" type="selectionEntry">
           <profiles/>
@@ -1674,6 +1827,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be7c-413f-03e5-ff38" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1500-4f5b-e7c2-b2c8" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="e153-b8bb-ce54-d046" name="New EntryLink" hidden="false" targetId="802f-dbc0-c44a-cc42" type="selectionEntry">
           <profiles/>
@@ -1684,6 +1838,7 @@ In any missions that allow Ork Boyz kill teams to field additional models (such 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7164-795e-356f-a80f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="971f-d01e-54fe-5bb4" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1744,6 +1899,7 @@ D3 promethium caches.</description>
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1756,6 +1912,7 @@ D3 promethium caches.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b9b-91cd-a81f-b0c1" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c99-50bf-d209-b227" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="42d9-4b42-8e98-7d67" name="New EntryLink" hidden="false" targetId="6c3b-b190-5489-80a7" type="selectionEntry">
           <profiles/>
@@ -1766,6 +1923,7 @@ D3 promethium caches.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dac5-73b2-9f94-b5d0" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ce6-d5e9-fd54-7130" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="9480-2970-d224-1050" name="New EntryLink" hidden="false" targetId="a6f9-087b-442f-8194" type="selectionEntry">
           <profiles/>
@@ -1776,6 +1934,7 @@ D3 promethium caches.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5fc-258b-fcd2-d2b4" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebe0-97f1-e03e-f72b" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="52f0-f5a7-91bb-dc13" name="New EntryLink" hidden="false" targetId="83b2-659a-543c-f920" type="selectionEntry">
           <profiles/>
@@ -1792,6 +1951,7 @@ D3 promethium caches.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="765d-2755-74e6-dc1d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d6a-31ec-8775-8d2a" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="c2a8-b3d1-fb95-56c8" name="New EntryLink" hidden="false" targetId="d50a-8187-6820-5064" type="selectionEntry">
           <profiles/>
@@ -1808,6 +1968,7 @@ D3 promethium caches.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdd4-0c62-2c6e-553b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c89-75e4-cde5-7299" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1822,6 +1983,7 @@ D3 promethium caches.</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1833,6 +1995,7 @@ D3 promethium caches.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7b1-e432-edab-47d3" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -1842,6 +2005,7 @@ D3 promethium caches.</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1853,6 +2017,7 @@ D3 promethium caches.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c91a-9ded-0e2b-cf26" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -1862,6 +2027,7 @@ D3 promethium caches.</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1871,6 +2037,7 @@ D3 promethium caches.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="0c7b-87fa-91d7-74d9" name="New EntryLink" hidden="false" targetId="de54-5fd7-e08b-30fc" type="selectionEntry">
           <profiles/>
@@ -1878,6 +2045,7 @@ D3 promethium caches.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="34ad-b42b-2e4b-c7be" name="New EntryLink" hidden="false" targetId="83b2-659a-543c-f920" type="selectionEntry">
           <profiles/>
@@ -1899,6 +2067,7 @@ D3 promethium caches.</description>
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="3388-27a5-4d1d-1ca8" name="New EntryLink" hidden="false" targetId="d50a-8187-6820-5064" type="selectionEntry">
           <profiles/>
@@ -1906,6 +2075,7 @@ D3 promethium caches.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="194f-5fab-ea04-88c5" name="New EntryLink" hidden="false" targetId="a4f9-17a1-cc65-f407" type="selectionEntry">
           <profiles/>
@@ -1913,6 +2083,7 @@ D3 promethium caches.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="9a40-cdb7-e945-ad39" name="New EntryLink" hidden="false" targetId="da85-1ae8-ba28-0af9" type="selectionEntry">
           <profiles/>
@@ -1934,6 +2105,7 @@ D3 promethium caches.</description>
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="0425-195d-5e91-1ff9" name="New EntryLink" hidden="false" targetId="ed27-a087-9d8d-7c6d" type="selectionEntry">
           <profiles/>
@@ -1954,6 +2126,7 @@ D3 promethium caches.</description>
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -1963,6 +2136,7 @@ D3 promethium caches.</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1972,6 +2146,7 @@ D3 promethium caches.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="4f0f-6ebf-661a-9d8c" name="New EntryLink" hidden="false" targetId="3d78-67d7-6074-ef6a" type="selectionEntry">
           <profiles/>
@@ -1993,6 +2168,7 @@ D3 promethium caches.</description>
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="1752-5c99-49dd-e5d0" name="New EntryLink" hidden="false" targetId="a474-db54-65ee-f489" type="selectionEntry">
           <profiles/>
@@ -2014,6 +2190,7 @@ D3 promethium caches.</description>
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
