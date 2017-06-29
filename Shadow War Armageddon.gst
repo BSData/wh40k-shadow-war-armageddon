@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="d071-2e1e-3aec-44a1" name="Shadow War: Armageddon" book="Shadow War: Armageddon" revision="11" battleScribeVersion="2.01" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="d071-2e1e-3aec-44a1" name="Shadow War: Armageddon" book="Shadow War: Armageddon" revision="12" battleScribeVersion="2.01" authorName="VisionHeavy" authorContact="Twitter: @TheKarmaPanda" authorUrl="https://github.com/BSData/wh40k-shadow-war-armageddon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
