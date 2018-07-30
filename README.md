@@ -2,6 +2,8 @@
 Warhammer 40,000 Shadow War: Armageddon
 ================
 
+**Deprecation note:** This game has been deprecated by [Kill Team](https://github.com/BSData/wh40k-killteam) and will no longer be supported.
+
 #### Contents ####
 
 * [Overview][]
